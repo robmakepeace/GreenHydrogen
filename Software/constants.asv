@@ -1,0 +1,32 @@
+%Green Hydrogen constants
+%Robert Makepeace
+%First written 30/03/2022
+%Last updated 30/03/2022
+
+close all;
+clear all;
+
+%Density (at STP) (g/L)
+Hydrogen.Constants.Gas_Density = 0.08988;
+
+%Density (at STP) (g/cm3)
+Hydrogen.Constants.Liquid_Density = 0.07;
+
+%Define variable struct
+Template.CurrentValue = 1;
+Template.Uncertainity = 0.1;
+Template.Future_size = 30;
+Template.Future = zeros(Template.Future_size,1);
+Template.Growth = 0.9;
+Template.CurrentValue * Template.Growth
+Template.Future(1) = Template.CurrentValue * Template.Growth;
+for n = 2:Template.Future_size 
+    Template.Future(n-1)* Template.Growth
+    Template.Future(n) = Template.Future(n-1)* Template.Growth;
+end
+figure 
+x = 2022:2022+Template.Future_size-1;
+plot(x,Template.Future)
+
+%Hydrogen Generation Costs
+%H
