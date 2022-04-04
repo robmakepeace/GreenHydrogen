@@ -47,5 +47,5 @@ for n = 2:Hydrogen.Generation.Blue_Levelised_Cost.Future_size
     Hydrogen.Generation.Blue_Levelised_Cost.Future(n) = Hydrogen.Generation.Blue_Levelised_Cost.Future(n-1)* Hydrogen.Generation.Blue_Levelised_Cost.Growth;
 end
 Hydrogen.Generation.Blue_Levelised_Cost.Units = '$/kg';
-
+%Test
 save("constants.mat","Hydrogen");
