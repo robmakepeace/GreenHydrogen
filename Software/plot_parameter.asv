@@ -1,0 +1,16 @@
+function plot_parameter(parameter)
+
+    close all;
+    fig = figure;
+    
+    x = 2022:2022+parameter.Future_size-1;
+    hold on
+    area(x,[parameter.Lower (parameter.Upper-parameter.Lower)])
+    plot(x,parameter.Future);
+    hold off
+    legend({'Model A','Model B'})
+    xlabel(parameter.xlabel)
+    ylabel(parameter.ylabel)
+    title(parameter.Name)
+    grid on
+end   
