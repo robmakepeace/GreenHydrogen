@@ -171,8 +171,8 @@ title('Green Hydrogen World Regions')
 
 citylat(1) = -23;
 citylon(1) = 133;
-citylat(2) = 12;
-citylon(2) = 17;
+citylat(2) = 0;
+citylon(2) = 28;
 citylat(3) = 49;
 citylon(3) = 10;
 citylat(4) = 42;
@@ -185,7 +185,7 @@ citylon(6) = -58;
 plotm(citylat,citylon,"r*")
 for x = 1:6
     for y = 1:6
-        [gclat,gclon] = track2("gc",citylat(x),citylon(x),citylat(y),citylon(y));
+        [gclat,gclon] = track2("rh",citylat(x),citylon(x),citylat(y),citylon(y));
         plotm(gclat,gclon,"r--")
     end
 end
