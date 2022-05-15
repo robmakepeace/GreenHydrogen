@@ -189,6 +189,16 @@ for x = 1:6
         plotm(gclat,gclon,"r--")
     end
 end
+R = 6378.137;
+for x = 1:6
+    for y = (x+1):6
+        dLat = citylat(x) * pi / 180 - citylat(y)  * pi / 180;
+        dLon = citylon(x) * pi / 180 - citylon(y) * pi / 180;
+        a = sin(dLat/2) * sin(dLat/2) + Math.cos(citylat(x) * pi/ 180) ...
+            * cos(citylat(y) * pi / 180) * sin(dLon/2) * sin(dLon/2);
+        c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    end
+end
 
 
 
