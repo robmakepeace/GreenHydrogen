@@ -14,5 +14,7 @@ function plot_parameter(parameter, line_colour, shade_colour)
     ylabel(parameter.ylabel)
     title(parameter.Name)
     grid on
-    saveas(fig,parameter.Name+".png");
+    filename = parameter.Name+".png";
+    foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Graphs\";
+    saveas(fig,fullfile(foldername, filename));
 end   

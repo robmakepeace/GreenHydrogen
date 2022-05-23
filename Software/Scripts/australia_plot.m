@@ -163,4 +163,7 @@ end
 
 title('Proposed Australian Green Hydrogen Production Projects For Export')
 fig.WindowState = 'maximized';
-saveas(fig,"australia.png");
+
+filename = "australia.png";
+foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Graphs\";
+saveas(fig,fullfile(foldername, filename));

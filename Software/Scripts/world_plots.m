@@ -80,7 +80,10 @@ mlabel off; plabel off; gridm off
 %labelLat = 35;
 %labelLon = 14;
 %textm(labelLat, labelLon, 'Mediterranean Sea')
-saveas(fig,"worldmap1.png");
+
+filename = "worldmap1.png"
+foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Graphs\";
+saveas(fig,fullfile(foldername, filename));
 
 %% WORLD REGION MAP
 close all
@@ -200,4 +203,6 @@ mlabel off; plabel off; gridm off
 %labelLat = 35;
 %labelLon = 14;
 %textm(labelLat, labelLon, 'Mediterranean Sea')
-saveas(fig,"worldmap2.png");
+filename = "worldmap2.png";
+foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Graphs\";
+saveas(fig,fullfile(foldername, filename));

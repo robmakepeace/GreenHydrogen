@@ -234,4 +234,6 @@ plot_parameter(Hydrogen.Consumption.Global_Demand,'#FF0000','#A2142F');
 
 %Test
 close all;
-save("constants.mat","Hydrogen");
+filename = "constants.mat";
+foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
+save(fullfile(foldername, filename),"Hydrogen");
