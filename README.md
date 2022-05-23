@@ -20,12 +20,12 @@ Masters Research project into the economics of exporting Green Hydrogen
 ![Gloabal Hydrogen Deman](/Software/Graphs/Gloabal%20Hydrogen%20Demand.png)
 ![Standardised World Carbon Price](/Software/Graphs/Standardised%20World%20Carbon%20Price.png)
 ## Software
-[australia_plot.m](/Scripts/australia_plot.m)
+[australia_plot.m](/Software/Scripts/australia_plot.m)
 
-[constants.m](/Scripts/constants.m)
+[constants.m](/Software/Scripts/constants.m)
 
-[distances.m](/Scripts/distances.m)
+[distances.m](/Software/Scripts/distances.m)
 
-[plot_parameter.m](/Scripts/plot_parameter.m)
+[plot_parameter.m](/Software/Scripts/plot_parameter.m)
 
-[world_plots.m](/Scripts/world_plots.m)
+[world_plots.m](/Software/Scripts/world_plots.m)
