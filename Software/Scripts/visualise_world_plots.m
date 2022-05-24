@@ -1,99 +1,60 @@
 %% WORLD CASE STUDY MAP
-% close all
+close all
 clear all
-fig=figure
+fig=figure;
+
+
+filename = "constants_casestudies.mat";
+foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
+load(fullfile(foldername, filename));
+
+filename = "constants_regions.mat";
+foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
+load(fullfile(foldername, filename));
+
 wrld = worldmap("World");
-load coastlines
-plotm(coastlat,coastlon)
-geoshow('landareas.shp', 'FaceColor', [0.9 0.9 0.9])
-%setm(gca,'ffacecolor',[0.0 0.0 0.1])
+load coastlines;
+plotm(coastlat,coastlon);
+geoshow('landareas.shp', 'FaceColor', [0.9 0.9 0.9]);
+%setm(gca,'ffacecolor',[0.0 0.0 0.1]);
 
 Importer = [0.4660, 0.6740, 0.1880];
 Exporter = [0.3010, 0.7450, 0.9330];
 
 bordersm('countries','k')
-
 bordersm('Australia','facecolor',Exporter)
-citylat(1) = -23;
-citylon(1) = 133;
 bordersm('Chile','facecolor',Exporter)
-citylat(2) = -33;
-citylon(2) = -70;
 bordersm('Morocco','facecolor',Exporter)
-citylat(3) = 32;
-citylon(3) = -8;
 bordersm('Namibia','facecolor',Exporter)
-citylat(4) = -22;
-citylon(4) = 19;
 bordersm('Saudi Arabia','facecolor',Exporter)
-citylat(5) = 22;
-citylon(5) = 39;
-
 bordersm('japan','facecolor',Importer)
-citylat(6) = 35;
-citylon(6) = 139;
 bordersm('Korea, Republic of','facecolor',Importer)
-citylat(7) = 37;
-citylon(7) = 127;
 bordersm('germany','facecolor',Importer)
-citylat(8) = 53;
-citylon(8) = 13;
 bordersm('Singapore','facecolor',Importer)
-citylat(9) = 1;
-citylon(9) = 104;
 bordersm('China','facecolor',Importer)
-citylat(10) = 40;
-citylon(10) = 116;
 bordersm('India','facecolor',Importer)
-citylat(11) = 29;
-citylon(11) = 77;
 bordersm('United States','facecolor',Importer)
-citylat(12) = 38;
-citylon(12) = -122;
 
-plotm(citylat,citylon,"r*")
+plotm(CaseStudies.citylat,CaseStudies.citylon,"r*")
 
-[gclat,gclon] = track2("gc",citylat(1),citylon(1),citylat(6),citylon(6));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(1),citylon(1),citylat(7),citylon(7));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(1),citylon(1),citylat(9),citylon(9));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(2),citylon(2),citylat(12),citylon(12));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(1),citylon(1),citylat(8),citylon(8));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(3),citylon(3),citylat(8),citylon(8));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(4),citylon(4),citylat(8),citylon(8));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(5),citylon(5),citylat(8),citylon(8));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(5),citylon(5),citylat(10),citylon(10));
-plotm(gclat,gclon,"r--")
-[gclat,gclon] = track2("gc",citylat(5),citylon(5),citylat(11),citylon(11));
-plotm(gclat,gclon,"r--")
-
+for i = 1:CaseStudies.NumberOfRoutes
+    [gclat,gclon] = track2("gc",CaseStudies.citylat(CaseStudies.Routes(i,1)),CaseStudies.citylon(CaseStudies.Routes(i,1)),CaseStudies.citylat(CaseStudies.Routes(i,2)),CaseStudies.citylon(CaseStudies.Routes(i,2)));
+    plotm(gclat,gclon,"r--")
+end
 
 title('Green Hydrogen Case Study Routes')
 mlabel off; plabel off; gridm off
-%labelLat = 35;
-%labelLon = 14;
-%textm(labelLat, labelLon, 'Mediterranean Sea')
-
-filename = "worldmap1.png"
+filename = "worldmap1.png";
 foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Graphs\";
 saveas(fig,fullfile(foldername, filename));
 
 %% WORLD REGION MAP
 close all
-clear all
-fig=figure
+fig=figure;
 wrld = worldmap("World");
-load coastlines
-whos
-plotm(coastlat,coastlon)
-geoshow('landareas.shp', 'FaceColor', [0.9 0.9 0.9])
+load coastlines;
+plotm(coastlat,coastlon);
+geoshow('landareas.shp', 'FaceColor', [0.9 0.9 0.9]);
 %setm(gca,'ffacecolor',[0.0 0.0 0.1])
 
 Europe = [0.2 0.2 0.8];
@@ -102,7 +63,7 @@ Asia = [0.6 0.6 0.2];
 NorthAmerica = [0.2 0.6 0.2];
 SouthAmerica = [0.6 0.2 0.6];
 Oceania = [0.2 0.6 0.6];
-bordersm('countries','k')
+bordersm('countries','k');
 
 %Europe
 cou_nam1 = {'Albania','Andorra','Austria','Belarus','Belgium','Bosnia and Herzegovina','Bulgaria',...
@@ -171,38 +132,16 @@ for i = 1:1:numRegions
 end
 title('Green Hydrogen World Regions')
 
-
-citylat(1) = -23;
-citylon(1) = 133;
-citylat(2) = 0;
-citylon(2) = 28;
-citylat(3) = 49;
-citylon(3) = 10;
-citylat(4) = 42;
-citylon(4) = 104;
-citylat(5) = 38;
-citylon(5) = -100;
-citylat(6) = -14;
-citylon(6) = -58;
-
-plotm(citylat,citylon,"r*")
-for x = 1:6
-    for y = 1:6
-        [gclat,gclon] = track2("rh",citylat(x),citylon(x),citylat(y),citylon(y));
-        plotm(gclat,gclon,"r--")
+plotm(Regions.citylat,Regions.citylon,"r*")
+for x = 1:Regions.NumberOfRegions
+    for y = 1:Regions.NumberOfRegions
+        [gclat2,gclon2] = track2("rh",Regions.citylat(x),Regions.citylon(x),Regions.citylat(y),Regions.citylon(y));
+        plotm(gclat2,gclon2,"r--")
     end
 end
 
-
-
-
-
-
-
 mlabel off; plabel off; gridm off
-%labelLat = 35;
-%labelLon = 14;
-%textm(labelLat, labelLon, 'Mediterranean Sea')
+
 filename = "worldmap2.png";
 foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Graphs\";
 saveas(fig,fullfile(foldername, filename));

@@ -78,7 +78,7 @@ Hydrogen.Generation.Green_Levelised_Cost.xlabel = 'Year';
 Hydrogen.Generation.Green_Levelised_Cost.ylabel = 'Cost ($AUD/kg)';
 Hydrogen.Generation.Green_Levelised_Cost.Name = 'Green Hydrogen Levelised Generation Cost';
 
-plot_parameter(Hydrogen.Generation.Green_Levelised_Cost,'#00FF00','#77AC30');
+visualise_plot_parameter(Hydrogen.Generation.Green_Levelised_Cost,'#00FF00','#77AC30');
 
 %BLUE HYDROGEN GENERATION COST
 Hydrogen.Generation.Blue_Levelised_Cost = Template;
@@ -104,7 +104,7 @@ Hydrogen.Generation.Blue_Levelised_Cost.Units = '$AUD/kg';
 Hydrogen.Generation.Blue_Levelised_Cost.xlabel = 'Year';
 Hydrogen.Generation.Blue_Levelised_Cost.ylabel = 'Cost ($AUD/kg)';
 Hydrogen.Generation.Blue_Levelised_Cost.Name = 'Blue Hydrogen Levelised Generation Cost (No Carbon Cost)';
-plot_parameter(Hydrogen.Generation.Blue_Levelised_Cost,'#0000FF','#4DBEEE');
+visualise_plot_parameter(Hydrogen.Generation.Blue_Levelised_Cost,'#0000FF','#4DBEEE');
 
 %GREY HYDROGEN GENERATION COST
 Hydrogen.Generation.Grey_Levelised_Cost = Template;
@@ -124,7 +124,7 @@ Hydrogen.Generation.Grey_Levelised_Cost.Units = '$AUD/kg';
 Hydrogen.Generation.Grey_Levelised_Cost.xlabel = 'Year';
 Hydrogen.Generation.Grey_Levelised_Cost.ylabel = 'Cost ($AUD/kg)';
 Hydrogen.Generation.Grey_Levelised_Cost.Name = 'Grey Hydrogen Levelised Generation Cost (No Carbon Cost)';
-plot_parameter(Hydrogen.Generation.Grey_Levelised_Cost,'#000000','#808080');
+visualise_plot_parameter(Hydrogen.Generation.Grey_Levelised_Cost,'#000000','#808080');
 
 % CARBON PRICE
 Hydrogen.Economic.Carbon_Price = Template;
@@ -155,7 +155,7 @@ Hydrogen.Economic.Carbon_Price.Units = '$/kg';
 Hydrogen.Economic.Carbon_Price.xlabel = 'Year';
 Hydrogen.Economic.Carbon_Price.ylabel = 'Cost ($AUD/tonne CO2)';
 Hydrogen.Economic.Carbon_Price.Name = 'Standardised World Carbon Price';
-plot_parameter(Hydrogen.Economic.Carbon_Price,'#000000','#808080');
+visualise_plot_parameter(Hydrogen.Economic.Carbon_Price,'#000000','#808080');
 
 % GAS PRICE
 Hydrogen.Economic.Gas_Price = Template;
@@ -174,7 +174,7 @@ Hydrogen.Economic.Gas_Price.Units = '$AUD/MMBTU';
 Hydrogen.Economic.Gas_Price.xlabel = 'Year';
 Hydrogen.Economic.Gas_Price.ylabel = 'Cost ($AUD/MMBTU)';
 Hydrogen.Economic.Gas_Price.Name = 'Gas Price';
-plot_parameter(Hydrogen.Economic.Gas_Price,'#000000','#808080');
+visualise_plot_parameter(Hydrogen.Economic.Gas_Price,'#000000','#808080');
 
 % CARBON PRICE
 Hydrogen.Economic.Electricity_Price = Template;
@@ -199,7 +199,7 @@ Hydrogen.Economic.Electricity_Price.Units = '$AUD/MWhr';
 Hydrogen.Economic.Electricity_Price.xlabel = 'Year';
 Hydrogen.Economic.Electricity_Price.ylabel = 'Cost ($AUD/MWhr)';
 Hydrogen.Economic.Electricity_Price.Name = 'Electricty Price';
-plot_parameter(Hydrogen.Economic.Electricity_Price,'#00FF00','#77AC30');
+visualise_plot_parameter(Hydrogen.Economic.Electricity_Price,'#00FF00','#77AC30');
 
 %GLOBAL HYDROGEN DEMAND
 Hydrogen.Consumption.Global_Demand = Template;
@@ -230,7 +230,7 @@ Hydrogen.Consumption.Global_Demand.Units = 'Mt';
 Hydrogen.Consumption.Global_Demand.xlabel = 'Year';
 Hydrogen.Consumption.Global_Demand.ylabel = 'Demand (Mt)';
 Hydrogen.Consumption.Global_Demand.Name = 'Gloabal Hydrogen Demand';
-plot_parameter(Hydrogen.Consumption.Global_Demand,'#FF0000','#A2142F');
+visualise_plot_parameter(Hydrogen.Consumption.Global_Demand,'#FF0000','#A2142F');
 
 %Test
 close all;
