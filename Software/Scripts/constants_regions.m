@@ -25,6 +25,28 @@ for x = 1:Regions.NumberOfRegions
 end
 Regions.dist;
 
+Regions.Demand = [50 50 50 50 50 50];
+Regions.Supply = [100 100 100 100 100 100];
+Regions.LocalMax = 40;
+Regions.TransportMax = 40;
+
+Regions.cost = [...
+    1 2 2 2 2 2;...
+    2 1 2 2 2 2;...
+    2 2 1 2 2 2;...
+    2 2 2 1 1 2;...
+    2 2 2 2 1 2;...
+    2 2 2 2 2 1;...
+    ];
+
+%Random simulator to test visualisation graphing
+for x = 1:6
+    for y =1:6
+        Regions.cost(x,y) = 1 + rand()
+    end
+end
+Regions.cost
+
 filename = "constants_regions.mat";
 foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
 save(fullfile(foldername, filename),"Regions");
