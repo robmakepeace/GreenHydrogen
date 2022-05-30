@@ -16,37 +16,35 @@ Regions.NumberOfRegions = 6;
 Regions.NumberOfRoutes = 15;
 
 Regions.dist=zeros(Regions.NumberOfRegions,Regions.NumberOfRegions);
-for x = 1:Regions.NumberOfRegions
-    for y = (x+1):Regions.NumberOfRegions
+for x = 1:Regions.NumberOfRegions;
+    for y = (x+1):Regions.NumberOfRegions;
         Regions.dist(x,y)=calcs_distance(Regions.citylat(x),Regions.citylon(x),Regions.citylat(y),Regions.citylon(y));
         Regions.dist(y,x)=Regions.dist(x,y);
         disp(strcat(Regions.locations(x)," - ",Regions.locations(y),": ",string(Regions.dist(x,y))," km"))
     end
 end
-Regions.dist;
+Regions.dist
 
-Regions.Demand = [50 50 50 50 50 50];
-Regions.Supply = [100 100 100 100 100 100];
+%Linear Programming Constraints
 Regions.LocalMax = 40;
 Regions.TransportMax = 40;
+%Region Demand Constraints
+Regions.Demand = [50 50 50 50 50 50];
+%Region Supply Constraints
+Regions.Supply = [100 100 100 100 100 100];
 
-Regions.cost = [...
-    1 2 2 2 2 2;...
-    2 1 2 2 2 2;...
-    2 2 1 2 2 2;...
-    2 2 2 1 1 2;...
-    2 2 2 2 1 2;...
-    2 2 2 2 2 1;...
-    ];
 
-%Random simulator to test visualisation graphing
+%Region Production green hydrogen ($/tonne)
+Production = [1.5 1.8 4.0 3.5 3.0 2.8];
 for x = 1:6
     for y =1:6
-        Regions.cost(x,y) = 1 + rand()
+        %Total cost production plus transport
+        Regions.cost(x,y) = Production(x) + calcs_casestudy(Regions.dist(x,y));
     end
 end
 Regions.cost
 
+%Save variables
 filename = "constants_regions.mat";
 foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
 save(fullfile(foldername, filename),"Regions");
