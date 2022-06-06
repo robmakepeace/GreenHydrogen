@@ -9,6 +9,7 @@ Transport.Truck.VariableCost = 500;% Units: $/day (excludes fuel)
 Transport.Truck.Lifetime = 10; % Units: years
 Transport.Truck.Utilisation = 0.7;% Units: %
 Transport.Truck.Pressure = 300;% Units: bar
+Transport.Truck.Energy = 33.5;% Units: MJ/km
 
 Transport.Ship.Description = "Ship";
 Transport.Ship.WeightLimit = 104000000;% Units: kg
@@ -21,6 +22,7 @@ Transport.Ship.VariableCost = 10000;% Units: $/day (excludes fuel)
 Transport.Ship.Lifetime = 30; % Units: years
 Transport.Ship.Utilisation = 0.9;% Units: %
 Transport.Ship.Pressure = 250;% Units: bar
+Transport.Ship.Energy = 9464.0;% Units: MJ/km
 
 Transport.Train.Description = "Train";
 Transport.Train.WeightLimit = 4400000;% Units: kg
@@ -33,6 +35,7 @@ Transport.Train.VariableCost = 10000;% Units: $/day (excludes fuel)
 Transport.Train.Lifetime = 30; % Units: years
 Transport.Train.Utilisation = 0.9;% Units: %
 Transport.Train.Pressure = 250;% Units: bar
+Transport.Train.Energy = 671.0;% Units: MJ/km
 
 Transport.Pipeline.Description = "Pipeline";
 

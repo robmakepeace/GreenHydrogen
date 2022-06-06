@@ -3,14 +3,16 @@ filename = "constants_transport.mat";
 foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
 load(fullfile(foldername, filename));
 
+close all;
+
 Medium = Transport.Truck;
-[TransportCosts.Truck, Medium] = calcs_transport(Medium);
+TransportCosts.Truck = calcs_transport(Medium,'Truck');
 
 Medium = Transport.Ship;
-[TransportCosts.Ship, Medium] = calcs_transport(Medium);
+TransportCosts.Ship = calcs_transport(Medium,'Ship');
 
 Medium = Transport.Train;
-[TransportCosts.Train, Medium] = calcs_transport(Medium);
+TransportCosts.Train = calcs_transport(Medium,'Train');
 
 
 % N = 1000;

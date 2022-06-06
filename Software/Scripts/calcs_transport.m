@@ -1,4 +1,4 @@
-function [Unit_Cost, Medium] = calcs_transport(Medium)
+function Output = calcs_transport(Medium,Description)
     %Hydrogen Gas
 
     %Determine if weight or volume constraint of the transport
@@ -18,20 +18,35 @@ function [Unit_Cost, Medium] = calcs_transport(Medium)
     V2 = n2 * R * T / P_PA;
     
     if V1 < V2
-        Medium.ActualWeight = m_kg1;
-        Medium.ActualVolume = V1;
+        Output.ActualWeight = m_kg1;
+        Output.ActualVolume = V1;
     else
-        Medium.ActualWeight = m_kg2;
-        Medium.ActualVolume = V2;
+        Output.ActualWeight = m_kg2;
+        Output.ActualVolume = V2;
     end
-    Duration_days = Medium.Lifetime * Medium.Utilisation * 365; % Units: days
-    Duration_hrs = Duration_days * 24; % Units: hours
+    Output.Duration_days = Medium.Lifetime * Medium.Utilisation * 365; % Units: days
+    Output.Duration_hrs = Output.Duration_days * 24; % Units: hours
 
-    intensity = 1;
-    [weight, volume, CO2] = calcs_fuel(intensity, 'hydrogen');
-    [weight, volume, CO2] = calcs_fuel(intensity, 'Diesel');
+    [Output.Diesel.weight_km, Output.Diesel.volume_km, Output.Diesel.CO2_km] = calcs_fuel(Medium.Energy, 'Diesel');
+    [Output.H2.weight_km, Output.H2.volume_km, Output.H2.CO2_km] = calcs_fuel(Medium.Energy, 'Hydrogen');
+    [Output.NH3.weight_km, Output.NH3.volume_km, Output.NH3.CO2_km] = calcs_fuel(Medium.Energy, 'Ammonia');
 
-    Total_Cost = Medium.CapitalCost + Duration_days * Medium.VariableCost; % Units: $
-    Total_Transport = Medium.ActualWeight * Duration_hrs * Medium.Speed; % Units: kg*km
-    Unit_Cost = Total_Cost / Total_Transport; % Units: $ / (kg*km)
+    % Graphing 
+    y = [Output.Diesel.weight_km Output.H2.weight_km Output.NH3.weight_km;...
+        Output.Diesel.volume_km Output.H2.volume_km Output.NH3.volume_km;...
+        Output.Diesel.CO2_km Output.H2.CO2_km Output.NH3.CO2_km];
+    visualise_transport(y, strcat(Description,'(per Transport Unit)'));
+
+    % Graphing 
+    
+    y = [Output.Diesel.weight_km Output.H2.weight_km Output.NH3.weight_km;...
+        Output.Diesel.volume_km Output.H2.volume_km Output.NH3.volume_km;...
+        Output.Diesel.CO2_km Output.H2.CO2_km Output.NH3.CO2_km];
+    z = 1000 * y / Output.ActualWeight;
+    visualise_transport(z, strcat(Description,'(per tGH2)'));
+
+
+    Output.Total_Cost = Medium.CapitalCost + Output.Duration_days * Medium.VariableCost; % Units: $
+    Output.Total_Transport = Output.ActualWeight * Output.Duration_hrs * Medium.Speed; % Units: kg*km
+    Output.Unit_Cost = Output.Total_Cost /Output.Total_Transport; % Units: $ / (kg*km)
 end
