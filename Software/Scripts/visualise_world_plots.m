@@ -3,7 +3,7 @@
 %First written 07/05/2022
 %Last updated 09/07/2022
 
-if ~exist('run_graphics',"var") || run_graphics == 1  
+if ~exist('Self.run_graphics',"var") || Self.run_graphics == 1  
     %Load case study variables
     filename = "constants_casestudies.mat";
     foldername = pwd + "\Variables\";

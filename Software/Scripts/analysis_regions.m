@@ -8,8 +8,10 @@ filename = "constants_regions.mat";
 foldername = pwd + "\Variables\";
 load(fullfile(foldername, filename),"Regions");
 
+main_print("\nRegions Analysis",'a');
+
 %Display Regions Constants
-Regions
+Regions;
 
 %Linear Programming
 
@@ -141,22 +143,26 @@ prob.Constraints.c12 = x66 + x16 + x26 + x36 + x46 + x56 >= Regions.Demand(6);
 
 %Solve linear programming problem
 problem = prob2struct(prob);
-[sol,fval,exitflag,output] = linprog(problem)
-prob.Variables
-prob.Objective
-prob.Constraints
+[sol,fval,exitflag,output] = linprog(problem);
+prob.Variables;
+prob.Objective;
+prob.Constraints;
 
 %Transpose into a matrix
-Total = [sol(1:6)';sol(7:12)';sol(13:18)';sol(19:24)';sol(25:30)';sol(31:36)']
+Total = [sol(1:6)';sol(7:12)';sol(13:18)';sol(19:24)';sol(25:30)';sol(31:36)'];
+main_print("Optimal Solution",'a')
+for x=1:6
+    main_print(strcat(string(Total(x,1)),"\t",string(Total(x,2)),"\t",string(Total(x,3)),"\t",string(Total(x,4)),"\t",string(Total(x,5)),"\t",string(Total(x,6)),"\t"),'a')
+end
 
 %Visualisation
-
 %https://au.mathworks.com/matlabcentral/fileexchange/66746-alluvial-flow-diagram
 %Reference: Alexander Carmeli (2022). Alluvial flow diagram (https://www.mathworks.com/matlabcentral/fileexchange/66746-alluvial-flow-diagram), MATLAB Central File Exchange. Retrieved May 25, 2022.
-if ~exist('run_graphics',"var") || run_graphics == 1
-    fig=figure
+global Self
+if Self.run_graphics == 1
+    fig=figure;
     graph_title = "Green Hydrogen World Region Flows (LHS Supply to RHS Demand)";
-    alluvialflow(Total,Regions.locations,Regions.locations,graph_title)
+    alluvialflow(Total,Regions.locations,Regions.locations,graph_title);
     fig.WindowState = 'maximized';
     filename = "worldregions_alluvialflow.png";
     foldername = pwd + "\Graphs\";

@@ -3,8 +3,9 @@
 %First written 18/04/2022
 %Last updated 09/07/2022
 
-function visualise_plot_parameter(parameter, line_colour, shade_colour,run_graphics)
-    if ~exist('run_graphics',"var") || run_graphics == 1
+function visualise_plot_parameter(parameter, line_colour, shade_colour)
+    global Self
+    if Self.run_graphics == 1
         %Setuo figure
         fig = figure;
         

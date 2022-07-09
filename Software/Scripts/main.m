@@ -9,20 +9,23 @@ clearvars
 clc
 
 %Execution Parameters
-global run_graphics;
-run_graphics = 1; 
+global Self
+Self.run_graphics = 1; 
+Self.run_file = 1; 
+Self.run_print = 1; 
 
 %Record execution time
 tic() 
 
+main_print("Green Hydrogen Exportation Results", 'w')
+main_print(strcat("Executed: ",string(datetime('now'))),'a')
+
 %Define constants
 constants_physical();
 constants();
-
 constants_conversion();
 constants_fuel();
 constants_transport();
-
 constants_casestudies();
 constants_regions();
 
@@ -34,8 +37,8 @@ analysis_regions();
 
 %Execute Visualisation scripts
 visualise_australia_plot();
-% Keep this one commentted out - runs slow. 
+% Keep this one commented out - runs slow. 
 %visualise_world_plots();
 
 %Display elapsed execution time
-toc()
+main_print(strcat("\nElapsed time is ",string(toc())," seconds."),'a');

@@ -8,6 +8,8 @@ filename = "constants_casestudies.mat";
 foldername = pwd + "\Variables\";
 load(fullfile(foldername, filename),"CaseStudies");
 
+main_print("\nCase Study Analysis",'a');
+
 %Display Case Study Constants
 CaseStudies;
 
@@ -17,6 +19,6 @@ Production = 1.5;
 %Calculcate costs for each route
 for x = 1:CaseStudies.NumberOfRoutes
     CaseStudies.Cost(x) = Production + calcs_casestudy(CaseStudies.dist(x));
-    disp(strcat(CaseStudies.locations(CaseStudies.Routes(x,1))," - ",CaseStudies.locations(CaseStudies.Routes(x,2)),": $",string(CaseStudies.Cost(x)),"/tonne"))
+    main_print(strcat(CaseStudies.locations(CaseStudies.Routes(x,1))," - ",CaseStudies.locations(CaseStudies.Routes(x,2)),": $",string(CaseStudies.Cost(x)),"/tonne"),'a')
 end
 

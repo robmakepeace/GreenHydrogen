@@ -3,7 +3,7 @@
 %First written 19/06/2022
 %Last updated 09/07/2022
 
-function Output = calcs_transport(Medium,Description,run_graphics)
+function Output = calcs_transport(Medium,Description)
     %Load physical variables
     filename = "constants_physical.mat";
     foldername = pwd + "\Variables\";
@@ -48,11 +48,11 @@ function Output = calcs_transport(Medium,Description,run_graphics)
     y = [Output.Diesel.weight_km Output.H2.weight_km Output.NH3.weight_km;...
         Output.Diesel.volume_km Output.H2.volume_km Output.NH3.volume_km;...
         Output.Diesel.CO2_km Output.H2.CO2_km Output.NH3.CO2_km];
-    visualise_transport(y, strcat(Description,'(per Transport Unit)'),run_graphics);
+    visualise_transport(y, strcat(Description,'(per Transport Unit)'));
 
     % Graphing (per tonne of compressed Green Hydrogen)
     z = 1000 * y / Output.ActualWeight;
-    visualise_transport(z, strcat(Description,'(per tGH2)'),run_graphics);
+    visualise_transport(z, strcat(Description,'(per tGH2)'));
 
     %Calcuclate Total Cost of Transport
     Output.Total_Cost = Medium.CapitalCost + Output.Duration_days * Medium.VariableCost; % Units: $

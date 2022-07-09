@@ -3,8 +3,9 @@
 %First written 06/06/2022
 %Last updated 09/07/2022
 
-function visualise_transport(y, Description, run_graphics)  
-    if ~exist('run_graphics',"var") || run_graphics == 1
+function visualise_transport(y, Description)  
+    global Self
+    if Self.run_graphics == 1
         % Define groups 
         grouplabels = categorical({'Fuel Weight (kg/km)','Fuel Volume (L/km)','Fuel C02 Emission (kg/km)'});
         grouplabels = reordercats(grouplabels ,{'Fuel Weight (kg/km)','Fuel Volume (L/km)','Fuel C02 Emission (kg/km)'});

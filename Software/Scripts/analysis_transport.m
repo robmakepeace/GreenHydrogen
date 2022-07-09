@@ -8,21 +8,31 @@ filename = "constants_transport.mat";
 foldername = pwd + "\Variables\";
 load(fullfile(foldername, filename),"Transport");
 
+main_print("\nTransport Analysis",'a');
+
 %Truck
 Medium = Transport.Truck;
-TransportCosts.Truck = calcs_transport(Medium,'Truck',run_graphics);
+Medium_desc = 'Truck';
+TransportCosts.Truck = calcs_transport(Medium,Medium_desc);
+main_print(strcat(Medium_desc," Transport Unit Cost: $",string(TransportCosts.Truck.Unit_Cost),"/km*tGH2"),'a');
 
 %Ship
 Medium = Transport.Ship;
-TransportCosts.Ship = calcs_transport(Medium,'Ship',run_graphics);
+Medium_desc = 'Ship';
+TransportCosts.Ship = calcs_transport(Medium,Medium_desc);
+main_print(strcat(Medium_desc," Transport Unit Cost: $",string(TransportCosts.Ship.Unit_Cost),"/km*tGH2"),'a');
 
 %Train
 Medium = Transport.Train;
-TransportCosts.Train = calcs_transport(Medium,'Train',run_graphics);
+Medium_desc = 'Train';
+TransportCosts.Train = calcs_transport(Medium,Medium_desc);
+main_print(strcat(Medium_desc," Transport Unit Cost: $",string(TransportCosts.Train.Unit_Cost),"/km*tGH2"),'a');
 
 %Pipeline
 Medium = Transport.Pipeline;
-%TransportCosts.Pipeline = calcs_transport(Medium,'Train',run_graphics);
+Medium_desc = 'Pipeline';
+%TransportCosts.Pipeline = calcs_transport(Medium,Medium_desc);
+%main_print(strcat(Medium_desc," Transport Costs",string(TransportCosts.Pipeline.Unit_Cost),"/km*tGH2"),'a');
 
 %MonteCarlo Code
 % N = 1000;

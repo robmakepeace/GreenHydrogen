@@ -30,18 +30,19 @@ Regions.citylat(6) = -14;
 Regions.citylon(6) = -58;
 
 %Define region labels
-Regions.locations = {'Oceania', 'Africa','Europe','Asia','North America','South America'}
+Regions.locations = {'Oceania', 'Africa','Europe','Asia','North America','South America'};
 
 %Determine region distances between simplified points
 Regions.dist=zeros(Regions.NumberOfRegions,Regions.NumberOfRegions);
-for x = 1:Regions.NumberOfRegions;
-    for y = (x+1):Regions.NumberOfRegions;
+main_print("\nRegion Route Constants",'a');
+for x = 1:Regions.NumberOfRegions
+    for y = (x+1):Regions.NumberOfRegions
         Regions.dist(x,y)=calcs_distance(Regions.citylat(x),Regions.citylon(x),Regions.citylat(y),Regions.citylon(y));
         Regions.dist(y,x)=Regions.dist(x,y);
-        disp(strcat(Regions.locations(x)," - ",Regions.locations(y),": ",string(Regions.dist(x,y))," km"))
+        main_print(strcat(Regions.locations(x)," - ",Regions.locations(y),": ",string(Regions.dist(x,y))," km"),'a')
     end
 end
-Regions.dist
+Regions.dist;
 
 %Linear Programming Constraints (placeholder values to be updated)
 Regions.LocalMax = 40;
@@ -62,7 +63,7 @@ for x = 1:Regions.NumberOfRegions
         Regions.cost(x,y) = Production(x) + calcs_casestudy(Regions.dist(x,y));
     end
 end
-Regions.cost
+Regions.cost;
 
 %Save variables
 filename = "constants_regions.mat";

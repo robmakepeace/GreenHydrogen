@@ -49,9 +49,10 @@ CaseStudies.Routes = [1,6;1,7;1,9;2,12;1,8;3,8;4,8;5,8;5,10;5,11];
 
 %Determine case study distances between simplified points
 CaseStudies.dist=zeros(CaseStudies.NumberOfRoutes,1);
+main_print("\nCase Study Route Constants",'a');
 for x = 1:CaseStudies.NumberOfRoutes
     CaseStudies.dist(x)=calcs_distance(CaseStudies.citylat(CaseStudies.Routes(x,1)),CaseStudies.citylon(CaseStudies.Routes(x,1)),CaseStudies.citylat(CaseStudies.Routes(x,2)),CaseStudies.citylon(CaseStudies.Routes(x,1)));
-    disp(strcat(CaseStudies.locations(CaseStudies.Routes(x,1))," - ",CaseStudies.locations(CaseStudies.Routes(x,2)),": ",string(CaseStudies.dist(x))," km"))
+    main_print(strcat(CaseStudies.locations(CaseStudies.Routes(x,1))," - ",CaseStudies.locations(CaseStudies.Routes(x,2)),": ",string(CaseStudies.dist(x))," km"),'a');
 end
 CaseStudies.dist;
 

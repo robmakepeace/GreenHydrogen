@@ -4,7 +4,8 @@
 %Last updated 09/07/2022
 
 % AUSTRALIA EXPORT MAP
-if ~exist('run_graphics',"var") || run_graphics == 1
+global Self
+if Self.run_graphics == 1
 
     %Define scale of the map in the figure and setup background
     fig=figure;
