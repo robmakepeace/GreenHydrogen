@@ -1,8 +1,14 @@
+%Green Hydrogen Regions Analysis Script
+%Robert Makepeace
+%First written 15/05/2022
+%Last updated 09/07/2022
+
 %Load Region Variables
 filename = "constants_regions.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
-load(fullfile(foldername, filename));
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename),"Regions");
 
+%Display Regions Constants
 Regions
 
 %Linear Programming
@@ -147,11 +153,12 @@ Total = [sol(1:6)';sol(7:12)';sol(13:18)';sol(19:24)';sol(25:30)';sol(31:36)']
 
 %https://au.mathworks.com/matlabcentral/fileexchange/66746-alluvial-flow-diagram
 %Reference: Alexander Carmeli (2022). Alluvial flow diagram (https://www.mathworks.com/matlabcentral/fileexchange/66746-alluvial-flow-diagram), MATLAB Central File Exchange. Retrieved May 25, 2022.
-close all;
-fig=figure
-graph_title = "Green Hydrogen World Region Flows (LHS Supply to RHS Demand)";
-alluvialflow(Total,Regions.locations,Regions.locations,graph_title)
-fig.WindowState = 'maximized';
-filename = "worldregions_alluvialflow.png";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Graphs\";
-saveas(fig,fullfile(foldername, filename));
+if ~exist('run_graphics',"var") || run_graphics == 1
+    fig=figure
+    graph_title = "Green Hydrogen World Region Flows (LHS Supply to RHS Demand)";
+    alluvialflow(Total,Regions.locations,Regions.locations,graph_title)
+    fig.WindowState = 'maximized';
+    filename = "worldregions_alluvialflow.png";
+    foldername = pwd + "\Graphs\";
+    saveas(fig,fullfile(foldername, filename));
+end

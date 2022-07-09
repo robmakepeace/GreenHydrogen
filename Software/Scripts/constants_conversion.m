@@ -1,15 +1,19 @@
-filename = "constants_physical.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
-load(fullfile(foldername, filename));
+%Green Hydrogen Conversion constants
+%Robert Makepeace
+%First written 19/05/2022
+%Last updated 09/07/2022
 
-Conversion.GasConstant = 8.31446261815324;%Unit J/Kmol
+%Load Physical variables
+filename = "constants_physical.mat";
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename),"Physical");
 
 %Unpressured Hydrogen 
 Conversion.H2.Labels = 'H2';
 Conversion.H2.Pressure = Physical.AmbientPressure;%Units: kPa
-Conversion.H2.Density = 0.08375; % Units kg/m3
+Conversion.H2.Density = Physical.Gas_Density; % Units kg/m3
 Conversion.H2.Temperature = Physical.AmbientTemp_K; %Units Kelvin
-Conversion.H2.MM = 1.00784*2;%Units: g/mol
+Conversion.H2.MM = Physical.H2_MM;%Units: g/mol
 Conversion.H2.Weight = 1;%Units: kg
 Conversion.H2.Amount = Conversion.H2.Weight*1000/Conversion.H2.MM; %Units moles
 
@@ -30,5 +34,5 @@ Conversion.CCH2.Efficiency = 0.7;%Units: %
 
 %Save variables
 filename = "constants_conversion.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
+foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Conversion");

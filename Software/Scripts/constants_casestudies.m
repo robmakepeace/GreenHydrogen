@@ -1,3 +1,12 @@
+%Green Hydrogen Case Study Analsis constants
+%Robert Makepeace
+%First written 24/05/2022
+%Last updated 09/07/2022
+
+%Define case study parameters
+CaseStudies.NumberOfRoutes = 10;
+
+%Define Case Study locations as a simplified single location lat/long
 CaseStudies.locations(1)={'Australia'};
 CaseStudies.citylat(1) = -23;
 CaseStudies.citylon(1) = 133;
@@ -35,10 +44,10 @@ CaseStudies.locations(12)={'United States'};
 CaseStudies.citylat(12) = 38;
 CaseStudies.citylon(12) = -122;
 
+%Define the pairwise case routes
 CaseStudies.Routes = [1,6;1,7;1,9;2,12;1,8;3,8;4,8;5,8;5,10;5,11];
 
-CaseStudies.NumberOfRoutes = 10;
-
+%Determine case study distances between simplified points
 CaseStudies.dist=zeros(CaseStudies.NumberOfRoutes,1);
 for x = 1:CaseStudies.NumberOfRoutes
     CaseStudies.dist(x)=calcs_distance(CaseStudies.citylat(CaseStudies.Routes(x,1)),CaseStudies.citylon(CaseStudies.Routes(x,1)),CaseStudies.citylat(CaseStudies.Routes(x,2)),CaseStudies.citylon(CaseStudies.Routes(x,1)));
@@ -46,6 +55,7 @@ for x = 1:CaseStudies.NumberOfRoutes
 end
 CaseStudies.dist;
 
+%Save variables
 filename = "constants_casestudies.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
+foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"CaseStudies");

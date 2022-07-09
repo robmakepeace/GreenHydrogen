@@ -1,3 +1,8 @@
+%Distance between two points (lat/long)
+%Robert Makepeace
+%First written 24/05/2022
+%Last updated 09/07/2022
+ 
 function distance = calcs_distance(citylat1,citylon1,citylat2,citylon2)
     R = 6378.137;
     dLat = citylat1 * pi / 180 - citylat2  * pi / 180;

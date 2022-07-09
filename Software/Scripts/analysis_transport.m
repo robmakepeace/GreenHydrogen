@@ -1,20 +1,30 @@
+%Green Hydrogen Transport Analysis 
+%Robert Makepeace
+%First written 30/05/2022
+%Last updated 09/07/2022
+
 %Load Case Study Variables
 filename = "constants_transport.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
-load(fullfile(foldername, filename));
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename),"Transport");
 
-close all;
-
+%Truck
 Medium = Transport.Truck;
-TransportCosts.Truck = calcs_transport(Medium,'Truck');
+TransportCosts.Truck = calcs_transport(Medium,'Truck',run_graphics);
 
+%Ship
 Medium = Transport.Ship;
-TransportCosts.Ship = calcs_transport(Medium,'Ship');
+TransportCosts.Ship = calcs_transport(Medium,'Ship',run_graphics);
 
+%Train
 Medium = Transport.Train;
-TransportCosts.Train = calcs_transport(Medium,'Train');
+TransportCosts.Train = calcs_transport(Medium,'Train',run_graphics);
 
+%Pipeline
+Medium = Transport.Pipeline;
+%TransportCosts.Pipeline = calcs_transport(Medium,'Train',run_graphics);
 
+%MonteCarlo Code
 % N = 1000;
 % for n = 1:N
 %     a = 1 + 0.5*(rand()-0.5);
@@ -29,10 +39,7 @@ TransportCosts.Train = calcs_transport(Medium,'Train');
 % fig=figure;
 % histfit(out,N/50);
 
-filename = "constants_transport.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
-save(fullfile(foldername, filename),"Transport");
-
-filename = "constants_transportcosts.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
+%Save variables
+filename = "results_transportcosts.mat";
+foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"TransportCosts");

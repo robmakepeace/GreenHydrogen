@@ -1,12 +1,17 @@
-    filename = "constants_fuel.mat";
-    foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
-    load(fullfile(foldername, filename));
+    %Green Hydrogen Conversion Analysis 
+    %Robert Makepeace
+    %First written 19/06/2022
+    %Last updated 09/07/2022
 
+    %Load physical variables
     filename = "constants_physical.mat";
-    foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
-    load(fullfile(foldername, filename));
+    foldername = pwd + "\Variables\";
+    load(fullfile(foldername, filename),"Physical");
 
-
+    %Load fuel variables
+    filename = "constants_fuel.mat";
+    foldername = pwd + "\Variables\";
+    load(fullfile(foldername, filename),"Fuel");
 
     %Compressed Hydrogen Pathway
     pressure1 = 2000;

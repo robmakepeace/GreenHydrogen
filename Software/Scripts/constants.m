@@ -1,16 +1,7 @@
 %Green Hydrogen constants
 %Robert Makepeace
 %First written 30/03/2022
-%Last updated 30/03/2022
-
-close all;
-clear all;
-
-%Density (at STP) (g/L)
-Hydrogen.Constants.Gas_Density = 0.08988;
-
-%Density (at STP) (g/cm3)
-Hydrogen.Constants.Liquid_Density = 0.07;
+%Last updated 09/07/2022
 
 %Define variable struct
 Template.CurrentValue = 1;
@@ -78,7 +69,7 @@ Hydrogen.Generation.Green_Levelised_Cost.xlabel = 'Year';
 Hydrogen.Generation.Green_Levelised_Cost.ylabel = 'Cost ($AUD/kg)';
 Hydrogen.Generation.Green_Levelised_Cost.Name = 'Green Hydrogen Levelised Generation Cost';
 
-visualise_plot_parameter(Hydrogen.Generation.Green_Levelised_Cost,'#00FF00','#77AC30');
+visualise_plot_parameter(Hydrogen.Generation.Green_Levelised_Cost,'#00FF00','#77AC30',run_graphics);
 
 %BLUE HYDROGEN GENERATION COST
 Hydrogen.Generation.Blue_Levelised_Cost = Template;
@@ -104,7 +95,7 @@ Hydrogen.Generation.Blue_Levelised_Cost.Units = '$AUD/kg';
 Hydrogen.Generation.Blue_Levelised_Cost.xlabel = 'Year';
 Hydrogen.Generation.Blue_Levelised_Cost.ylabel = 'Cost ($AUD/kg)';
 Hydrogen.Generation.Blue_Levelised_Cost.Name = 'Blue Hydrogen Levelised Generation Cost (No Carbon Cost)';
-visualise_plot_parameter(Hydrogen.Generation.Blue_Levelised_Cost,'#0000FF','#4DBEEE');
+visualise_plot_parameter(Hydrogen.Generation.Blue_Levelised_Cost,'#0000FF','#4DBEEE',run_graphics);
 
 %GREY HYDROGEN GENERATION COST
 Hydrogen.Generation.Grey_Levelised_Cost = Template;
@@ -124,7 +115,7 @@ Hydrogen.Generation.Grey_Levelised_Cost.Units = '$AUD/kg';
 Hydrogen.Generation.Grey_Levelised_Cost.xlabel = 'Year';
 Hydrogen.Generation.Grey_Levelised_Cost.ylabel = 'Cost ($AUD/kg)';
 Hydrogen.Generation.Grey_Levelised_Cost.Name = 'Grey Hydrogen Levelised Generation Cost (No Carbon Cost)';
-visualise_plot_parameter(Hydrogen.Generation.Grey_Levelised_Cost,'#000000','#808080');
+visualise_plot_parameter(Hydrogen.Generation.Grey_Levelised_Cost,'#000000','#808080',run_graphics);
 
 % CARBON PRICE
 Hydrogen.Economic.Carbon_Price = Template;
@@ -155,7 +146,7 @@ Hydrogen.Economic.Carbon_Price.Units = '$/kg';
 Hydrogen.Economic.Carbon_Price.xlabel = 'Year';
 Hydrogen.Economic.Carbon_Price.ylabel = 'Cost ($AUD/tonne CO2)';
 Hydrogen.Economic.Carbon_Price.Name = 'Standardised World Carbon Price';
-visualise_plot_parameter(Hydrogen.Economic.Carbon_Price,'#000000','#808080');
+visualise_plot_parameter(Hydrogen.Economic.Carbon_Price,'#000000','#808080',run_graphics);
 
 % GAS PRICE
 Hydrogen.Economic.Gas_Price = Template;
@@ -174,7 +165,7 @@ Hydrogen.Economic.Gas_Price.Units = '$AUD/MMBTU';
 Hydrogen.Economic.Gas_Price.xlabel = 'Year';
 Hydrogen.Economic.Gas_Price.ylabel = 'Cost ($AUD/MMBTU)';
 Hydrogen.Economic.Gas_Price.Name = 'Gas Price';
-visualise_plot_parameter(Hydrogen.Economic.Gas_Price,'#000000','#808080');
+visualise_plot_parameter(Hydrogen.Economic.Gas_Price,'#000000','#808080',run_graphics);
 
 % CARBON PRICE
 Hydrogen.Economic.Electricity_Price = Template;
@@ -199,7 +190,7 @@ Hydrogen.Economic.Electricity_Price.Units = '$AUD/MWhr';
 Hydrogen.Economic.Electricity_Price.xlabel = 'Year';
 Hydrogen.Economic.Electricity_Price.ylabel = 'Cost ($AUD/MWhr)';
 Hydrogen.Economic.Electricity_Price.Name = 'Electricty Price';
-visualise_plot_parameter(Hydrogen.Economic.Electricity_Price,'#00FF00','#77AC30');
+visualise_plot_parameter(Hydrogen.Economic.Electricity_Price,'#00FF00','#77AC30',run_graphics);
 
 %GLOBAL HYDROGEN DEMAND
 Hydrogen.Consumption.Global_Demand = Template;
@@ -230,10 +221,9 @@ Hydrogen.Consumption.Global_Demand.Units = 'Mt';
 Hydrogen.Consumption.Global_Demand.xlabel = 'Year';
 Hydrogen.Consumption.Global_Demand.ylabel = 'Demand (Mt)';
 Hydrogen.Consumption.Global_Demand.Name = 'Gloabal Hydrogen Demand';
-visualise_plot_parameter(Hydrogen.Consumption.Global_Demand,'#FF0000','#A2142F');
+visualise_plot_parameter(Hydrogen.Consumption.Global_Demand,'#FF0000','#A2142F',run_graphics);
 
-%Test
-close all;
+%Save variables
 filename = "constants.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
+foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Hydrogen");

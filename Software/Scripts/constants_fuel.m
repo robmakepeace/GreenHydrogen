@@ -1,3 +1,8 @@
+%Green Hydrogen Fuel constants
+%Robert Makepeace
+%First written 30/05/2022
+%Last updated 09/07/2022
+
 %Transport Fuel of Fuelled by Green Hydrogen
 Fuel.Hydrogen.EnergyDensity = 120;%Units: MJ/kg
 Fuel.Hydrogen.EnergyEffiency = .50; %Units: %
@@ -18,5 +23,5 @@ Fuel.Diesel.CO2 = 2.7; %Units: kg/L
 
 %Save variables
 filename = "constants_fuel.mat";
-foldername = "C:\Users\robma\OneDrive\UTS\42908 Engineering Project Preparation\Github\GreenHydrogen\GreenHydrogen\Software\Variables\";
+foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Fuel");
