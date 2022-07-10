@@ -1,26 +1,33 @@
-%Green Hydrogen Main script
+%Green Hydrogen Hydrogen Production Analysis
 %Robert Makepeace
 %First written 09/07/2022
-%Last updated 09/07/2022
+%Last updated 10/07/2022
 
 filename = "constants.mat";
 foldername = pwd + "\Variables\";
 load(fullfile(foldername, filename),"Hydrogen");
 
-close all
-var = Hydrogen.Generation.Green_Levelised_Cost;
-var = Hydrogen.Generation.Blue_Levelised_Cost;
-N = 100;
-r = zeros(var.Future_size*N,1);
-x = zeros(var.Future_size*N,1);
+var_in=Hydrogen.Economic.Electricity_Price;
+var_in.montecarlo_samples();
+var_in.plot_montecarlo()
 
-for year = 1:var.Future_size
-    mu = var.value_at_year(year+var.Year-1);
-    sigma = (var.value_at_year(year+var.Year-1) * var.Uncertainity)/2;
-    for n=1:N
-        r((year-1)*N+n) = normrnd(mu, sigma);
-    end
-    x((year-1)*N+1:(year-1)*N+N) = zeros(1,N)+year+var.Year-1;
+var_in=Hydrogen.Economic.Electroylser_CAPEX;
+var_in.montecarlo_samples();
+var_in.plot_montecarlo()
+
+cost = zeros(var_in.Future_size*var_in.mc_N,1);
+for sample = 1:var_in.Future_size*var_in.mc_N
+    parameters.Electricity = Hydrogen.Economic.Electricity_Price.mc_r(sample);
+    parameters.CAPEX_Electroysler = Hydrogen.Economic.Electroylser_CAPEX.mc_r(sample);
+    cost(sample) = calcs_production(parameters);
 end
-visualise_montecarlo_parameter(var,x,r,N)
+var_out = variable(0.0,0.0,0.0,'$AUD/Mt','Cost ($AUD/kg)','Green Hydrogen Price');
+var_out.mc_x = var_in.mc_x;
+var_out.mc_r = cost;
+var_out.montecarlo_fit();
+var_out.plot_montecarlo();
 
+%Save variables
+filename = "results_production.mat";
+foldername = pwd + "\Variables\";
+save(fullfile(foldername, filename),"var_out");

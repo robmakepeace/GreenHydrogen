@@ -1,7 +1,7 @@
 %Green Hydrogen Main script
 %Robert Makepeace
 %First written 09/07/2022
-%Last updated 09/07/2022
+%Last updated 10/07/2022
 
 %System Handles
 close all
@@ -30,13 +30,14 @@ constants_casestudies();
 constants_regions();
 
 %Execute Analyslis scripts
+analysis_production();
 analysis_transport();
 analysis_conversion();
 analysis_casestudies();
 analysis_regions();
 
 %Execute Visualisation scripts
-visualise_australia_plot();
+%visualise_australia_plot();
 % Keep this one commented out - runs slow. 
 %visualise_world_plots();
 

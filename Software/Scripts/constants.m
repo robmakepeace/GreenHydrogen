@@ -1,7 +1,7 @@
 %Green Hydrogen constants
 %Robert Makepeace
 %First written 30/03/2022
-%Last updated 09/07/2022
+%Last updated 10/07/2022
 
 %Hydrogen Generation Costs
 
@@ -77,6 +77,15 @@ for n = 10:Hydrogen.Economic.Electricity_Price.Future_size
 end
 Hydrogen.Economic.Electricity_Price.init(future);
 Hydrogen.Economic.Electricity_Price.plot('#00FF00','#77AC30');
+
+% Electricty Price
+Hydrogen.Economic.Electroylser_CAPEX = variable(784000,0.2,0.9,'$AUD/MW','Cost ($AUD/MW)','Electrolyser CAPEX');
+future(1) = Hydrogen.Economic.Electroylser_CAPEX.CurrentValue;
+for n = 2:Hydrogen.Economic.Electroylser_CAPEX.Future_size 
+    future(n) = future(n-1)*Hydrogen.Economic.Electroylser_CAPEX.Growth;
+end
+Hydrogen.Economic.Electroylser_CAPEX.init(future);
+Hydrogen.Economic.Electroylser_CAPEX.plot('#00FF00','#77AC30');
 
 %GLOBAL HYDROGEN DEMAND
 Hydrogen.Consumption.Global_Demand = variable(90,0.5,0.5,'Mt','Demand (Mt)','Gloabal Hydrogen Demand');
