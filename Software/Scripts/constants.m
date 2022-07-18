@@ -36,6 +36,18 @@ end
 Hydrogen.Generation.Grey_Levelised_Cost.init(future);
 Hydrogen.Generation.Grey_Levelised_Cost.plot('#000000','#808080');
 
+%Electroysler_Effeciency
+Hydrogen.Generation.Electroysler_Effeciency = variable(0.6,0.04,0.01,'%','Efficiency (%)','Electroysler Effeciency');
+future(1) = Hydrogen.Generation.Electroysler_Effeciency.CurrentValue;
+for n = 2:11 
+    future(n) = future(n-1) + Hydrogen.Generation.Electroysler_Effeciency.Growth;
+end
+for n = 12:Hydrogen.Generation.Electroysler_Effeciency.Future_size
+    future(n) = future(n-1);
+end
+Hydrogen.Generation.Electroysler_Effeciency.init(future);
+Hydrogen.Generation.Electroysler_Effeciency.plot('#00FF00','#77AC30');
+
 % CARBON PRICE
 Hydrogen.Economic.Carbon_Price = variable(25,0.5,3.125,'$/kg','Cost ($AUD/tonne CO2)','Standardised World Carbon Price');
 Growth1 = 3.125;
@@ -78,14 +90,37 @@ end
 Hydrogen.Economic.Electricity_Price.init(future);
 Hydrogen.Economic.Electricity_Price.plot('#00FF00','#77AC30');
 
-% Electricty Price
-Hydrogen.Economic.Electroylser_CAPEX = variable(784000,0.2,0.9,'$AUD/MW','Cost ($AUD/MW)','Electrolyser CAPEX');
+Hydrogen.Economic.Aus_Electricity_Price = variable(40.8250,0.2,-3.6,'$AUD/MWhr','Cost ($AUD/MWhr)','Asutralian Electricty Price');
+Growth1 = -2.0;
+Growth2 = -0.3;
+future(1) = Hydrogen.Economic.Aus_Electricity_Price.CurrentValue;
+for n = 2:9
+    future(n) = future(n-1) + Growth1;
+end
+for n = 10:Hydrogen.Economic.Aus_Electricity_Price.Future_size 
+    future(n) = future(n-1) + Growth2;
+end
+Hydrogen.Economic.Aus_Electricity_Price.init(future);
+Hydrogen.Economic.Aus_Electricity_Price.plot('#00FF00','#77AC30');
+
+
+% Electrolyser CAPEX
+Hydrogen.Economic.Electroylser_CAPEX = variable(784000,0.1,0.96,'$AUD/MWe','Cost ($AUD/MWe)','Electrolyser CAPEX Cost');
 future(1) = Hydrogen.Economic.Electroylser_CAPEX.CurrentValue;
 for n = 2:Hydrogen.Economic.Electroylser_CAPEX.Future_size 
     future(n) = future(n-1)*Hydrogen.Economic.Electroylser_CAPEX.Growth;
 end
 Hydrogen.Economic.Electroylser_CAPEX.init(future);
 Hydrogen.Economic.Electroylser_CAPEX.plot('#00FF00','#77AC30');
+
+% Electrolyser OPEX
+Hydrogen.Economic.Electroylser_OPEX = variable(17050,0.1,1.01,'$AUD/MWe*yr','Cost ($AUD/MWe*yr)','Electrolyser OPEX Cost');
+future(1) = Hydrogen.Economic.Electroylser_OPEX.CurrentValue;
+for n = 2:Hydrogen.Economic.Electroylser_OPEX.Future_size 
+    future(n) = future(n-1)*Hydrogen.Economic.Electroylser_OPEX.Growth;
+end
+Hydrogen.Economic.Electroylser_OPEX.init(future);
+Hydrogen.Economic.Electroylser_OPEX.plot('#00FF00','#77AC30');
 
 %GLOBAL HYDROGEN DEMAND
 Hydrogen.Consumption.Global_Demand = variable(90,0.5,0.5,'Mt','Demand (Mt)','Gloabal Hydrogen Demand');

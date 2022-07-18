@@ -7,7 +7,7 @@ filename = "constants.mat";
 foldername = pwd + "\Variables\";
 load(fullfile(foldername, filename),"Hydrogen");
 
-var_in=Hydrogen.Economic.Electricity_Price;
+var_in=Hydrogen.Economic.Aus_Electricity_Price;
 var_in.montecarlo_samples();
 var_in.plot_montecarlo()
 
@@ -15,10 +15,20 @@ var_in=Hydrogen.Economic.Electroylser_CAPEX;
 var_in.montecarlo_samples();
 var_in.plot_montecarlo()
 
+var_in=Hydrogen.Economic.Electroylser_OPEX;
+var_in.montecarlo_samples();
+var_in.plot_montecarlo()
+
+var_in=Hydrogen.Generation.Electroysler_Effeciency;
+var_in.montecarlo_samples();
+var_in.plot_montecarlo()
+
 cost = zeros(var_in.Future_size*var_in.mc_N,1);
 for sample = 1:var_in.Future_size*var_in.mc_N
-    parameters.Electricity = Hydrogen.Economic.Electricity_Price.mc_r(sample);
+    parameters.Electricity = Hydrogen.Economic.Aus_Electricity_Price.mc_r(sample);
     parameters.CAPEX_Electroysler = Hydrogen.Economic.Electroylser_CAPEX.mc_r(sample);
+    parameters.OPEX_Electroysler = Hydrogen.Economic.Electroylser_OPEX.mc_r(sample);
+    parameters.Electroysler_Effeciency = Hydrogen.Generation.Electroysler_Effeciency.mc_r(sample);
     cost(sample) = calcs_production(parameters);
 end
 var_out = variable(0.0,0.0,0.0,'$AUD/Mt','Cost ($AUD/kg)','Green Hydrogen Price');
