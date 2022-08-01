@@ -23,6 +23,7 @@ main_print(strcat("Executed: ",string(datetime('now'))),'a')
 %Define constants
 constants_physical();
 constants();
+constants_production();
 constants_conversion();
 constants_fuel();
 constants_transport();

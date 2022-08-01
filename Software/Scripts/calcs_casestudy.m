@@ -3,7 +3,7 @@
 %First written 27/05/2022
 %Last updated 09/07/2022
 
-function cost = calcs_casestudy(distance)
+function cost = calcs_casestudy(parameters)
     %Placeholder calcuclation to be developed further
-    cost = 0.00015* distance;
+    cost = parameters.Production + parameters.variablecost * parameters.distance;
 end

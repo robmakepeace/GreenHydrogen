@@ -1,0 +1,84 @@
+Green Hydrogen Exportation Results
+Executed: 01-Aug-2022 20:20:38
+
+Country Factors
+Australia:1
+Japan:3.8239
+Korea:2.5707
+USA:0.85462
+China:1.3375
+Brazil:0.97502
+Belgium:2.1758
+SaudiaArabia:0.91855
+Morocco:1.4819
+Namibia:1.4819
+
+Region Factors
+Oceania:1
+Europe:2.1758
+NorthAmerica:0.85462
+SouthAmerica:0.97502
+Asia:2.5707
+Africa:1.4819
+
+Case Study Route Constants
+Australia - Japan: 6456.5305 km
+Australia - South Korea: 6679.1694 km
+Australia - Singapore: 2671.6678 km
+Chile - United States: 7903.6838 km
+Australia - Germany: 8460.2813 km
+Morocco - Germany: 2337.7093 km
+Namibia - Germany: 8348.9618 km
+Saudi Arabia - Germany: 3450.9042 km
+Saudi Arabia - China: 2003.7508 km
+Saudi Arabia - India: 779.2364 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Transport Analysis
+Truck Transport Unit Cost: $0.00041767/km*tGH2
+Ship Transport Unit Cost: $4.1108e-06/km*tGH2
+Train Transport Unit Cost: $0.00018499/km*tGH2
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 0.91073 %
+Liquefied Hydrogen Pathway Conversion Efficency: 0.65706 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 0.86723 %
+
+Case Study Analysis
+Australia - Japan: $5.0834/tonne
+Australia - South Korea: $5.1173/tonne
+Australia - Singapore: $4.5229/tonne
+Chile - United States: $5.2118/tonne
+Australia - Germany: $5.3886/tonne
+Morocco - Germany: $6.4409/tonne
+Namibia - Germany: $7.4128/tonne
+Saudi Arabia - Germany: $4.2859/tonne
+Saudi Arabia - China: $4.0744/tonne
+Saudi Arabia - India: $3.8883/tonne
+
+Regions Analysis
+Optimal Solution
+40	10	10	40	0	0	
+10	40	40	0	0	10	
+0	0	0	0	0	0	
+0	0	0	10	0	0	
+0	0	0	0	40	0	
+0	0	0	0	10	40	
+
+Elapsed time is 50.8018 seconds.

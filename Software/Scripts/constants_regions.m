@@ -56,11 +56,11 @@ Regions.Supply = [100 100 100 100 100 100];
 
 
 %Region Production green hydrogen ($/tonne) (placeholder values to be updated)
-Production = [1.5 1.8 4.0 3.5 3.0 2.8];
+RegionProduction = [1.5 1.8 4.0 3.5 3.0 2.8];
 for x = 1:Regions.NumberOfRegions
     for y =1:Regions.NumberOfRegions
         %Total cost production plus transport
-        Regions.cost(x,y) = Production(x) + calcs_casestudy(Regions.dist(x,y));
+        Regions.cost(x,y) = RegionProduction(x) + calcs_casestudy_dist(Regions.dist(x,y));
     end
 end
 Regions.cost;
