@@ -3,6 +3,10 @@
 %First written 24/05/2022
 %Last updated 09/07/2022
 
+filename = "results_production.mat";
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename));
+
 %Define region parameters
 
 Regions.NumberOfRegions = 6;
@@ -54,13 +58,34 @@ Regions.Demand = [50 50 50 50 50 50];
 %Region Supply Constraints
 Regions.Supply = [100 100 100 100 100 100];
 
+%Region Production green hydrogen ($/tonne) 
+%RegionProduction = [1.5 1.8 4.0 3.5 3.0 2.8];
 
-%Region Production green hydrogen ($/tonne) (placeholder values to be updated)
-RegionProduction = [1.5 1.8 4.0 3.5 3.0 2.8];
+RegionProduction(1) = LCOE.Oceania;
+RegionProduction(2) = LCOE.Africa;
+RegionProduction(3) = LCOE.Europe;
+RegionProduction(4) = LCOE.Asia;
+RegionProduction(5) = LCOE.NorthAmerica;
+RegionProduction(6) = LCOE.SouthAmerica;
+
 for x = 1:Regions.NumberOfRegions
     for y =1:Regions.NumberOfRegions
-        %Total cost production plus transport
-        Regions.cost(x,y) = RegionProduction(x) + calcs_casestudy_dist(Regions.dist(x,y));
+        var = calcs_casestudy_dist(Regions.dist(x,y));
+        Regions.Transport((x-1)*Regions.NumberOfRegions+y) = variable(var,0.1,0.0,'$/Mt','Amount ($/Mt)',strcat('Transport Region', string(x),'-',string(y),' Transport Cost'));
+        future = zeros(Regions.Transport((x-1)*Regions.NumberOfRegions+y).Future_size,1) + var;
+        Regions.Transport((x-1)*Regions.NumberOfRegions+y).init(future);
+        Regions.Transport((x-1)*Regions.NumberOfRegions+y).montecarlo_samples();
+
+        Regions.cost((x-1)*Regions.NumberOfRegions+y) = variable(0,0.1,0.0,'$/Mt','Amount ($/Mt)',strcat('Cost Region', string(x),'-',string(y),' Total Cost'));
+        Regions.cost((x-1)*Regions.NumberOfRegions+y).mc_x = RegionProduction(1).mc_x;
+        Regions.cost((x-1)*Regions.NumberOfRegions+y).mc_r = RegionProduction(1).mc_r;
+        for sample = 1: RegionProduction(1).Future_size*RegionProduction(1).mc_N
+            %Total cost production plus transport
+            Regions.cost((x-1)*Regions.NumberOfRegions+y).mc_r(sample) = RegionProduction(x).mc_r(sample) + Regions.Transport((x-1)*Regions.NumberOfRegions+y).mc_r(sample);
+        end
+
+        Regions.cost((x-1)*Regions.NumberOfRegions+y).montecarlo_fit();
+        %Regions.cost((x-1)*Regions.NumberOfRegions+y).plot_montecarlo();
     end
 end
 Regions.cost;

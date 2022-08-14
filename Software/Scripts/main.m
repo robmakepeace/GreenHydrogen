@@ -27,6 +27,7 @@ constants_production();
 constants_conversion();
 constants_fuel();
 constants_transport();
+constants_finance();
 constants_casestudies();
 constants_regions();
 

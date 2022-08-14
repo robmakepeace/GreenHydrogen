@@ -12,21 +12,18 @@ function Output = calcs_transport(Medium,Description)
     %Hydrogen Gas
 
     %Determine if weight or volume constraint of the transport
-    P_bar = Medium.Pressure; %bar
-    P_PA = P_bar * 100000; %Pa
-    V1 = Medium.VolumeLimit;%m3
-    R = Physical.GasConstant; %J/(K.mol)
-    T = Physical.AmbientTemp_K; %Kelvin
-    n1 = (P_PA*V1)/(R*T);%mol
-    MM = Physical.H2_MM; %g/mol
-    m_g = n1 * MM; %g
-    m_kg1 = m_g / 1000; %kg
-    
+
+    %Convert units
+    P_kPA = Medium.Pressure * 100; %kPa
+    V1 = Medium.VolumeLimit;
+
+    %Calcuclate mass of Hydrogen in section of the pipe
+    [n1, m_kg1,density1] = calcs_gaslaw (P_kPA, V1, Physical.AmbientTemp_K, Physical.GasConstant, Physical.H2_MM);
 
     m_kg2 = Medium.WeightLimit;
     m_g2 = m_kg2 * 1000;
-    n2 = m_g2 / MM; 
-    V2 = n2 * R * T / P_PA;
+    n2 = m_g2 / Physical.H2_MM; 
+    V2 = n2 * Physical.GasConstant * Physical.AmbientTemp_K / P_kPA;
     
     if V1 < V2
         Output.ActualWeight = m_kg1;
@@ -35,6 +32,8 @@ function Output = calcs_transport(Medium,Description)
         Output.ActualWeight = m_kg2;
         Output.ActualVolume = V2;
     end
+
+    [m_kg1, V1, m_kg2, V2];
     %Calculcate the 
     Output.Duration_days = Medium.Lifetime * Medium.Utilisation * 365; % Units: days
     Output.Duration_hrs = Output.Duration_days * 24; % Units: hours

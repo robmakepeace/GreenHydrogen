@@ -1,0 +1,782 @@
+
+Regions Analysis
+Optimal Solution
+40	10	10	40	0	0	
+10	40	40	0	0	10	
+0	0	0	0	0	0	
+0	0	0	10	0	0	
+0	0	0	0	40	0	
+0	0	0	0	10	40	
+
+Regions Analysis
+Optimal Solution
+40	10	10	40	0	0	
+10	40	40	0	0	10	
+0	0	0	0	0	0	
+0	0	0	10	0	0	
+0	0	0	0	40	0	
+0	0	0	0	10	40	
+
+Regions Analysis
+Optimal Solution
+40	10	0	0	0	0	
+40	10	0	0	0	0	
+
+Regions Analysis
+
+Regions Analysis
+Optimal Solution
+40	10	0	0	0	0	
+40	10	0	0	0	0	
+
+Regions Analysis
+Optimal Solution
+40	10	10	40	0	0	
+10	40	40	0	0	10	
+0	0	0	0	0	0	
+0	0	0	10	0	0	
+0	0	0	0	40	0	
+0	0	0	0	10	40	
+
+Regions Analysis
+Optimal Solution
+40	10	10	40	0	0	
+10	40	40	0	0	10	
+0	0	0	0	0	0	
+0	0	0	10	0	0	
+0	0	0	0	40	0	
+0	0	0	0	10	40	
+
+Regions Analysis
+Optimal Solution
+40	10	10	40	0	0	
+10	40	40	0	0	10	
+0	0	0	0	0	0	
+0	0	0	10	0	0	
+0	0	0	0	40	0	
+0	0	0	0	10	40	
+
+Regions Analysis
+Optimal Solution
+42.3716	7.6284	9.8514	40.1486	0	0	
+7.6284	42.3716	40.1486	2.2229	0	7.6284	
+0	0	0	0	0	0	
+0	0	0	7.6284	0	0	
+0	0	0	0	42.3716	0	
+0	0	0	0	7.6284	42.3716	
+
+Regions Analysis
+Optimal Solution
+40.3054	9.6946	7.5628	39.8795	0	0	
+9.6946	40.3054	39.8795	0.57015	0	9.0368	
+0	0	2.5577	0	0	0	
+0	0	0	9.5504	0	0	
+0	0	0	0	40.3054	0.65774	
+0	0	0	0	9.6946	40.3054	
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Regions Analysis
+
+Regions Analysis
+Optimal Solution
+40.7037	11.3952	0	40.0587	0	0	
+0	0.99725	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+1.83	4.1085	38.7233	12.5739	40.7037	8.3274	
+6.7356	32.2525	9.5705	0	12.9704	40.7037	
+
+Regions Analysis
+Optimal Solution2022
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2023
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2024
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2025
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2026
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2027
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2028
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2029
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2030
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2031
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2032
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2033
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2034
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2035
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2036
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2037
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+Optimal Solution2038
+1985.876	590.7594	6.3066	1983.8891	0	0	
+7.4193	712.8605	13.6452	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+252.1092	6.9917	1721.1549	477.4383	1985.876	525.4054	
+265.271	1160.4703	772.1661	0	519.9185	1984.8528	
+
+Regions Analysis
+Optimal Solution2022
+2003.7862	565.111	16.6477	1979.3158	0	0	
+0.53097	775.5867	11.7408	5.8331	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+224.3114	4.917	1748.5487	519.8009	2003.7862	508.8856	
+282.7362	1157.0904	737.1259	0	492.5536	2003.7862	
+Optimal Solution2023
+2003.7862	565.111	16.6477	1979.3158	0	0	
+0.53097	775.5867	11.7408	5.8331	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+224.3114	4.917	1748.5487	519.8009	2003.7862	508.8856	
+282.7362	1157.0904	737.1259	0	492.5536	2003.7862	
+Optimal Solution2024
+2003.7862	565.111	16.6477	1979.3158	0	0	
+0.53097	775.5867	11.7408	5.8331	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+224.3114	4.917	1748.5487	519.8009	2003.7862	508.8856	
+282.7362	1157.0904	737.1259	0	492.5536	2003.7862	
+
+Regions Analysis
+
+Regions Analysis
+Optimal Solution2022
+2010.8679	568.4106	15.2607	1989.6473	0	0	
+9.7575	754.3357	13.4613	4.9608	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+187.4026	7.6758	1757.4708	515.7987	2010.8679	503.6447	
+285.1649	1164.0744	715.5214	0	491.2435	2010.8679	
+
+Regions Analysis
+Optimal Solution 2022
+1991.8048	611.9984	16.4039	1977.3139	0	0	
+6.1642	701.0379	9.6433	4.6027	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+235.8503	11.7878	1764.2575	492.203	1991.8048	494.6746	
+259.6769	1191.6518	692.6772	0	505.9208	1991.8048	
+Optimal Solution 2023
+1991.8048	611.9984	16.4039	1977.3139	0	0	
+6.1642	701.0379	9.6433	4.6027	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+235.8503	11.7878	1764.2575	492.203	1991.8048	494.6746	
+259.6769	1191.6518	692.6772	0	505.9208	1991.8048	
+Optimal Solution 2024
+1991.8048	611.9984	16.4039	1977.3139	0	0	
+6.1642	701.0379	9.6433	4.6027	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+235.8503	11.7878	1764.2575	492.203	1991.8048	494.6746	
+259.6769	1191.6518	692.6772	0	505.9208	1991.8048	
+Optimal Solution 2025
+1991.8048	611.9984	16.4039	1977.3139	0	0	
+6.1642	701.0379	9.6433	4.6027	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+235.8503	11.7878	1764.2575	492.203	1991.8048	494.6746	
+259.6769	1191.6518	692.6772	0	505.9208	1991.8048	
+Optimal Solution 2026
+1991.8048	611.9984	16.4039	1977.3139	0	0	
+6.1642	701.0379	9.6433	4.6027	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+235.8503	11.7878	1764.2575	492.203	1991.8048	494.6746	
+259.6769	1191.6518	692.6772	0	505.9208	1991.8048	
+Optimal Solution 2027
+1991.8048	611.9984	16.4039	1977.3139	0	0	
+6.1642	701.0379	9.6433	4.6027	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+235.8503	11.7878	1764.2575	492.203	1991.8048	494.6746	
+259.6769	1191.6518	692.6772	0	505.9208	1991.8048	
+Optimal Solution 2028
+1991.8048	611.9984	16.4039	1977.3139	0	0	
+6.1642	701.0379	9.6433	4.6027	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+235.8503	11.7878	1764.2575	492.203	1991.8048	494.6746	
+259.6769	1191.6518	692.6772	0	505.9208	1991.8048	
+Optimal Solution 2029
+1991.8048	611.9984	16.4039	1977.3139	0	0	
+6.1642	701.0379	9.6433	4.6027	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+235.8503	11.7878	1764.2575	492.203	1991.8048	494.6746	
+259.6769	1191.6518	692.6772	0	505.9208	1991.8048	
+
+Regions Analysis
+
+Regions Analysis
+
+Regions Analysis
+
+Regions Analysis
+Optimal Solution 2022
+39.9979	12.3544	0.20545	39.3749	0	0	
+0.24943	14.1494	0.27465	0.073528	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.4817	0.018603	34.9314	10.8604	39.9979	9.7466	
+5.2909	23.4261	14.8489	0	10.3994	39.9979	
+Optimal Solution 2023
+40.0966	11.911	0.23997	39.3934	0	0	
+0.32746	14.2535	0.25593	0.16107	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.637	0.1714	35.0162	10.5276	40.0966	9.9603	
+5.4999	23.5636	14.7201	0	10.1707	40.0966	
+Optimal Solution 2024
+40.4144	8.8006	0	38.4718	0	0	
+0.092941	17.229	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.2296	0.10735	34.8015	11.0698	40.4144	9.1364	
+5.2751	23.9877	15.2333	0	9.3828	40.4144	
+Optimal Solution 2025
+39.9177	7.2632	0	38.7804	0	0	
+0.11952	22.2891	0	0.020355	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.2034	0.058989	34.2516	11.2467	39.9177	9.9224	
+5.3777	20.3801	15.759	0	10.0862	39.9177	
+Optimal Solution 2026
+40.1487	5.9366	0.15616	39.1199	0	0	
+0.020341	25.1031	0.11271	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.3454	0.166	33.6314	10.9601	40.1487	9.9193	
+5.6079	18.8209	15.8927	0	9.927	40.1481	
+Optimal Solution 2027
+40.2836	5.1823	0	39.0169	0	0	
+0.30467	27.8036	0.18589	0.076793	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.5606	0.12444	33.9928	10.7951	40.2836	9.7158	
+4.5548	17.2344	15.6852	0	9.9836	40.2836	
+Optimal Solution 2028
+40.1489	3.1569	0.20048	39.2393	0	0	
+0.21705	30.0705	0.71249	0.17277	0	0	
+0	0	0.27613	0	0	0	
+0	0	0	0	0	0	
+4.645	0.019862	34.593	10.5283	40.1489	10.2411	
+4.8958	16.725	14.2985	0	9.6587	40.1473	
+Optimal Solution 2029
+40.0023	1.7479	0	39.8093	0	0	
+0	32.5712	0.62355	0.2044	0	0	
+0	0	0.013419	0	0	0	
+0	0	0	0	0	0	
+4.993	0.093335	35.0717	9.8572	40.0023	9.5189	
+5.4728	14.9591	14.0505	0	9.7568	40.0023	
+Optimal Solution 2030
+40.1944	1.0711	0.084211	38.9394	0	0	
+0.4051	36.8765	0.71264	0.44115	0	0	
+0	0	0.23691	0	0	0	
+0	0	0	0	0	0	
+4.6844	0.01303	33.2248	10.6877	40.1944	9.8469	
+4.5819	11.8809	16.4761	0	9.6579	40.1944	
+Optimal Solution 2031
+40.2049	1.592	0.039582	38.8231	0	0	
+0.23002	37.0601	0.62618	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.4848	0	34.6867	10.8632	40.2049	9.9438	
+5.2865	11.034	14.7306	0	9.5013	40.2049	
+Optimal Solution 2032
+40.243	2.431	0.12445	39.4446	0	0	
+0.43396	35.5041	0.54917	0.51268	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.7099	0.092065	33.5053	10.1729	40.243	9.4977	
+4.1636	11.3991	15.6783	0	10.0299	40.243	
+Optimal Solution 2033
+40.3032	1.7296	0.045112	39.7698	0	0	
+0.67241	37.399	0.65991	0.24642	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.1231	0	34.6742	9.987	40.3032	9.5007	
+4.6311	10.6434	14.732	0	9.9268	40.3032	
+Optimal Solution 2034
+40.0276	0.76847	0	39.4497	0	0	
+0.48296	37.8073	0.70106	0.23427	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.2068	0	34.3728	10.247	40.0276	10.2539	
+5.3865	11.3215	14.5553	0	9.8987	40.0276	
+Optimal Solution 2035
+40.1747	1.064	0	39.5767	0	0	
+0.36395	36.8829	0.72148	0.14401	0	0	
+0	0	0.084836	0	0	0	
+0	0	0	0	0	0	
+4.0716	0	33.5387	10.4097	40.1747	9.7462	
+5.2633	12.3811	15.3624	0	9.6697	40.1747	
+Optimal Solution 2036
+39.7022	1.1322	0.066781	39.8827	0	0	
+0.5104	37.6462	0.62737	0.31864	0	0	
+0	0	0	0	0	0	
+0	0	0	0.088549	0	0	
+4.7772	0	33.5714	9.8474	39.7022	10.6563	
+4.9279	11.2006	15.7487	0	9.924	39.7022	
+Optimal Solution 2037
+39.9977	0.8397	0	39.9111	0	0	
+0.26587	38.4898	0.24839	0.18687	0	0	
+0	0	0.39557	0	0	0	
+0	0	0	0	0	0	
+4.2184	0	33.6788	9.7497	39.9977	10.7305	
+5.2963	10.5434	15.8162	0	10.0878	39.9977	
+Optimal Solution 2038
+39.7988	1.9778	0	39.5899	0	0	
+0.20813	36.9879	1.4083	0.18003	0	0	
+0	0	0.16919	0	0	0	
+0	0	0	0	0	0	
+5.3716	0.0022232	33.8929	10.058	39.7987	10.1409	
+4.4268	11.1841	14.6312	0	10.22	39.7988	
+Optimal Solution 2039
+39.818	1.056	0	40.3074	0	0	
+0.32182	38.3751	1.3297	0.017425	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.1266	0.019411	34.2012	10.0728	39.8165	10.3507	
+5.4947	9.9031	14.9152	0	10.4537	39.818	
+Optimal Solution 2040
+40.1374	0.8077	0	39.8432	0	0	
+0.62611	39.3034	0.74094	0.011413	0	0	
+0	0	0.21608	0	0	0	
+0	0	0	0	0	0	
+4.2677	0	35.4594	10.26	40.1374	9.8434	
+4.6629	9.6266	13.7521	0	9.8662	40.1374	
+Optimal Solution 2041
+40.1259	0.85929	0.055828	39.6061	0	0	
+0.62307	38.6223	1.1074	0.086797	0	0	
+0	0	0	0	0	0	
+0	0	0	0.098143	0	0	
+4.3501	0.014888	35.627	10.1806	40.1263	9.8917	
+4.9323	10.5394	13.645	0	10.0881	40.1263	
+Optimal Solution 2042
+40.0481	0.84088	0	39.9208	0	0	
+0.68614	38.6598	1.0694	0.027586	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+3.9695	0.0081056	35.4473	10.6165	40.0509	10.0239	
+5.241	10.5691	13.6437	0	9.9556	40.0509	
+Optimal Solution 2043
+40.0368	1.019	0	39.7707	0	0	
+0.82651	38.689	1.2819	0.17276	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.2472	0.003886	35.1546	9.5605	40.0368	10.2132	
+4.6907	10.4634	13.9113	0	10.2861	40.0368	
+Optimal Solution 2044
+39.8513	0.80345	0	39.5504	0	0	
+0.6867	37.8667	1.7538	0.67548	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+5.0541	0	34.1168	10.0122	39.8253	10.7159	
+4.0442	11.1753	13.7164	0	10.5001	39.8513	
+Optimal Solution 2045
+39.891	1.5126	0	39.5821	0	0	
+0.65626	39.329	2.0391	0.38552	0	0	
+0	0	0.17787	0	0	0	
+0	0	0	0	0	0	
+5.293	0	34.0568	9.8197	39.891	9.8198	
+4.1098	9.1373	14.025	0	10.5568	39.891	
+Optimal Solution 2046
+40.1863	0.38403	0	39.5873	0	0	
+0.81535	39.8879	1.063	0.090219	0	0	
+0	0	0.25284	0	0	0	
+0	0	0	0	0	0	
+4.628	0	34.4752	10.6394	40.1863	9.3907	
+3.9632	9.7504	13.939	0	9.8025	40.1863	
+Optimal Solution 2047
+40.4816	1.2163	0	39.765	0	0	
+1.0753	39.9842	1.3619	0.26358	0	0	
+0	0	0.083962	0	0	0	
+0	0	0	0	0	0	
+4.1561	0.11449	35.2364	9.5932	40.4797	9.4824	
+4.135	8.7276	13.264	0	9.9253	40.4816	
+Optimal Solution 2048
+39.7568	1.1375	0	39.3003	0	0	
+0.99232	39.3561	1.41	0.27597	0	0	
+0	0	0.27676	0	0	0	
+0	0	0	0.074787	0	0	
+4.8168	0	34.0696	10.3703	39.7568	10.2462	
+5.0036	9.3309	14.2184	0	10.47	39.7568	
+Optimal Solution 2049
+40.0812	0.9186	0	39.3679	0	0	
+1.141	40.0008	0.81625	0.16655	0	0	
+0	0	0.87389	0	0	0	
+0	0	0	0	0	0	
+4.8716	0.15445	34.8719	9.8585	40.1032	9.997	
+4.2912	8.6796	13.774	0	9.7638	40.1032	
+Optimal Solution 2050
+39.8796	0.68026	0	39.7597	0	0	
+1.2919	39.8796	2.3531	0.25866	0	0	
+0	0	0.34755	0	0	0	
+0	0	0	0	0	0	
+4.3787	0	33.5204	10.1653	39.8728	10.3623	
+4.6346	9.4187	13.8996	0	10.2936	39.8653	

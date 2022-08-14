@@ -18,7 +18,7 @@ function unit_cost = calcs_production(parameters)
     %electricity_cost1 = parameters.Electricity * electricity_kilo_GH2;
     
     Electrosyler_Output = 200;%Units: m3/hr/1MW
-    H2_Weight = Electrosyler_Output * Physical.Gas_Density;%Units: kg/hr
+    H2_Weight = Electrosyler_Output * Physical.H2Gas_WeightDensity;%Units: kg/hr
     H2_Weight_Lifetime = H2_Weight * duration;%Units: kg/lifetime
     electricity_cost = parameters.Electricity/parameters.Electroysler_Effeciency;%Units: $AUD/hr
     electricity_cost_Lifetime = electricity_cost * duration;%Units: $AUD/lifetime

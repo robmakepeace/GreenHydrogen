@@ -1,0 +1,91 @@
+Green Hydrogen Exportation Results
+Executed: 14-Aug-2022 17:04:42
+
+Country Factors
+Australia:1
+Japan:3.8239
+Korea:2.5707
+USA:0.85462
+China:1.3375
+Brazil:0.97502
+Belgium:2.1758
+SaudiaArabia:0.91855
+Morocco:1.4819
+Namibia:1.4819
+
+Region Factors
+Oceania:1
+Europe:2.1758
+NorthAmerica:0.85462
+SouthAmerica:0.97502
+Asia:2.5707
+Africa:1.4819
+
+Case Study Route Constants
+Australia - Japan: 6456.5305 km
+Australia - South Korea: 6679.1694 km
+Australia - Singapore: 2671.6678 km
+Chile - United States: 7903.6838 km
+Australia - Germany: 8460.2813 km
+Morocco - Germany: 2337.7093 km
+Namibia - Germany: 8348.9618 km
+Saudi Arabia - Germany: 3450.9042 km
+Saudi Arabia - China: 2003.7508 km
+Saudi Arabia - India: 779.2364 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Transport Analysis
+New Pipeline 100% GH2 Transport Total Costs: 3700000 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.74336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 3.7168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/kgGH2
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 0.91073 %
+Liquefied Hydrogen Pathway Conversion Efficency: 0.65706 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 0.86723 %
+
+Case Study Analysis
+Australia - Japan: $5.096/tonne
+Australia - South Korea: $5.1293/tonne
+Australia - Singapore: $4.539/tonne
+Chile - United States: $5.2522/tonne
+Australia - Germany: $5.3905/tonne
+Morocco - Germany: $6.5308/tonne
+Namibia - Germany: $7.3649/tonne
+Saudi Arabia - Germany: $4.3302/tonne
+Saudi Arabia - China: $4.1124/tonne
+Saudi Arabia - India: $3.927/tonne
+
+Regions Analysis
+Optimal Solution 2022
+39.9119	11.7711	0.1836	39.6282	0	0	
+0	12.0389	0.27286	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+4.679	0.14329	34.9128	10.2905	39.9119	9.9635	
+5.3952	26.2673	14.7085	0	9.5362	39.9064	
+
+Elapsed time is 83.8776 seconds.
+New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20

@@ -11,7 +11,7 @@ load(fullfile(foldername, filename),"Physical");
 %Unpressured Hydrogen 
 Conversion.H2.Labels = 'H2';
 Conversion.H2.Pressure = Physical.AmbientPressure;%Units: kPa
-Conversion.H2.Density = Physical.Gas_Density; % Units kg/m3
+Conversion.H2.Density = Physical.H2Gas_WeightDensity; % Units kg/m3
 Conversion.H2.Temperature = Physical.AmbientTemp_K; %Units Kelvin
 Conversion.H2.MM = Physical.H2_MM;%Units: g/mol
 Conversion.H2.Weight = 1;%Units: kg

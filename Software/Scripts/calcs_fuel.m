@@ -8,24 +8,29 @@ function [weight_km, volume_km, CO2_km] = calcs_fuel(intensity, type)
 %Load fuel variables
 filename = "constants_fuel.mat";
 foldername = pwd + "\Variables\";
-load(fullfile(foldername, filename), "Fuel");
+load(fullfile(foldername, filename));
+
+%Load fuel variables
+filename = "constants_physical.mat";
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename));
 
 % Hydrogen Fuel
 if (strcmp(type,'Hydrogen'))
-    weight_km = intensity / (Fuel.Hydrogen.EnergyDensity/Fuel.Hydrogen.EnergyEffiency);% Units: kg/km
-    volume_km = weight_km / Fuel.Hydrogen.Density;% Units: L/km
+    weight_km = intensity / (Physical.H2_EnergyDensity/Fuel.Hydrogen.EnergyEffiency);% Units: kg/km
+    volume_km = weight_km / Physical.H2Gas_WeightDensity;% Units: L/km
     CO2_km = Fuel.Hydrogen.CO2 * volume_km;% Units: kg/km
 
 %Ammonia Fuel
 elseif (strcmp(type,'Ammonia'))
-    weight_km = intensity / (Fuel.Ammonia.EnergyDensity/Fuel.Ammonia.EnergyEffiency);% Units: kg/km
-    volume_km = weight_km / Fuel.Ammonia.Density;% Units: L/km
+    weight_km = intensity / (Physical.NH3_EnergyDensity/Fuel.Ammonia.EnergyEffiency);% Units: kg/km
+    volume_km = weight_km / Physical.NH3_WeightDensity;% Units: L/km
     CO2_km = Fuel.Ammonia.CO2 * volume_km;% Units: kg/km
 
 %Diesel Fuel
 elseif (strcmp(type,'Diesel'))
-    weight_km = intensity / (Fuel.Diesel.EnergyDensity/Fuel.Diesel.EnergyEffiency);% Units: kg/km
-    volume_km = weight_km / Fuel.Diesel.Density;% Units: L/km
+    weight_km = intensity / (Physical.Diesel_EnergyDensity/Fuel.Diesel.EnergyEffiency);% Units: kg/km
+    volume_km = weight_km / Physical.Diesel_WeightDensity;% Units: L/km
     CO2_km = Fuel.Diesel.CO2 * volume_km;% Units: kg/km
 
 %Fuel not defined

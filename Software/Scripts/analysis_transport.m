@@ -14,40 +14,55 @@ main_print("\nTransport Analysis",'a');
 Medium = Transport.Truck;
 Medium_desc = 'Truck';
 TransportCosts.Truck = calcs_transport(Medium,Medium_desc);
-main_print(strcat(Medium_desc," Transport Unit Cost: $",string(TransportCosts.Truck.Unit_Cost),"/km*tGH2"),'a');
+% main_print(strcat(Medium_desc," Transport Total Costs: ",string(TransportCosts.Truck.Total_Cost)," $AUD"),'a');
+% main_print(strcat(Medium_desc," Transport Amount: ",string(TransportCosts.Truck.Total_Transport)," kgGH2"),'a');
+% main_print(strcat(Medium_desc," Transport Unit Costs: ",string(TransportCosts.Truck.Unit_Cost)," $AUD/kgGH2"),'a');
 
 %Ship
 Medium = Transport.Ship;
 Medium_desc = 'Ship';
-TransportCosts.Ship = calcs_transport(Medium,Medium_desc);
-main_print(strcat(Medium_desc," Transport Unit Cost: $",string(TransportCosts.Ship.Unit_Cost),"/km*tGH2"),'a');
+% TransportCosts.Ship = calcs_transport(Medium,Medium_desc);
+% main_print(strcat(Medium_desc," Transport Total Costs: ",string(TransportCosts.Ship.Total_Cost)," $AUD"),'a');
+% main_print(strcat(Medium_desc," Transport Amount: ",string(TransportCosts.Ship.Total_Transport)," kgGH2"),'a');
+% main_print(strcat(Medium_desc," Transport Unit Costs: ",string(TransportCosts.Ship.Unit_Cost)," $AUD/kgGH2"),'a');
 
 %Train
 Medium = Transport.Train;
 Medium_desc = 'Train';
-TransportCosts.Train = calcs_transport(Medium,Medium_desc);
-main_print(strcat(Medium_desc," Transport Unit Cost: $",string(TransportCosts.Train.Unit_Cost),"/km*tGH2"),'a');
+% TransportCosts.Train = calcs_transport(Medium,Medium_desc);
+% main_print(strcat(Medium_desc," Transport Total Costs: ",string(TransportCosts.Train.Total_Cost)," $AUD"),'a');
+% main_print(strcat(Medium_desc," Transport Amount: ",string(TransportCosts.Train.Total_Transport)," kgGH2"),'a');
+% main_print(strcat(Medium_desc," Transport Unit Costs: ",string(TransportCosts.Train.Unit_Cost)," $AUD/kgGH2"),'a');
 
-%Pipeline
+%New Pipeline (100% GH2)
 Medium = Transport.Pipeline;
-Medium_desc = 'Pipeline';
-%TransportCosts.Pipeline = calcs_transport(Medium,Medium_desc);
-%main_print(strcat(Medium_desc," Transport Costs",string(TransportCosts.Pipeline.Unit_Cost),"/km*tGH2"),'a');
+Medium.NaturalGasBlendProp = 1.0;
+Medium_desc = 'New Pipeline 100%% GH2';
+Distance = 1000;
+TransportCosts.Pipeline = calcs_pipeline(Medium,Medium_desc,Distance);
+main_print(strcat(Medium_desc," Transport Total Costs: ",string(TransportCosts.Pipeline.Total_Cost)," $AUD"),'a');
+main_print(strcat(Medium_desc," Transport Amount: ",string(TransportCosts.Pipeline.Total_Transport)," kgGH2"),'a');
+main_print(strcat(Medium_desc," Transport Unit Costs: ",string(TransportCosts.Pipeline.Unit_Cost)," $AUD/kgGH2"),'a');
 
-%MonteCarlo Code
-% N = 1000;
-% for n = 1:N
-%     a = 1 + 0.5*(rand()-0.5);
-%     b = 1 + 0.5*(rand()-0.5);
-%     c = 1 + 0.5*(rand()-0.5);
-%     out(n) = calcs_transport(a,b,c);
-% end
-% min(out)
-% max(out)
-% mean(out)
-% std(out)
-% fig=figure;
-% histfit(out,N/50);
+%New Pipeline (20% GH2 80% NG)
+Medium = Transport.Pipeline;
+Medium.NaturalGasBlendProp = Transport.Pipeline.NaturalGasBlendProp;
+Medium_desc = 'New Pipeline 20%% GH2 80%% NG';
+Distance = 1000;
+TransportCosts.Pipeline = calcs_pipeline(Medium,Medium_desc,Distance);
+main_print(strcat(Medium_desc," Transport Total Costs: ",string(TransportCosts.Pipeline.Total_Cost)," $AUD"),'a');
+main_print(strcat(Medium_desc," Transport Amount: ",string(TransportCosts.Pipeline.Total_Transport)," kgGH2"),'a');
+main_print(strcat(Medium_desc," Transport Unit Costs: ",string(TransportCosts.Pipeline.Unit_Cost)," $AUD/kgGH2"),'a');
+
+%New Pipeline (100% NG)
+Medium = Transport.Pipeline;
+Medium.NaturalGasBlendProp = 0.0;
+Medium_desc = 'New Pipeline 100%% NG';
+Distance = 1000;
+TransportCosts.Pipeline = calcs_pipeline(Medium,Medium_desc,Distance);
+main_print(strcat(Medium_desc," Transport Total Costs: ",string(TransportCosts.Pipeline.Total_Cost)," $AUD"),'a');
+main_print(strcat(Medium_desc," Transport Amount: ",string(TransportCosts.Pipeline.Total_Transport)," kgGH2"),'a');
+main_print(strcat(Medium_desc," Transport Unit Costs: ",string(TransportCosts.Pipeline.Unit_Cost)," $AUD/kgGH2"),'a');
 
 %Save variables
 filename = "results_transportcosts.mat";
