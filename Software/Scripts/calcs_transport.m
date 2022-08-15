@@ -3,28 +3,40 @@
 %First written 19/06/2022
 %Last updated 09/07/2022
 
-function Output = calcs_transport(Medium,Description)
+function Output = calcs_transport(Medium, Payload, Description)
     %Load physical variables
     filename = "constants_physical.mat";
     foldername = pwd + "\Variables\";
     load(fullfile(foldername, filename),'Physical');
 
-    %Hydrogen Gas
-
-    %Determine if weight or volume constraint of the transport
-
-    %Convert units
-    P_kPA = Medium.Pressure * 100; %kPa
-    V1 = Medium.VolumeLimit;
-
-    %Calcuclate mass of Hydrogen in section of the pipe
-    [n1, m_kg1,density1] = calcs_gaslaw (P_kPA, V1, Physical.AmbientTemp_K, Physical.GasConstant, Physical.H2_MM);
-
-    m_kg2 = Medium.WeightLimit;
-    m_g2 = m_kg2 * 1000;
-    n2 = m_g2 / Physical.H2_MM; 
-    V2 = n2 * Physical.GasConstant * Physical.AmbientTemp_K / P_kPA;
     
+    %Determine if weight or volume constraint of the transport
+    if (Payload.Type == 0)
+        %Hydrogen Gas
+
+        %Convert units    
+        P_PA = Medium.Pressure * 100000; %kPa
+        V1 = Medium.VolumeLimit;
+    
+        %Calcuclate mass of payload from the volume limit
+        [n1, m_kg1, density1] = calcs_gaslaw (P_PA, V1, Physical.AmbientTemp_K, Physical.GasConstant, Payload.MM);
+
+        %Calcuclate volume of payload from the mass limit
+        m_kg2 = Medium.WeightLimit;
+        V2 = m_kg2 / density1;
+
+        Output.WeightDensity = density1;
+    else
+        %For non gas types, calculcate the mass from the volume limit based on the weight density 
+        V1 = Medium.VolumeLimit;
+        m_kg1 = V1 * Payload.WeightDensity;
+        %For non gas types, calculcate the volume from the mass limit based on the weight density 
+        m_kg2 = Medium.WeightLimit;
+        V2 = m_kg2 / Payload.WeightDensity;
+
+        Output.WeightDensity = Payload.WeightDensity;
+    end
+
     if V1 < V2
         Output.ActualWeight = m_kg1;
         Output.ActualVolume = V1;

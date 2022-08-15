@@ -89,3 +89,77 @@ Optimal Solution 2022
 
 Elapsed time is 83.8776 seconds.
 New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20New Pipeline 100New Pipeline 100New Pipeline 100New Pipeline 20New Pipeline 20New Pipeline 20
+Transport Analysis
+
+Transport Analysis
+Truck Transport Total Costs: 1677500 $AUD
+Truck Transport Amount: 4016287.8448 kgGH2
+Truck Transport Unit Costs: 0.41767 $AUD/kgGH2
+Ship Transport Total Costs: 108550000 $AUD
+Ship Transport Amount: 26405788589.7116 kgGH2
+Ship Transport Unit Costs: 0.0041108 $AUD/kgGH2
+Train Transport Total Costs: 108550000 $AUD
+Train Transport Amount: 586795301.9936 kgGH2
+Train Transport Unit Costs: 0.18499 $AUD/kgGH2
+
+Transport Analysis
+Truck Transport Total Costs: 1677500 $AUD
+Truck Transport Amount: 4016287.8448 kgGH2
+Truck Transport Unit Costs: 0.41767 $AUD/kgGH2
+Ship Transport Total Costs: 108550000 $AUD
+Ship Transport Amount: 26405788589.7116 kgGH2
+Ship Transport Unit Costs: 0.0041108 $AUD/kgGH2
+Train Transport Total Costs: 108550000 $AUD
+Train Transport Amount: 586795301.9936 kgGH2
+Train Transport Unit Costs: 0.18499 $AUD/kgGH2
+
+Transport Analysis
+Truck Transport Total Costs: 1677500 $AUD
+Truck Transport Amount: 4016287.8448 kgGH2
+Truck Transport Unit Costs: 0.41767 $AUD/kgGH2
+Ship Transport Total Costs: 108550000 $AUD
+Ship Transport Amount: 26405788589.7116 kgGH2
+Ship Transport Unit Costs: 0.0041108 $AUD/kgGH2
+Train Transport Total Costs: 108550000 $AUD
+Train Transport Amount: 586795301.9936 kgGH2
+Train Transport Unit Costs: 0.18499 $AUD/kgGH2
+
+Transport Analysis
+Truck Transport Total Costs: 1677500 $AUD
+Truck Transport Amount: 4016287.8448 kgGH2
+Truck Transport Unit Costs: 0.41767 $AUD/kgGH2
+Ship Transport Total Costs: 108550000 $AUD
+Ship Transport Amount: 26405788589.7116 kgGH2
+Ship Transport Unit Costs: 0.0041108 $AUD/kgGH2
+Train Transport Total Costs: 108550000 $AUD
+Train Transport Amount: 586795301.9936 kgGH2
+Train Transport Unit Costs: 0.18499 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700000 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.74336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 3.7168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/kgGH2
+
+Transport Analysis
+Truck Transport Total Costs: 1677500 $AUD
+Truck Transport Amount: 4016287.8448 kgGH2
+Truck Transport Unit Costs: 0.41767 $AUD/kgGH2
+Ship Transport Total Costs: 108550000 $AUD
+Ship Transport Amount: 26405788589.7116 kgGH2
+Ship Transport Unit Costs: 0.0041108 $AUD/kgGH2
+Train Transport Total Costs: 108550000 $AUD
+Train Transport Amount: 586795301.9936 kgGH2
+Train Transport Unit Costs: 0.18499 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700000 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.74336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 3.7168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/kgGH2

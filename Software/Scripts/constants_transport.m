@@ -61,77 +61,117 @@ Transport.Pipeline.Lifetime = 30; % Units: years
 Transport.Pipeline.CapitalCost = 1000; % Units: $AUD/km
 Transport.Pipeline.VariableCost = 100; % Units: $AUD/km*yr
 
+%Mediums
+Transport.NumberOfMediums=3;
+Medium.Description(1) = Transport.Truck.Description; 
+Medium.Medium(1) = Transport.Truck;
+
+Medium.Description(2) = string(Transport.Ship.Description);
+Medium.Medium(2) = Transport.Ship;
+
+Medium.Description(3) = string(Transport.Train.Description); 
+Medium.Medium(3) = Transport.Train;
+
 %Payloads
+Payload_Type_Gas = 0;
+Payload_Type_Other = 1;
+
+Transport.NumberOfPayloads=13;
 Payloads.Description(1) = {'Hydrogen Gas'};
 Payloads.WeightDensity(1) = Physical.H2Gas_WeightDensity;
 Payloads.EnergyDensity(1) = Physical.H2_EnergyDensity;
 Payloads.VolumeEnergyDensity(1) = Physical.H2Gas_VolumeEnergyDensity;
+Payloads.Type(1) = Payload_Type_Gas;
+Payloads.MM(1) = Physical.H2_MM;
 
 Payloads.Description(2) = {'Hydrogen Liquified'};
 Payloads.WeightDensity(2) = Physical.H2Liquid_WeightDensity;
 Payloads.EnergyDensity(2) = Physical.H2_EnergyDensity;
 Payloads.VolumeEnergyDensity(2) = Physical.H2Liquid_VolumeEnergyDensity;
+Payloads.Type(2) = Payload_Type_Other;
+Payloads.MM(2) = Physical.H2_MM;
 
 Payloads.Description(3) = {'Hydrogen Cryocompressed'};
 Payloads.WeightDensity(3) = Physical.H2Cryocompressed_WeightDensity;
 Payloads.EnergyDensity(3) = Physical.H2_EnergyDensity;
 Payloads.VolumeEnergyDensity(3) = Physical.H2Cryocompressed_VolumeEnergyDensity;
+Payloads.Type(3) = Payload_Type_Other;
+Payloads.MM(3) = Physical.H2_MM;
 
 Payloads.Description(4) = {'Ammonia'};
 Payloads.WeightDensity(4) = Physical.NH3_WeightDensity;
 Payloads.EnergyDensity(4) = Physical.NH3_EnergyDensity;
 Payloads.VolumeEnergyDensity(4) = Physical.NH3_VolumeEnergyDensity;
+Payloads.Type(4) = Payload_Type_Other;
+Payloads.MM(4) = Physical.NH3_MM;
 
 Payloads.Description(5) = {'Methanol'};
 Payloads.WeightDensity(5) = Physical.CH3OH_WeightDensity;
 Payloads.EnergyDensity(5) = Physical.CH3OH_EnergyDensity;
 Payloads.VolumeEnergyDensity(5) = Physical.CH3OH_VolumeEnergyDensity;
+Payloads.Type(5) = Payload_Type_Other;
+Payloads.MM(5) = Physical.CH3OH_MM;
 
 Payloads.Description(6) = {'SNG'};
 Payloads.WeightDensity(6) = Physical.NaturalGas_WeightDensity;
 Payloads.EnergyDensity(6) = Physical.NaturalGas_EnergyDensity;
 Payloads.VolumeEnergyDensity(6) = Physical.NaturalGas_VolumeEnergyDensity;
+Payloads.Type(6) = Payload_Type_Gas;
+Payloads.MM(6) = Physical.NG_MM;
 
 Payloads.Description(7) = {'Methylcyclohexane (LOHC)'};
 Payloads.WeightDensity(7) = Physical.MCH_WeightDensity;
 Payloads.EnergyDensity(7) = Physical.MCH_EnergyDensity;
 Payloads.VolumeEnergyDensity(7) = Physical.MCH_VolumeEnergyDensity;
+Payloads.Type(7) = Payload_Type_Other;
+Payloads.MM(7) = Physical.MCH_MM;
 
 Payloads.Description(8) = {'Porous Carbon'};
 Payloads.WeightDensity(8) = Physical.Carbon_WeightDensity;
 Payloads.EnergyDensity(8) = Physical.Carbon_EnergyDensity;
 Payloads.VolumeEnergyDensity(8) = Physical.Carbon_VolumeEnergyDensity;
+Payloads.Type(8) = Payload_Type_Other;
+Payloads.MM(8) = 0;
 
 Payloads.Description(9) = {'Metal Hydride'};
 Payloads.WeightDensity(9) = Physical.Metal_WeightDensity;
 Payloads.EnergyDensity(9) = Physical.Metal_EnergyDensity;
 Payloads.VolumeEnergyDensity(9) = Physical.Metal_VolumeEnergyDensity;
+Payloads.Type(9) = Payload_Type_Other;
+Payloads.MM(9) = 0;
 
 Payloads.Description(10) = {'Diesel'};
 Payloads.WeightDensity(10) = Physical.Diesel_WeightDensity;
 Payloads.EnergyDensity(10) = Physical.Diesel_EnergyDensity;
 Payloads.VolumeEnergyDensity(10) = Physical.Diesel_VolumeEnergyDensity;
+Payloads.Type(10) = Payload_Type_Other;
+Payloads.MM(10) = 0;
 
 Payloads.Description(11) = {'Natural Gas'};
 Payloads.WeightDensity(11) = Physical.NaturalGas_WeightDensity;
 Payloads.EnergyDensity(11) = Physical.NaturalGas_EnergyDensity;
 Payloads.VolumeEnergyDensity(11) = Physical.NaturalGas_VolumeEnergyDensity;
+Payloads.Type(11) = Payload_Type_Gas;
+Payloads.MM(11) = Physical.NG_MM;
 
 Payloads.Description(12) = {'Liquified Natural Gas'};
 Payloads.WeightDensity(12) = Physical.LNG_WeightDensity;
 Payloads.EnergyDensity(12) = Physical.LNG_EnergyDensity;
 Payloads.VolumeEnergyDensity(12) = Physical.LNG_VolumeEnergyDensity;
+Payloads.Type(12) = Payload_Type_Other;
+Payloads.MM(12) = Physical.NG_MM;
 
 Payloads.Description(13) = {'Coal'};
 Payloads.WeightDensity(13) = Physical.Coal_WeightDensity;
 Payloads.EnergyDensity(13) = Physical.Coal_EnergyDensity;
 Payloads.VolumeEnergyDensity(13) = Physical.Coal_VolumeEnergyDensity;
+Payloads.Type(13) = Payload_Type_Other;
+Payloads.MM(13) = 0;
 
 %Graphing
-N=13;
 fig = figure;
 b=bar(Payloads.WeightDensity);
-xticks([1:N]);
+xticks(1:Transport.NumberOfPayloads);
 xticklabels(Payloads.Description)
 xlabel('Energy Carrier')
 ylabel('Weight Density (kg/m3)')
@@ -151,21 +191,19 @@ saveas(fig,fullfile(foldername, filename));
 %Graphing
 fig = figure;
 yyaxis left
-N=13;                             % number of bars
 y1(:,1)=Payloads.EnergyDensity'; 
 y2(:,2)=Payloads.VolumeEnergyDensity';  % dummy disparate-magnitude data sets 
 y1(:,2)=nan;
 y2(:,1)=nan;    
 
-x=[1:N].';                       % use the serial index to plot against
+x=[1:Transport.NumberOfPayloads].';                       % use the serial index to plot against
 h=plotyy(x,y1,x,y2,@bar,@bar); % plot, save axes handles
 set(h(2),'xtick',[])           % turn off labels on RH x-axis; keep only one set
 set(h(1),'xticklabel',Payloads.Description) % tick labels on first...
-%xticks([1:13]);
 xlabel('Energy Carrier')
 ylabel('Weight Energy Density (MJ/kg)')
 yyaxis right
-yticks([0:50:150])
+yticks(0:50:150)
 ylabel('Volume Energy Density (MJ/m3)','color','black')
 title('Comparison of Energy Carriers')
 
@@ -177,4 +215,4 @@ saveas(fig,fullfile(foldername, filename));
 %Save variables
 filename = "constants_transport.mat";
 foldername = pwd + "\Variables\";
-save(fullfile(foldername, filename),"Transport","Payloads");
+save(fullfile(foldername, filename),"Transport","Medium","Payloads");

@@ -14,8 +14,12 @@ Physical.H_MM = 1.00784;%Units: g/mol
 Physical.C_MM = 12.011;%Units: g/mol
 Physical.N_MM = 14.0067;%Units: g/mol
 Physical.O_MM = 15.999;%Units: g/mol 
-Physical.H2_MM = Physical.H_MM * 2;%Units: g/mol
 %Natural Gas Molecular Weight
+Physical.H2_MM = Physical.H_MM * 2;%Units: g/mol
+Physical.CH3OH_MM = 4 * Physical.H_MM + Physical.C_MM + Physical.O_MM;
+Physical.NH3_MM = 3 * Physical.H_MM + Physical.N_MM;
+Physical.MCH_MM = 14 * Physical.H_MM + 7 * Physical.C_MM;
+
 Physical.CH4_MM = Physical.C_MM * 1 + Physical.H_MM * 4;%Units: g/mol
 Physical.C2H6_MM = Physical.C_MM * 2 + Physical.H_MM * 6;%Units: g/mol
 Physical.C3H8_MM = Physical.C_MM * 3 + Physical.H_MM * 8;%Units: g/mol
@@ -45,18 +49,18 @@ Physical.H2Cryocompressed_VolumeEnergyDensity = Physical.H2_EnergyDensity * Phys
 %Ammonia
 Physical.NH3_EnergyDensity = 22.5;%Units: MJ/kg
 Physical.NH3_WeightDensity = 730; %Units: kg/m3
-Physical.NH3_H2_Prop = 3 * Physical.H_MM / (3 * Physical.H_MM + Physical.N_MM);
+Physical.NH3_H2_Prop = 3 * Physical.H_MM / Physical.NH3_MM;
 Physical.NH3_VolumeEnergyDensity = Physical.NH3_EnergyDensity * Physical.NH3_WeightDensity;
 
 %Methanol
 Physical.CH3OH_EnergyDensity = 22.0;%Units: MJ/kg
 Physical.CH3OH_WeightDensity = 792; %Units: kg/m3
-Physical.CH3OH_H2_Prop = 4 * Physical.H_MM / (4 * Physical.H_MM + Physical.C_MM + Physical.O_MM);
+Physical.CH3OH_H2_Prop = 4 * Physical.H_MM / Physical.CH3OH_MM;
 Physical.CH3OH_VolumeEnergyDensity = Physical.CH3OH_EnergyDensity * Physical.CH3OH_WeightDensity;
 
 %Methylcyclohexane (LOHC)
 Physical.MCH_WeightDensity = 770; %Units: kg/m3
-Physical.MCH_H2_Prop = 14 * Physical.H_MM / (14 * Physical.H_MM + 7 * Physical.C_MM);
+Physical.MCH_H2_Prop = 14 * Physical.H_MM / Physical.MCH_MM ;
 Physical.MCH_EnergyDensity = Physical.MCH_H2_Prop * Physical.H2_EnergyDensity;%Units: MJ/kg
 Physical.MCH_VolumeEnergyDensity = Physical.MCH_EnergyDensity * Physical.MCH_WeightDensity;
 
