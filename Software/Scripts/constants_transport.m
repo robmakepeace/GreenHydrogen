@@ -182,7 +182,7 @@ xtips1 = b.XEndPoints;
 ytips1 = b.YEndPoints;
 labels1 = string(round(b.YData,2));
 text(xtips1,ytips1,labels1,'HorizontalAlignment','center','VerticalAlignment','bottom')
-
+fig.WindowState = 'maximized';
 %Save figure
 filename = "energycarrier_WeightDensity.png";
 foldername = pwd + "\Graphs\";
@@ -206,7 +206,7 @@ yyaxis right
 yticks(0:50:150)
 ylabel('Volume Energy Density (MJ/m3)','color','black')
 title('Comparison of Energy Carriers')
-
+fig.WindowState = 'maximized';
 %Save figure
 filename = "energycarrier_EnergyDensity.png";
 foldername = pwd + "\Graphs\";
@@ -216,3 +216,4 @@ saveas(fig,fullfile(foldername, filename));
 filename = "constants_transport.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Transport","Medium","Payloads");
+fclose('all');

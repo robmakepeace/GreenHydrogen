@@ -59,7 +59,21 @@ main_print(strcat(Pipeline_desc," Transport Total Costs: ",string(TransportCosts
 main_print(strcat(Pipeline_desc," Transport Amount: ",string(TransportCosts.Pipe(3).Total_Transport)," kgGH2"),'a');
 main_print(strcat(Pipeline_desc," Transport Unit Costs: ",string(TransportCosts.Pipe(3).Unit_Cost)," $AUD/kgGH2"),'a');
 
+for x=1:Transport.NumberOfPayloads
+    TruckEnergyPerLoad(x) = TransportCosts.Batch(1,x).EnergyPerLoad;
+    ShipEnergyPerLoad(x) = TransportCosts.Batch(2,x).EnergyPerLoad;
+    TrainEnergyPerLoad(x) = TransportCosts.Batch(3,x).EnergyPerLoad;
+    TruckWeightPerLoad(x) = TransportCosts.Batch(1,x).ActualWeight;
+    ShipWeightPerLoad(x) = TransportCosts.Batch(2,x).ActualWeight;
+    TrainWeightPerLoad(x) = TransportCosts.Batch(3,x).ActualWeight;
+end
+visualise_payloads(Payloads,TruckWeightPerLoad,TruckEnergyPerLoad,'Comparison of Energy Carriers - Truck - Energy Per Vehicle')
+visualise_payloads(Payloads,ShipWeightPerLoad,ShipEnergyPerLoad,'Comparison of Energy Carriers - Ship - Energy Per Vehicle')
+visualise_payloads(Payloads,TrainWeightPerLoad,TrainEnergyPerLoad,'Comparison of Energy Carriers - Train - Energy Per Vehicle')
+
+
 %Save variables
 filename = "results_transportcosts.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"TransportCosts");
+fclose('all');
