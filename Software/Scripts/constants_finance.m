@@ -9,3 +9,5 @@ Finance.DiscountRate = 5.0; %Units: %
 filename = "constants_finance.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Finance");
+%Close files
+fclose('all');

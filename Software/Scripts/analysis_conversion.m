@@ -46,4 +46,6 @@
     Conversion_Energy = sum(energy)/1000000;
     net_energy = Physical.H2_EnergyDensity - Conversion_Energy;
     Conversion_Efficency = net_energy / Physical.H2_EnergyDensity;    
-    main_print(strcat("Cryocompressed Hydrogen Pathway Conversion Efficency: ",string(Conversion_Efficency)," %%"),'a');    
+    main_print(strcat("Cryocompressed Hydrogen Pathway Conversion Efficency: ",string(Conversion_Efficency)," %%"),'a');
+    %Close files
+    fclose('all');

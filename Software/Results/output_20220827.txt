@@ -1,0 +1,128 @@
+
+Transport Analysis
+Truck Hydrogen Gas Transport Total Costs: 1677500 $AUD
+Truck Hydrogen Gas Transport Amount: 4016287844.7561 kgGH2
+Truck Hydrogen Gas Transport Unit Costs: 0.00041767 $AUD/kgGH2
+Truck Hydrogen Liquified Transport Total Costs: 1677500 $AUD
+Truck Hydrogen Liquified Transport Amount: 11331936000 kgGH2
+Truck Hydrogen Liquified Transport Unit Costs: 0.00014803 $AUD/kgGH2
+Truck Hydrogen Cryocompressed Transport Total Costs: 1677500 $AUD
+Truck Hydrogen Cryocompressed Transport Amount: 13112668800 kgGH2
+Truck Hydrogen Cryocompressed Transport Unit Costs: 0.00012793 $AUD/kgGH2
+Truck Ammonia Transport Total Costs: 1677500 $AUD
+Truck Ammonia Transport Amount: 88300800000 kgGH2
+Truck Ammonia Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Methanol Transport Total Costs: 1677500 $AUD
+Truck Methanol Transport Amount: 88300800000 kgGH2
+Truck Methanol Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck SNG Transport Total Costs: 1677500 $AUD
+Truck SNG Transport Amount: 36716004928.7934 kgGH2
+Truck SNG Transport Unit Costs: 4.5689e-05 $AUD/kgGH2
+Truck Methylcyclohexane (LOHC) Transport Total Costs: 1677500 $AUD
+Truck Methylcyclohexane (LOHC) Transport Amount: 88300800000 kgGH2
+Truck Methylcyclohexane (LOHC) Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Porous Carbon Transport Total Costs: 1677500 $AUD
+Truck Porous Carbon Transport Amount: 88300800000 kgGH2
+Truck Porous Carbon Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Metal Hydride Transport Total Costs: 1677500 $AUD
+Truck Metal Hydride Transport Amount: 88300800000 kgGH2
+Truck Metal Hydride Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Diesel Transport Total Costs: 1677500 $AUD
+Truck Diesel Transport Amount: 88300800000 kgGH2
+Truck Diesel Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Natural Gas Transport Total Costs: 1677500 $AUD
+Truck Natural Gas Transport Amount: 36716004928.7934 kgGH2
+Truck Natural Gas Transport Unit Costs: 4.5689e-05 $AUD/kgGH2
+Truck Liquified Natural Gas Transport Total Costs: 1677500 $AUD
+Truck Liquified Natural Gas Transport Amount: 72848160000 kgGH2
+Truck Liquified Natural Gas Transport Unit Costs: 2.3027e-05 $AUD/kgGH2
+Truck Coal Transport Total Costs: 1677500 $AUD
+Truck Coal Transport Amount: 88300800000 kgGH2
+Truck Coal Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Ship Hydrogen Gas Transport Total Costs: 108550000 $AUD
+Ship Hydrogen Gas Transport Amount: 26405788589711.59 kgGH2
+Ship Hydrogen Gas Transport Unit Costs: 4.1108e-06 $AUD/kgGH2
+Ship Hydrogen Liquified Transport Total Costs: 108550000 $AUD
+Ship Hydrogen Liquified Transport Amount: 89404560000000 kgGH2
+Ship Hydrogen Liquified Transport Unit Costs: 1.2141e-06 $AUD/kgGH2
+Ship Hydrogen Cryocompressed Transport Total Costs: 108550000 $AUD
+Ship Hydrogen Cryocompressed Transport Amount: 103453848000000 kgGH2
+Ship Hydrogen Cryocompressed Transport Unit Costs: 1.0493e-06 $AUD/kgGH2
+Ship Ammonia Transport Total Costs: 108550000 $AUD
+Ship Ammonia Transport Amount: 932361840000000 kgGH2
+Ship Ammonia Transport Unit Costs: 1.1642e-07 $AUD/kgGH2
+Ship Methanol Transport Total Costs: 108550000 $AUD
+Ship Methanol Transport Amount: 1011548736000000 kgGH2
+Ship Methanol Transport Unit Costs: 1.0731e-07 $AUD/kgGH2
+Ship SNG Transport Total Costs: 108550000 $AUD
+Ship SNG Transport Amount: 241395811625995.5 kgGH2
+Ship SNG Transport Unit Costs: 4.4968e-07 $AUD/kgGH2
+Ship Methylcyclohexane (LOHC) Transport Total Costs: 108550000 $AUD
+Ship Methylcyclohexane (LOHC) Transport Amount: 983450160000000 kgGH2
+Ship Methylcyclohexane (LOHC) Transport Unit Costs: 1.1038e-07 $AUD/kgGH2
+Ship Porous Carbon Transport Total Costs: 108550000 $AUD
+Ship Porous Carbon Transport Amount: 1106913600000000 kgGH2
+Ship Porous Carbon Transport Unit Costs: 9.8065e-08 $AUD/kgGH2
+Ship Metal Hydride Transport Total Costs: 108550000 $AUD
+Ship Metal Hydride Transport Amount: 1106913600000000 kgGH2
+Ship Metal Hydride Transport Unit Costs: 9.8065e-08 $AUD/kgGH2
+Ship Diesel Transport Total Costs: 108550000 $AUD
+Ship Diesel Transport Amount: 1085626800000000 kgGH2
+Ship Diesel Transport Unit Costs: 9.9988e-08 $AUD/kgGH2
+Ship Natural Gas Transport Total Costs: 108550000 $AUD
+Ship Natural Gas Transport Amount: 241395811625995.5 kgGH2
+Ship Natural Gas Transport Unit Costs: 4.4968e-07 $AUD/kgGH2
+Ship Liquified Natural Gas Transport Total Costs: 108550000 $AUD
+Ship Liquified Natural Gas Transport Amount: 574743600000000 kgGH2
+Ship Liquified Natural Gas Transport Unit Costs: 1.8887e-07 $AUD/kgGH2
+Ship Coal Transport Total Costs: 108550000 $AUD
+Ship Coal Transport Amount: 1106913600000000 kgGH2
+Ship Coal Transport Unit Costs: 9.8065e-08 $AUD/kgGH2
+Train Hydrogen Gas Transport Total Costs: 108550000 $AUD
+Train Hydrogen Gas Transport Amount: 586795301993.5908 kgGH2
+Train Hydrogen Gas Transport Unit Costs: 0.00018499 $AUD/kgGH2
+Train Hydrogen Liquified Transport Total Costs: 108550000 $AUD
+Train Hydrogen Liquified Transport Amount: 1986768000000 kgGH2
+Train Hydrogen Liquified Transport Unit Costs: 5.4636e-05 $AUD/kgGH2
+Train Hydrogen Cryocompressed Transport Total Costs: 108550000 $AUD
+Train Hydrogen Cryocompressed Transport Amount: 2298974400000 kgGH2
+Train Hydrogen Cryocompressed Transport Unit Costs: 4.7217e-05 $AUD/kgGH2
+Train Ammonia Transport Total Costs: 108550000 $AUD
+Train Ammonia Transport Amount: 20719152000000 kgGH2
+Train Ammonia Transport Unit Costs: 5.2391e-06 $AUD/kgGH2
+Train Methanol Transport Total Costs: 108550000 $AUD
+Train Methanol Transport Amount: 22478860800000 kgGH2
+Train Methanol Transport Unit Costs: 4.829e-06 $AUD/kgGH2
+Train SNG Transport Total Costs: 108550000 $AUD
+Train SNG Transport Amount: 5364351369466.566 kgGH2
+Train SNG Transport Unit Costs: 2.0235e-05 $AUD/kgGH2
+Train Methylcyclohexane (LOHC) Transport Total Costs: 108550000 $AUD
+Train Methylcyclohexane (LOHC) Transport Amount: 21854448000000 kgGH2
+Train Methylcyclohexane (LOHC) Transport Unit Costs: 4.967e-06 $AUD/kgGH2
+Train Porous Carbon Transport Total Costs: 108550000 $AUD
+Train Porous Carbon Transport Amount: 41627520000000 kgGH2
+Train Porous Carbon Transport Unit Costs: 2.6076e-06 $AUD/kgGH2
+Train Metal Hydride Transport Total Costs: 108550000 $AUD
+Train Metal Hydride Transport Amount: 35194176000000 kgGH2
+Train Metal Hydride Transport Unit Costs: 3.0843e-06 $AUD/kgGH2
+Train Diesel Transport Total Costs: 108550000 $AUD
+Train Diesel Transport Amount: 24125040000000 kgGH2
+Train Diesel Transport Unit Costs: 4.4995e-06 $AUD/kgGH2
+Train Natural Gas Transport Total Costs: 108550000 $AUD
+Train Natural Gas Transport Amount: 5364351369466.566 kgGH2
+Train Natural Gas Transport Unit Costs: 2.0235e-05 $AUD/kgGH2
+Train Liquified Natural Gas Transport Total Costs: 108550000 $AUD
+Train Liquified Natural Gas Transport Amount: 12772080000000 kgGH2
+Train Liquified Natural Gas Transport Unit Costs: 8.499e-06 $AUD/kgGH2
+Train Coal Transport Total Costs: 108550000 $AUD
+Train Coal Transport Amount: 25544160000000 kgGH2
+Train Coal Transport Unit Costs: 4.2495e-06 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700000 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.74336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 3.7168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/kgGH2

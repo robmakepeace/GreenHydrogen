@@ -59,6 +59,12 @@ main_print(strcat(Pipeline_desc," Transport Total Costs: ",string(TransportCosts
 main_print(strcat(Pipeline_desc," Transport Amount: ",string(TransportCosts.Pipe(3).Total_Transport)," kgGH2"),'a');
 main_print(strcat(Pipeline_desc," Transport Unit Costs: ",string(TransportCosts.Pipe(3).Unit_Cost)," $AUD/kgGH2"),'a');
 
+TruckEnergyPerLoad = zeros(1,Transport.NumberOfPayloads);
+ShipEnergyPerLoad = zeros(1,Transport.NumberOfPayloads);
+TrainEnergyPerLoad = zeros(1,Transport.NumberOfPayloads);
+TruckWeightPerLoad = zeros(1,Transport.NumberOfPayloads);
+ShipWeightPerLoad = zeros(1,Transport.NumberOfPayloads);
+TrainWeightPerLoad = zeros(1,Transport.NumberOfPayloads);
 for x=1:Transport.NumberOfPayloads
     TruckEnergyPerLoad(x) = TransportCosts.Batch(1,x).EnergyPerLoad;
     ShipEnergyPerLoad(x) = TransportCosts.Batch(2,x).EnergyPerLoad;
@@ -71,6 +77,11 @@ visualise_payloads(Payloads,TruckWeightPerLoad,TruckEnergyPerLoad,'Comparison of
 visualise_payloads(Payloads,ShipWeightPerLoad,ShipEnergyPerLoad,'Comparison of Energy Carriers - Ship - Energy Per Vehicle')
 visualise_payloads(Payloads,TrainWeightPerLoad,TrainEnergyPerLoad,'Comparison of Energy Carriers - Train - Energy Per Vehicle')
 
+TransportCosts.Payloads_Description = Payloads.Description;
+TransportCosts.Medium_Description = Medium.Description;
+TransportCosts.Fuel_Description(1) = {'Diesel'};
+TransportCosts.Fuel_Description(2) = {'Hydrogen'};
+TransportCosts.Fuel_Description(3) = {'Ammonia'};
 
 %Save variables
 filename = "results_transportcosts.mat";

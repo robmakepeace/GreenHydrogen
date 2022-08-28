@@ -26,4 +26,6 @@ function unit_cost = calcs_production(parameters)
     opex_lifetime = parameters.OPEX_Electroysler * lifetime;
     total_cost = electricity_cost_Lifetime + parameters.CAPEX_Electroysler + opex_lifetime;
     unit_cost = total_cost/H2_Weight_Lifetime;
+    %Close files
+    fclose('all');
 end

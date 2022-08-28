@@ -36,4 +36,6 @@ function Output = calcs_pipeline(Medium,Description, Distance)
     Output.Total_Cost = Medium.CapitalCost * Distance + Duration_years * Medium.VariableCost * Distance; % Units: $
     Output.Total_Transport = Throughput * Duration_seconds ; % Units: kg
     Output.Unit_Cost = Output.Total_Cost / Output.Total_Transport; % Units: $ / (kg)
+    %Close files
+    fclose('all');
 end

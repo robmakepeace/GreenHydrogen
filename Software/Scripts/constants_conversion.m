@@ -36,3 +36,5 @@ Conversion.CCH2.Efficiency = 0.7;%Units: %
 filename = "constants_conversion.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Conversion");
+%Close files
+fclose('all');

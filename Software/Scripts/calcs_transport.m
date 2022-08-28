@@ -9,8 +9,7 @@ function Output = calcs_transport(Medium, Payload, Description)
     foldername = pwd + "\Variables\";
     load(fullfile(foldername, filename),'Physical');
 
-    
-    %Determine if weight or volume constraint of the transport
+        %Determine if weight or volume constraint of the transport
     if (Payload.Type == 0)
         %Hydrogen Gas
 
@@ -52,23 +51,28 @@ function Output = calcs_transport(Medium, Payload, Description)
     Output.Duration_hrs = Output.Duration_days * 24; % Units: hours
 
     %Trasport Fuel Costs
-    [Output.Diesel.weight_km, Output.Diesel.volume_km, Output.Diesel.CO2_km] = calcs_fuel(Medium.Energy, 'Diesel');
-    [Output.H2.weight_km, Output.H2.volume_km, Output.H2.CO2_km] = calcs_fuel(Medium.Energy, 'Hydrogen');
-    [Output.NH3.weight_km, Output.NH3.volume_km, Output.NH3.CO2_km] = calcs_fuel(Medium.Energy, 'Ammonia');
+    [Output.Diesel.weight_km, Output.Diesel.volume_km, Output.Diesel.CO2_km, Output.Diesel.FuelCost_km] = calcs_fuel(Medium.Energy, 'Diesel');
+    [Output.H2.weight_km, Output.H2.volume_km, Output.H2.CO2_km, Output.H2.FuelCost_km] = calcs_fuel(Medium.Energy, 'Hydrogen');
+    [Output.NH3.weight_km, Output.NH3.volume_km, Output.NH3.CO2_km, Output.NH3.FuelCost_km] = calcs_fuel(Medium.Energy, 'Ammonia');
 
     % Graphing (per transport unit)
     y = [Output.Diesel.weight_km Output.H2.weight_km Output.NH3.weight_km;...
         Output.Diesel.volume_km Output.H2.volume_km Output.NH3.volume_km;...
         Output.Diesel.CO2_km Output.H2.CO2_km Output.NH3.CO2_km];
-    visualise_transport(y, strcat(Description,'(per Transport Unit)'));
+    %visualise_transport(y, strcat(Description,'(per Transport Unit)'));
 
     % Graphing (per tonne of compressed Green Hydrogen)
     z = 1000 * y / Output.ActualWeight;
-    visualise_transport(z, strcat(Description,'(per tGH2)'));
+    %visualise_transport(z, strcat(Description,'(per tGH2)'));
 
     %Calcuclate Total Cost of Transport
     Output.Total_Cost = Medium.CapitalCost + Output.Duration_days * Medium.VariableCost; % Units: $
     Output.Total_Transport = Output.ActualWeight * Output.Duration_hrs * Medium.Speed; % Units: kg*km
-    Output.Unit_Cost = Output.Total_Cost /Output.Total_Transport; % Units: $ / (kg*km)
+    Output.Unit_Cost = Output.Total_Cost / Output.Total_Transport; % Units: $ / (kg*km)
+    Output.UnitFuel_Cost(1) = Output.Diesel.FuelCost_km / Output.ActualWeight; % Units: $ / (kg*km)
+    Output.UnitFuel_Cost(2) = Output.H2.FuelCost_km / Output.ActualWeight; % Units: $ / (kg*km)
+    Output.UnitFuel_Cost(3) = Output.NH3.FuelCost_km / Output.ActualWeight; % Units: $ / (kg*km)
+
+    %Close files
     fclose('all');
 end

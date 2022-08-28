@@ -142,4 +142,6 @@ function Total = calcs_regions(parameters)
     
     %Transpose into a matrix
     Total = [sol(1:6)';sol(7:12)';sol(13:18)';sol(19:24)';sol(25:30)';sol(31:36)'];
+    %Close files
+    fclose('all');
 end

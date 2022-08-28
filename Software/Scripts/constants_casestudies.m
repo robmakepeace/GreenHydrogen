@@ -60,3 +60,5 @@ CaseStudies.dist;
 filename = "constants_casestudies.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"CaseStudies");
+%Close files
+fclose('all');

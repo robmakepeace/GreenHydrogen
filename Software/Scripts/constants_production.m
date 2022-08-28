@@ -92,3 +92,5 @@ save(fullfile(foldername, filename),"Australia","Japan","Korea","USA","China","B
 filename = "constants_production_regions.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Oceania","Europe","NorthAmerica","SouthAmerica","Asia","Africa");
+%Close files
+fclose('all');

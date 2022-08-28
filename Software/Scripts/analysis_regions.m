@@ -1,7 +1,7 @@
 %Green Hydrogen Regions Analysis Script
 %Robert Makepeace
 %First written 15/05/2022
-%Last updated 09/07/2022
+%Last updated 28/08/2022
 
 %Load Region Variables
 filename = "constants_regions.mat";
@@ -74,8 +74,10 @@ for year = 1:1%Regions_LocalMax.Future_size
     end
     Optimal;
     main_print(strcat("Optimal Solution",{' '},string(year+Regions_LocalMax.Year-1)),'a')
+    
+    main_print(string(strcat('\t',Regions.locs(1),'\t',Regions.locs(2),'\t',Regions.locs(3),'\t',Regions.locs(4),'\t',Regions.locs(5),'\t',Regions.locs(6),'\t')),'a');
     for x=1:6
-        main_print(strcat(string(Optimal(x,1)),"\t",string(Optimal(x,2)),"\t",string(Optimal(x,3)),"\t",string(Optimal(x,4)),"\t",string(Optimal(x,5)),"\t",string(Optimal(x,6)),"\t"),'a')
+        main_print(strcat(string(Regions.locs(x)),'\t',num2str(Optimal(x,1),'%03.f'),"\t",num2str(Optimal(x,2),'%03.f'),"\t",num2str(Optimal(x,3),'%03.f'),"\t",num2str(Optimal(x,4),'%03.f'),"\t",num2str(Optimal(x,5),'%03.f'),"\t",num2str(Optimal(x,6),'%03.f'),"\t"),'a')
     end
     
     %Visualisation
@@ -92,3 +94,5 @@ for year = 1:1%Regions_LocalMax.Future_size
         saveas(fig,fullfile(foldername, filename));
     end
 end
+%Close files
+fclose('all');

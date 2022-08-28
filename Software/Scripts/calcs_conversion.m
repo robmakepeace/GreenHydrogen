@@ -76,4 +76,6 @@ function [energy, energy_kWhr] = calcs_conversion(source, destination, param1, p
         energy = 0; 
         disp('Conversion not valid');
     end
+    %Close files
+    fclose('all');
 end

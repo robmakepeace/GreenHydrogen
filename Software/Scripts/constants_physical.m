@@ -36,6 +36,7 @@ Physical.NG_MM = Physical.CH4_prop * Physical.CH4_MM + ...
 %Hydrogen Gas
 Physical.H2_EnergyDensity = 120;%Units: MJ/kg
 Physical.H2Gas_WeightDensity = 0.08988;%Units: kg/m3 (at STP)
+Physical.H2Gas300_WeightDensity = 24.61;%Units: kg/m3 (at 300bar)
 Physical.H2Gas_VolumeEnergyDensity = Physical.H2_EnergyDensity * Physical.H2Gas_WeightDensity;
 
 %Hydrogen Liquid
@@ -67,7 +68,7 @@ Physical.MCH_VolumeEnergyDensity = Physical.MCH_EnergyDensity * Physical.MCH_Wei
 %Metal Hydrdide (MOF74)
 Physical.Metal_WeightDensity = 1240; %Units: kg/m3
 Physical.Metal_H2_Prop = 0.075;
-Physical.Metal_EnergyDensity = Physical.Carbon_H2_Prop * Physical.H2_EnergyDensity;%Units: MJ/kg
+Physical.Metal_EnergyDensity = Physical.Metal_H2_Prop * Physical.H2_EnergyDensity;%Units: MJ/kg
 Physical.Metal_VolumeEnergyDensity = Physical.Metal_EnergyDensity * Physical.Metal_WeightDensity;
 
 %Poruous Carbon
@@ -100,3 +101,5 @@ Physical.Coal_VolumeEnergyDensity = Physical.Coal_EnergyDensity * Physical.Coal_
 filename = "constants_physical.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Physical");
+%Close files
+fclose('all');

@@ -144,3 +144,5 @@ Hydrogen.Consumption.Global_Demand.plot('#FF0000','#A2142F');
 filename = "constants.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Hydrogen");
+%Close files
+fclose('all');

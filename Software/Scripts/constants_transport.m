@@ -29,8 +29,8 @@ Transport.Ship.VolumeLimit = 120000;% Units: m3
 Transport.Ship.ActualWeight = 0 ;% Units: kg
 Transport.Ship.ActualVolume = 0 ;% Units: m3
 Transport.Ship.Speed = 45; % Units: km/hr
-Transport.Ship.CapitalCost = 10000000; % Units: $
-Transport.Ship.VariableCost = 10000;% Units: $/day (excludes fuel)
+Transport.Ship.CapitalCost = 50000000; % Units: $
+Transport.Ship.VariableCost = 20000;% Units: $/day (excludes fuel)
 Transport.Ship.Lifetime = 30; % Units: years
 Transport.Ship.Utilisation = 0.9;% Units: %
 Transport.Ship.Pressure = 250;% Units: bar
@@ -216,4 +216,5 @@ saveas(fig,fullfile(foldername, filename));
 filename = "constants_transport.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Transport","Medium","Payloads");
+%Close files
 fclose('all');

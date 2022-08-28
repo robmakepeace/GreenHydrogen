@@ -7,6 +7,10 @@ filename = "results_production.mat";
 foldername = pwd + "\Variables\";
 load(fullfile(foldername, filename));
 
+filename = "results_transportcosts.mat";
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename));
+
 %Define region parameters
 
 Regions.NumberOfRegions = 6;
@@ -35,6 +39,7 @@ Regions.citylon(6) = -58;
 
 %Define region labels
 Regions.locations = {'Oceania', 'Africa','Europe','Asia','North America','South America'};
+Regions.locs = {'OCE', 'AFR','EUR','ASA','NAM','SAM'};
 
 %Determine region distances between simplified points
 Regions.dist=zeros(Regions.NumberOfRegions,Regions.NumberOfRegions);
@@ -59,8 +64,6 @@ Regions.Demand = [50 50 50 50 50 50];
 Regions.Supply = [100 100 100 100 100 100];
 
 %Region Production green hydrogen ($/tonne) 
-%RegionProduction = [1.5 1.8 4.0 3.5 3.0 2.8];
-
 RegionProduction(1) = LCOE.Oceania;
 RegionProduction(2) = LCOE.Africa;
 RegionProduction(3) = LCOE.Europe;
@@ -68,9 +71,17 @@ RegionProduction(4) = LCOE.Asia;
 RegionProduction(5) = LCOE.NorthAmerica;
 RegionProduction(6) = LCOE.SouthAmerica;
 
+%Using the cheapest transportation mode
+index_transport = 2;%Ship
+index_medium = 8;%Porous carbon
+index_fuel = 1;%Diesel
+vehicleCosts = TransportCosts.Batch(index_transport,index_medium).Unit_Cost;
+fuelCosts = TransportCosts.Batch(index_transport,index_medium).UnitFuel_Cost(index_fuel);
+TransportCosts = 1000*(vehicleCosts + fuelCosts); %Units: $/(km*tonnes)
+
 for x = 1:Regions.NumberOfRegions
     for y =1:Regions.NumberOfRegions
-        var = calcs_casestudy_dist(Regions.dist(x,y));
+        var = TransportCosts * Regions.dist(x,y);
         Regions.Transport((x-1)*Regions.NumberOfRegions+y) = variable(var,0.1,0.0,'$/Mt','Amount ($/Mt)',strcat('Transport Region', string(x),'-',string(y),' Transport Cost'));
         future = zeros(Regions.Transport((x-1)*Regions.NumberOfRegions+y).Future_size,1) + var;
         Regions.Transport((x-1)*Regions.NumberOfRegions+y).init(future);
@@ -94,3 +105,5 @@ Regions.cost;
 filename = "constants_regions.mat";
 foldername = pwd + "\Variables\";
 save(fullfile(foldername, filename),"Regions");
+%Close files
+fclose('all');
