@@ -24,13 +24,17 @@ Conversion.CH2.Efficiency = 0.7;%Units: %
 
 %Liquified Hydrogen 
 Conversion.LH2.Labels = 'LH2';
-Conversion.LH2.Energy = 10;%Units kWhr/kg
+Conversion.LH2.Energy = 36;%Units MJ/kg
 
 %Cryo-Compressed Hydrogen
 Conversion.CCH2.Labels = 'CCH2';
-Conversion.CCH2.Pressure = 70000;%Units: kPa
-Conversion.CCH2.Temperature = 20;%Units: Kelvin
-Conversion.CCH2.Efficiency = 0.7;%Units: %
+Conversion.CCH2.Energy = 36;%Units MJ/kg
+
+%Slush Hydrogen
+Conversion.SH2.Labels = 'SH2';
+Conversion.SH2.Temperature = 13.8;%Units: Kelvin
+Conversion.SH2.Pressure = 70000;%Units: kPa
+Conversion.SH2.Efficiency = 0.7;%Units: %
 
 %Save variables
 filename = "constants_conversion.mat";

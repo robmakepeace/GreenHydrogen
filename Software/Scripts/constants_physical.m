@@ -44,8 +44,12 @@ Physical.H2Liquid_WeightDensity = 70.0;%Units: g/L or kg/m3 (at ST)
 Physical.H2Liquid_VolumeEnergyDensity = Physical.H2_EnergyDensity * Physical.H2Liquid_WeightDensity;
 
 %Hydrogen Cryocompressed
-Physical.H2Cryocompressed_WeightDensity = 81.0;%Units: g/L or kg/m3 (at ST)
+Physical.H2Cryocompressed_WeightDensity = 81.0;%Units: g/L or kg/m3
 Physical.H2Cryocompressed_VolumeEnergyDensity = Physical.H2_EnergyDensity * Physical.H2Cryocompressed_WeightDensity;
+
+%Hydrogen Slush
+Physical.H2Slush_WeightDensity = 85.0;%Units: g/L or kg/m3
+Physical.H2Slush_VolumeEnergyDensity = Physical.H2_EnergyDensity * Physical.H2Slush_WeightDensity;
 
 %Ammonia
 Physical.NH3_EnergyDensity = 22.5;%Units: MJ/kg

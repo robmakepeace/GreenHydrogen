@@ -64,12 +64,30 @@ function [energy, energy_kWhr] = calcs_conversion(source, destination, param1, p
         energy = energy_ideal / Conversion.CCH2.Efficiency; 
         energy_kWhr = calcs_JtoKWhr(energy);
 
-    %UCryocompressed H2 Gas to Uncompressed H2
+    %Cryocompressed H2 Gas to Uncompressed H2
 
     elseif ((strcmp(source,Conversion.CCH2.Labels)==1) && (strcmp(destination,Conversion.H2.Labels)==1))
         energy=0; 
         energy_kWhr = calcs_JtoKWhr(energy);
 
+    %Uncompressed H2 Gas to Slush H2
+    elseif ((strcmp(source,Conversion.H2.Labels)==1) && (strcmp(destination,Conversion.SH2.Labels)==1))
+        Conversion.H2.Pressure=param1;
+        %Volume of one kilogram 
+        H2_Volume_L = Conversion.H2.Amount*Physical.GasConstant*Conversion.H2.Temperature/Conversion.H2.Pressure; %Units: L
+        H2_Volume = H2_Volume_L/1000; %Units: m3
+        %Volume of one kilogram 
+        SH2_Volume_L = Conversion.H2.Amount*Physical.GasConstant*Conversion.SH2.Temperature/Conversion.SH2.Pressure; %Units: L
+        SH2_Volume = SH2_Volume_L/1000; %Units: m3
+        
+        %Calculcate energy
+        energy_ideal = Conversion.H2.Amount*Physical.GasConstant*Conversion.H2.Temperature*log(H2_Volume/SH2_Volume);
+        energy = energy_ideal / Conversion.SH2.Efficiency; 
+        energy_kWhr = calcs_JtoKWhr(energy);
+
+    elseif ((strcmp(source,Conversion.SH2.Labels)==1) && (strcmp(destination,Conversion.H2.Labels)==1))
+        energy=0; 
+        energy_kWhr = calcs_JtoKWhr(energy);
     %Else Case  
      
     else

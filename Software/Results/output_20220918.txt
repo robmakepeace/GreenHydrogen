@@ -1,0 +1,1307 @@
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1629/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1631/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1597/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1188/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1645/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1691/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1666/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8247/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8234/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8223/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1631/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1633/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1598/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1187/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.169/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1665/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8245/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8233/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8223/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1633/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1635/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1599/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1191/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1651/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1692/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1665/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8247/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8234/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8223/kg
+
+Case Study Analysis
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1627/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1628/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1596/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1189/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1643/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1691/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1668/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8247/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8234/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8223/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.163/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1632/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1597/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1184/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1647/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1691/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1671/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8248/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8235/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8224/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1631/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1633/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1598/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1186/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1692/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1665/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8246/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8234/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8223/kg
+
+Case Study Analysis
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1629/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1631/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1597/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1187/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1646/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1691/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1662/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8247/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8234/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8224/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1633/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1635/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1599/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1189/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1652/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.169/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1667/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8248/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8235/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8224/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1631/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1633/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1598/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1187/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1692/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.166/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8246/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8234/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8224/kg
+
+Transport Analysis
+Truck Hydrogen Gas Transport Total Costs: 1677500 $AUD
+Truck Hydrogen Gas Transport Amount: 4016287844.7561 kgGH2
+Truck Hydrogen Gas Transport Unit Costs: 0.00041767 $AUD/kgGH2
+Truck Hydrogen Liquified Transport Total Costs: 1677500 $AUD
+Truck Hydrogen Liquified Transport Amount: 11331936000 kgGH2
+Truck Hydrogen Liquified Transport Unit Costs: 0.00014803 $AUD/kgGH2
+Truck Hydrogen Cryocompressed Transport Total Costs: 1677500 $AUD
+Truck Hydrogen Cryocompressed Transport Amount: 13112668800 kgGH2
+Truck Hydrogen Cryocompressed Transport Unit Costs: 0.00012793 $AUD/kgGH2
+Truck Hydrogen Slush Transport Total Costs: 1677500 $AUD
+Truck Hydrogen Slush Transport Amount: 13760208000 kgGH2
+Truck Hydrogen Slush Transport Unit Costs: 0.00012191 $AUD/kgGH2
+Truck Ammonia Transport Total Costs: 1677500 $AUD
+Truck Ammonia Transport Amount: 88300800000 kgGH2
+Truck Ammonia Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Methanol Transport Total Costs: 1677500 $AUD
+Truck Methanol Transport Amount: 88300800000 kgGH2
+Truck Methanol Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck SNG Transport Total Costs: 1677500 $AUD
+Truck SNG Transport Amount: 36716004928.7934 kgGH2
+Truck SNG Transport Unit Costs: 4.5689e-05 $AUD/kgGH2
+Truck Methylcyclohexane (LOHC) Transport Total Costs: 1677500 $AUD
+Truck Methylcyclohexane (LOHC) Transport Amount: 88300800000 kgGH2
+Truck Methylcyclohexane (LOHC) Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Porous Carbon Transport Total Costs: 1677500 $AUD
+Truck Porous Carbon Transport Amount: 88300800000 kgGH2
+Truck Porous Carbon Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Metal Hydride Transport Total Costs: 1677500 $AUD
+Truck Metal Hydride Transport Amount: 88300800000 kgGH2
+Truck Metal Hydride Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Diesel Transport Total Costs: 1677500 $AUD
+Truck Diesel Transport Amount: 88300800000 kgGH2
+Truck Diesel Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Truck Natural Gas Transport Total Costs: 1677500 $AUD
+Truck Natural Gas Transport Amount: 36716004928.7934 kgGH2
+Truck Natural Gas Transport Unit Costs: 4.5689e-05 $AUD/kgGH2
+Truck Liquified Natural Gas Transport Total Costs: 1677500 $AUD
+Truck Liquified Natural Gas Transport Amount: 72848160000 kgGH2
+Truck Liquified Natural Gas Transport Unit Costs: 2.3027e-05 $AUD/kgGH2
+Truck Coal Transport Total Costs: 1677500 $AUD
+Truck Coal Transport Amount: 88300800000 kgGH2
+Truck Coal Transport Unit Costs: 1.8998e-05 $AUD/kgGH2
+Ship Hydrogen Gas Transport Total Costs: 247100000 $AUD
+Ship Hydrogen Gas Transport Amount: 26405788589711.59 kgGH2
+Ship Hydrogen Gas Transport Unit Costs: 9.3578e-06 $AUD/kgGH2
+Ship Hydrogen Liquified Transport Total Costs: 247100000 $AUD
+Ship Hydrogen Liquified Transport Amount: 89404560000000 kgGH2
+Ship Hydrogen Liquified Transport Unit Costs: 2.7638e-06 $AUD/kgGH2
+Ship Hydrogen Cryocompressed Transport Total Costs: 247100000 $AUD
+Ship Hydrogen Cryocompressed Transport Amount: 103453848000000 kgGH2
+Ship Hydrogen Cryocompressed Transport Unit Costs: 2.3885e-06 $AUD/kgGH2
+Ship Hydrogen Slush Transport Total Costs: 247100000 $AUD
+Ship Hydrogen Slush Transport Amount: 108562680000000 kgGH2
+Ship Hydrogen Slush Transport Unit Costs: 2.2761e-06 $AUD/kgGH2
+Ship Ammonia Transport Total Costs: 247100000 $AUD
+Ship Ammonia Transport Amount: 932361840000000 kgGH2
+Ship Ammonia Transport Unit Costs: 2.6503e-07 $AUD/kgGH2
+Ship Methanol Transport Total Costs: 247100000 $AUD
+Ship Methanol Transport Amount: 1011548736000000 kgGH2
+Ship Methanol Transport Unit Costs: 2.4428e-07 $AUD/kgGH2
+Ship SNG Transport Total Costs: 247100000 $AUD
+Ship SNG Transport Amount: 241395811625995.5 kgGH2
+Ship SNG Transport Unit Costs: 1.0236e-06 $AUD/kgGH2
+Ship Methylcyclohexane (LOHC) Transport Total Costs: 247100000 $AUD
+Ship Methylcyclohexane (LOHC) Transport Amount: 983450160000000 kgGH2
+Ship Methylcyclohexane (LOHC) Transport Unit Costs: 2.5126e-07 $AUD/kgGH2
+Ship Porous Carbon Transport Total Costs: 247100000 $AUD
+Ship Porous Carbon Transport Amount: 1106913600000000 kgGH2
+Ship Porous Carbon Transport Unit Costs: 2.2323e-07 $AUD/kgGH2
+Ship Metal Hydride Transport Total Costs: 247100000 $AUD
+Ship Metal Hydride Transport Amount: 1106913600000000 kgGH2
+Ship Metal Hydride Transport Unit Costs: 2.2323e-07 $AUD/kgGH2
+Ship Diesel Transport Total Costs: 247100000 $AUD
+Ship Diesel Transport Amount: 1085626800000000 kgGH2
+Ship Diesel Transport Unit Costs: 2.2761e-07 $AUD/kgGH2
+Ship Natural Gas Transport Total Costs: 247100000 $AUD
+Ship Natural Gas Transport Amount: 241395811625995.5 kgGH2
+Ship Natural Gas Transport Unit Costs: 1.0236e-06 $AUD/kgGH2
+Ship Liquified Natural Gas Transport Total Costs: 247100000 $AUD
+Ship Liquified Natural Gas Transport Amount: 574743600000000 kgGH2
+Ship Liquified Natural Gas Transport Unit Costs: 4.2993e-07 $AUD/kgGH2
+Ship Coal Transport Total Costs: 247100000 $AUD
+Ship Coal Transport Amount: 1106913600000000 kgGH2
+Ship Coal Transport Unit Costs: 2.2323e-07 $AUD/kgGH2
+Train Hydrogen Gas Transport Total Costs: 108550000 $AUD
+Train Hydrogen Gas Transport Amount: 586795301993.5908 kgGH2
+Train Hydrogen Gas Transport Unit Costs: 0.00018499 $AUD/kgGH2
+Train Hydrogen Liquified Transport Total Costs: 108550000 $AUD
+Train Hydrogen Liquified Transport Amount: 1986768000000 kgGH2
+Train Hydrogen Liquified Transport Unit Costs: 5.4636e-05 $AUD/kgGH2
+Train Hydrogen Cryocompressed Transport Total Costs: 108550000 $AUD
+Train Hydrogen Cryocompressed Transport Amount: 2298974400000 kgGH2
+Train Hydrogen Cryocompressed Transport Unit Costs: 4.7217e-05 $AUD/kgGH2
+Train Hydrogen Slush Transport Total Costs: 108550000 $AUD
+Train Hydrogen Slush Transport Amount: 2412504000000 kgGH2
+Train Hydrogen Slush Transport Unit Costs: 4.4995e-05 $AUD/kgGH2
+Train Ammonia Transport Total Costs: 108550000 $AUD
+Train Ammonia Transport Amount: 20719152000000 kgGH2
+Train Ammonia Transport Unit Costs: 5.2391e-06 $AUD/kgGH2
+Train Methanol Transport Total Costs: 108550000 $AUD
+Train Methanol Transport Amount: 22478860800000 kgGH2
+Train Methanol Transport Unit Costs: 4.829e-06 $AUD/kgGH2
+Train SNG Transport Total Costs: 108550000 $AUD
+Train SNG Transport Amount: 5364351369466.566 kgGH2
+Train SNG Transport Unit Costs: 2.0235e-05 $AUD/kgGH2
+Train Methylcyclohexane (LOHC) Transport Total Costs: 108550000 $AUD
+Train Methylcyclohexane (LOHC) Transport Amount: 21854448000000 kgGH2
+Train Methylcyclohexane (LOHC) Transport Unit Costs: 4.967e-06 $AUD/kgGH2
+Train Porous Carbon Transport Total Costs: 108550000 $AUD
+Train Porous Carbon Transport Amount: 41627520000000 kgGH2
+Train Porous Carbon Transport Unit Costs: 2.6076e-06 $AUD/kgGH2
+Train Metal Hydride Transport Total Costs: 108550000 $AUD
+Train Metal Hydride Transport Amount: 35194176000000 kgGH2
+Train Metal Hydride Transport Unit Costs: 3.0843e-06 $AUD/kgGH2
+Train Diesel Transport Total Costs: 108550000 $AUD
+Train Diesel Transport Amount: 24125040000000 kgGH2
+Train Diesel Transport Unit Costs: 4.4995e-06 $AUD/kgGH2
+Train Natural Gas Transport Total Costs: 108550000 $AUD
+Train Natural Gas Transport Amount: 5364351369466.566 kgGH2
+Train Natural Gas Transport Unit Costs: 2.0235e-05 $AUD/kgGH2
+Train Liquified Natural Gas Transport Total Costs: 108550000 $AUD
+Train Liquified Natural Gas Transport Amount: 12772080000000 kgGH2
+Train Liquified Natural Gas Transport Unit Costs: 8.499e-06 $AUD/kgGH2
+Train Coal Transport Total Costs: 108550000 $AUD
+Train Coal Transport Amount: 25544160000000 kgGH2
+Train Coal Transport Unit Costs: 4.2495e-06 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700000 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.74336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 3.7168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/kgGH2
+
+Transport Analysis
+Truck Hydrogen Gas Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Gas Transport Amount: 2295021625.5749 kgGH2
+Truck Hydrogen Gas Transport Unit Costs: 0.00081045 $AUD/kgGH2
+Truck Hydrogen Liquified Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Liquified Transport Amount: 6475392000 kgGH2
+Truck Hydrogen Liquified Transport Unit Costs: 0.00028724 $AUD/kgGH2
+Truck Hydrogen Cryocompressed Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Cryocompressed Transport Amount: 7492953600 kgGH2
+Truck Hydrogen Cryocompressed Transport Unit Costs: 0.00024823 $AUD/kgGH2
+Truck Hydrogen Slush Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Slush Transport Amount: 7862976000 kgGH2
+Truck Hydrogen Slush Transport Unit Costs: 0.00023655 $AUD/kgGH2
+Truck Ammonia Transport Total Costs: 1860000 $AUD
+Truck Ammonia Transport Amount: 50457600000 kgGH2
+Truck Ammonia Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Methanol Transport Total Costs: 1860000 $AUD
+Truck Methanol Transport Amount: 50457600000 kgGH2
+Truck Methanol Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck SNG Transport Total Costs: 1860000 $AUD
+Truck SNG Transport Amount: 20980574245.0248 kgGH2
+Truck SNG Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Methylcyclohexane (LOHC) Transport Total Costs: 1860000 $AUD
+Truck Methylcyclohexane (LOHC) Transport Amount: 50457600000 kgGH2
+Truck Methylcyclohexane (LOHC) Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Porous Carbon Transport Total Costs: 1860000 $AUD
+Truck Porous Carbon Transport Amount: 50457600000 kgGH2
+Truck Porous Carbon Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Metal Hydride Transport Total Costs: 1860000 $AUD
+Truck Metal Hydride Transport Amount: 50457600000 kgGH2
+Truck Metal Hydride Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Diesel Transport Total Costs: 1860000 $AUD
+Truck Diesel Transport Amount: 50457600000 kgGH2
+Truck Diesel Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Natural Gas Transport Amount: 20980574245.0248 kgGH2
+Truck Natural Gas Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Liquified Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Liquified Natural Gas Transport Amount: 41627520000 kgGH2
+Truck Liquified Natural Gas Transport Unit Costs: 4.4682e-05 $AUD/kgGH2
+Truck Coal Transport Total Costs: 1860000 $AUD
+Truck Coal Transport Amount: 50457600000 kgGH2
+Truck Coal Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Ship Hydrogen Gas Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Gas Transport Amount: 11735906039871.82 kgGH2
+Ship Hydrogen Gas Transport Unit Costs: 1.9189e-05 $AUD/kgGH2
+Ship Hydrogen Liquified Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Liquified Transport Amount: 39735360000000 kgGH2
+Ship Hydrogen Liquified Transport Unit Costs: 5.6675e-06 $AUD/kgGH2
+Ship Hydrogen Cryocompressed Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Cryocompressed Transport Amount: 45979488000000 kgGH2
+Ship Hydrogen Cryocompressed Transport Unit Costs: 4.8978e-06 $AUD/kgGH2
+Ship Hydrogen Slush Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Slush Transport Amount: 48250080000000 kgGH2
+Ship Hydrogen Slush Transport Unit Costs: 4.6673e-06 $AUD/kgGH2
+Ship Ammonia Transport Total Costs: 225200000 $AUD
+Ship Ammonia Transport Amount: 414383040000000 kgGH2
+Ship Ammonia Transport Unit Costs: 5.4346e-07 $AUD/kgGH2
+Ship Methanol Transport Total Costs: 225200000 $AUD
+Ship Methanol Transport Amount: 449577216000000 kgGH2
+Ship Methanol Transport Unit Costs: 5.0092e-07 $AUD/kgGH2
+Ship SNG Transport Total Costs: 225200000 $AUD
+Ship SNG Transport Amount: 107287027389331.3 kgGH2
+Ship SNG Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Methylcyclohexane (LOHC) Transport Total Costs: 225200000 $AUD
+Ship Methylcyclohexane (LOHC) Transport Amount: 437088960000000 kgGH2
+Ship Methylcyclohexane (LOHC) Transport Unit Costs: 5.1523e-07 $AUD/kgGH2
+Ship Porous Carbon Transport Total Costs: 225200000 $AUD
+Ship Porous Carbon Transport Amount: 491961600000000 kgGH2
+Ship Porous Carbon Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Metal Hydride Transport Total Costs: 225200000 $AUD
+Ship Metal Hydride Transport Amount: 491961600000000 kgGH2
+Ship Metal Hydride Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Diesel Transport Total Costs: 225200000 $AUD
+Ship Diesel Transport Amount: 482500800000000 kgGH2
+Ship Diesel Transport Unit Costs: 4.6673e-07 $AUD/kgGH2
+Ship Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Natural Gas Transport Amount: 107287027389331.3 kgGH2
+Ship Natural Gas Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Liquified Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Liquified Natural Gas Transport Amount: 255441600000000 kgGH2
+Ship Liquified Natural Gas Transport Unit Costs: 8.8161e-07 $AUD/kgGH2
+Ship Coal Transport Total Costs: 225200000 $AUD
+Ship Coal Transport Amount: 491961600000000 kgGH2
+Ship Coal Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Train Hydrogen Gas Transport Total Costs: 97600000 $AUD
+Train Hydrogen Gas Transport Amount: 260797911997.1515 kgGH2
+Train Hydrogen Gas Transport Unit Costs: 0.00037424 $AUD/kgGH2
+Train Hydrogen Liquified Transport Total Costs: 97600000 $AUD
+Train Hydrogen Liquified Transport Amount: 883008000000 kgGH2
+Train Hydrogen Liquified Transport Unit Costs: 0.00011053 $AUD/kgGH2
+Train Hydrogen Cryocompressed Transport Total Costs: 97600000 $AUD
+Train Hydrogen Cryocompressed Transport Amount: 1021766400000 kgGH2
+Train Hydrogen Cryocompressed Transport Unit Costs: 9.5521e-05 $AUD/kgGH2
+Train Hydrogen Slush Transport Total Costs: 97600000 $AUD
+Train Hydrogen Slush Transport Amount: 1072224000000 kgGH2
+Train Hydrogen Slush Transport Unit Costs: 9.1026e-05 $AUD/kgGH2
+Train Ammonia Transport Total Costs: 97600000 $AUD
+Train Ammonia Transport Amount: 9208512000000 kgGH2
+Train Ammonia Transport Unit Costs: 1.0599e-05 $AUD/kgGH2
+Train Methanol Transport Total Costs: 97600000 $AUD
+Train Methanol Transport Amount: 9990604800000 kgGH2
+Train Methanol Transport Unit Costs: 9.7692e-06 $AUD/kgGH2
+Train SNG Transport Total Costs: 97600000 $AUD
+Train SNG Transport Amount: 2384156164207.363 kgGH2
+Train SNG Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Methylcyclohexane (LOHC) Transport Total Costs: 97600000 $AUD
+Train Methylcyclohexane (LOHC) Transport Amount: 9713088000000 kgGH2
+Train Methylcyclohexane (LOHC) Transport Unit Costs: 1.0048e-05 $AUD/kgGH2
+Train Porous Carbon Transport Total Costs: 97600000 $AUD
+Train Porous Carbon Transport Amount: 18501120000000 kgGH2
+Train Porous Carbon Transport Unit Costs: 5.2754e-06 $AUD/kgGH2
+Train Metal Hydride Transport Total Costs: 97600000 $AUD
+Train Metal Hydride Transport Amount: 15641856000000 kgGH2
+Train Metal Hydride Transport Unit Costs: 6.2397e-06 $AUD/kgGH2
+Train Diesel Transport Total Costs: 97600000 $AUD
+Train Diesel Transport Amount: 10722240000000 kgGH2
+Train Diesel Transport Unit Costs: 9.1026e-06 $AUD/kgGH2
+Train Natural Gas Transport Total Costs: 97600000 $AUD
+Train Natural Gas Transport Amount: 2384156164207.363 kgGH2
+Train Natural Gas Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Liquified Natural Gas Transport Total Costs: 97600000 $AUD
+Train Liquified Natural Gas Transport Amount: 5676480000000 kgGH2
+Train Liquified Natural Gas Transport Unit Costs: 1.7194e-05 $AUD/kgGH2
+Train Coal Transport Total Costs: 97600000 $AUD
+Train Coal Transport Amount: 11352960000000 kgGH2
+Train Coal Transport Unit Costs: 8.5969e-06 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700000 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.74336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 3.7168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700000 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/kgGH2
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1647/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.165/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1605/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1205/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.167/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1699/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1688/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8258/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8241/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1642/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1644/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1602/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.121/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1663/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1695/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1686/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8255/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8239/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1649/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1652/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1605/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1213/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1672/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1687/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8256/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8239/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1646/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1604/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1212/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1668/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.169/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8254/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1646/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1649/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1604/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1211/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1669/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1696/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1685/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8254/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8239/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1647/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1649/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1605/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1206/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1669/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1698/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1682/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8255/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8239/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1641/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1643/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1602/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1206/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1662/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1687/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8255/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8239/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1641/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1644/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1602/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1205/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1662/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1681/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8253/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1651/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1603/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1207/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1671/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1696/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1681/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8253/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1644/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1646/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1603/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1201/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1665/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1696/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1686/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8257/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1649/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1652/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1605/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1211/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1672/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1682/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8256/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8239/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Transport Analysis
+Truck Hydrogen Gas Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Gas Transport Amount: 2295021625.5749 kgGH2
+Truck Hydrogen Gas Transport Unit Costs: 0.00081045 $AUD/kgGH2
+Truck Hydrogen Liquified Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Liquified Transport Amount: 6475392000 kgGH2
+Truck Hydrogen Liquified Transport Unit Costs: 0.00028724 $AUD/kgGH2
+Truck Hydrogen Cryocompressed Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Cryocompressed Transport Amount: 7492953600 kgGH2
+Truck Hydrogen Cryocompressed Transport Unit Costs: 0.00024823 $AUD/kgGH2
+Truck Hydrogen Slush Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Slush Transport Amount: 7862976000 kgGH2
+Truck Hydrogen Slush Transport Unit Costs: 0.00023655 $AUD/kgGH2
+Truck Ammonia Transport Total Costs: 1860000 $AUD
+Truck Ammonia Transport Amount: 50457600000 kgGH2
+Truck Ammonia Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Methanol Transport Total Costs: 1860000 $AUD
+Truck Methanol Transport Amount: 50457600000 kgGH2
+Truck Methanol Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck SNG Transport Total Costs: 1860000 $AUD
+Truck SNG Transport Amount: 20980574245.0248 kgGH2
+Truck SNG Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Methylcyclohexane (LOHC) Transport Total Costs: 1860000 $AUD
+Truck Methylcyclohexane (LOHC) Transport Amount: 50457600000 kgGH2
+Truck Methylcyclohexane (LOHC) Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Porous Carbon Transport Total Costs: 1860000 $AUD
+Truck Porous Carbon Transport Amount: 50457600000 kgGH2
+Truck Porous Carbon Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Metal Hydride Transport Total Costs: 1860000 $AUD
+Truck Metal Hydride Transport Amount: 50457600000 kgGH2
+Truck Metal Hydride Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Diesel Transport Total Costs: 1860000 $AUD
+Truck Diesel Transport Amount: 50457600000 kgGH2
+Truck Diesel Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Natural Gas Transport Amount: 20980574245.0248 kgGH2
+Truck Natural Gas Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Liquified Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Liquified Natural Gas Transport Amount: 41627520000 kgGH2
+Truck Liquified Natural Gas Transport Unit Costs: 4.4682e-05 $AUD/kgGH2
+Truck Coal Transport Total Costs: 1860000 $AUD
+Truck Coal Transport Amount: 50457600000 kgGH2
+Truck Coal Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Ship Hydrogen Gas Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Gas Transport Amount: 11735906039871.82 kgGH2
+Ship Hydrogen Gas Transport Unit Costs: 1.9189e-05 $AUD/kgGH2
+Ship Hydrogen Liquified Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Liquified Transport Amount: 39735360000000 kgGH2
+Ship Hydrogen Liquified Transport Unit Costs: 5.6675e-06 $AUD/kgGH2
+Ship Hydrogen Cryocompressed Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Cryocompressed Transport Amount: 45979488000000 kgGH2
+Ship Hydrogen Cryocompressed Transport Unit Costs: 4.8978e-06 $AUD/kgGH2
+Ship Hydrogen Slush Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Slush Transport Amount: 48250080000000 kgGH2
+Ship Hydrogen Slush Transport Unit Costs: 4.6673e-06 $AUD/kgGH2
+Ship Ammonia Transport Total Costs: 225200000 $AUD
+Ship Ammonia Transport Amount: 414383040000000 kgGH2
+Ship Ammonia Transport Unit Costs: 5.4346e-07 $AUD/kgGH2
+Ship Methanol Transport Total Costs: 225200000 $AUD
+Ship Methanol Transport Amount: 449577216000000 kgGH2
+Ship Methanol Transport Unit Costs: 5.0092e-07 $AUD/kgGH2
+Ship SNG Transport Total Costs: 225200000 $AUD
+Ship SNG Transport Amount: 107287027389331.3 kgGH2
+Ship SNG Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Methylcyclohexane (LOHC) Transport Total Costs: 225200000 $AUD
+Ship Methylcyclohexane (LOHC) Transport Amount: 437088960000000 kgGH2
+Ship Methylcyclohexane (LOHC) Transport Unit Costs: 5.1523e-07 $AUD/kgGH2
+Ship Porous Carbon Transport Total Costs: 225200000 $AUD
+Ship Porous Carbon Transport Amount: 491961600000000 kgGH2
+Ship Porous Carbon Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Metal Hydride Transport Total Costs: 225200000 $AUD
+Ship Metal Hydride Transport Amount: 491961600000000 kgGH2
+Ship Metal Hydride Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Diesel Transport Total Costs: 225200000 $AUD
+Ship Diesel Transport Amount: 482500800000000 kgGH2
+Ship Diesel Transport Unit Costs: 4.6673e-07 $AUD/kgGH2
+Ship Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Natural Gas Transport Amount: 107287027389331.3 kgGH2
+Ship Natural Gas Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Liquified Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Liquified Natural Gas Transport Amount: 255441600000000 kgGH2
+Ship Liquified Natural Gas Transport Unit Costs: 8.8161e-07 $AUD/kgGH2
+Ship Coal Transport Total Costs: 225200000 $AUD
+Ship Coal Transport Amount: 491961600000000 kgGH2
+Ship Coal Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Train Hydrogen Gas Transport Total Costs: 97600000 $AUD
+Train Hydrogen Gas Transport Amount: 260797911997.1515 kgGH2
+Train Hydrogen Gas Transport Unit Costs: 0.00037424 $AUD/kgGH2
+Train Hydrogen Liquified Transport Total Costs: 97600000 $AUD
+Train Hydrogen Liquified Transport Amount: 883008000000 kgGH2
+Train Hydrogen Liquified Transport Unit Costs: 0.00011053 $AUD/kgGH2
+Train Hydrogen Cryocompressed Transport Total Costs: 97600000 $AUD
+Train Hydrogen Cryocompressed Transport Amount: 1021766400000 kgGH2
+Train Hydrogen Cryocompressed Transport Unit Costs: 9.5521e-05 $AUD/kgGH2
+Train Hydrogen Slush Transport Total Costs: 97600000 $AUD
+Train Hydrogen Slush Transport Amount: 1072224000000 kgGH2
+Train Hydrogen Slush Transport Unit Costs: 9.1026e-05 $AUD/kgGH2
+Train Ammonia Transport Total Costs: 97600000 $AUD
+Train Ammonia Transport Amount: 9208512000000 kgGH2
+Train Ammonia Transport Unit Costs: 1.0599e-05 $AUD/kgGH2
+Train Methanol Transport Total Costs: 97600000 $AUD
+Train Methanol Transport Amount: 9990604800000 kgGH2
+Train Methanol Transport Unit Costs: 9.7692e-06 $AUD/kgGH2
+Train SNG Transport Total Costs: 97600000 $AUD
+Train SNG Transport Amount: 2384156164207.363 kgGH2
+Train SNG Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Methylcyclohexane (LOHC) Transport Total Costs: 97600000 $AUD
+Train Methylcyclohexane (LOHC) Transport Amount: 9713088000000 kgGH2
+Train Methylcyclohexane (LOHC) Transport Unit Costs: 1.0048e-05 $AUD/kgGH2
+Train Porous Carbon Transport Total Costs: 97600000 $AUD
+Train Porous Carbon Transport Amount: 18501120000000 kgGH2
+Train Porous Carbon Transport Unit Costs: 5.2754e-06 $AUD/kgGH2
+Train Metal Hydride Transport Total Costs: 97600000 $AUD
+Train Metal Hydride Transport Amount: 15641856000000 kgGH2
+Train Metal Hydride Transport Unit Costs: 6.2397e-06 $AUD/kgGH2
+Train Diesel Transport Total Costs: 97600000 $AUD
+Train Diesel Transport Amount: 10722240000000 kgGH2
+Train Diesel Transport Unit Costs: 9.1026e-06 $AUD/kgGH2
+Train Natural Gas Transport Total Costs: 97600000 $AUD
+Train Natural Gas Transport Amount: 2384156164207.363 kgGH2
+Train Natural Gas Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Liquified Natural Gas Transport Total Costs: 97600000 $AUD
+Train Liquified Natural Gas Transport Amount: 5676480000000 kgGH2
+Train Liquified Natural Gas Transport Unit Costs: 1.7194e-05 $AUD/kgGH2
+Train Coal Transport Total Costs: 97600000 $AUD
+Train Coal Transport Amount: 11352960000000 kgGH2
+Train Coal Transport Unit Costs: 8.5969e-06 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.00074336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 0.0037168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2 * km
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/(kgGH2*km)
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1651/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1605/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1206/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1671/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1698/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1687/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8253/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Hydrogen; Transport Unit Costs ($/(kg*km): $3.8226/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1651/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1605/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.121/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1671/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1683/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8254/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1646/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1604/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1208/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1668/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1698/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1686/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8256/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8239/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8226/kg
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 0.91073 %
+Liquefied Hydrogen Pathway Conversion Efficency: 0.65706 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 0.86723 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 0.91073 %
+Liquefied Hydrogen Pathway Conversion Efficency: 0.65706 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 0.86723 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 0.86723 %
+Liquefied Hydrogen Pathway Conversion Efficency: 0.86723 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 0.86723 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 0.91073 %
+Compressed Hydrogen Pathway Reconversion Efficency: 0.91073 %
+Liquefied Hydrogen Pathway Conversion Efficency: 0.86723 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 0.86723 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 0.91073 %
+Compressed Hydrogen Pathway Reconversion Efficency: 1 %
+Liquefied Hydrogen Pathway Conversion Efficency: 0.86723 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 0.86723 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 100 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 100 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 100 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 100 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 100 %
+Slush Hydrogen Pathway Conversion Efficency: 86.1892 %
+Slush Hydrogen Pathway Conversion Efficency: 100 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 86.7233 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 100 %
+Slush Hydrogen Pathway Conversion Efficency: 86.1892 %
+Slush Hydrogen Pathway Conversion Efficency: 100 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 65.7065 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 100 %
+Slush Hydrogen Pathway Conversion Efficency: 86.1892 %
+Slush Hydrogen Pathway Conversion Efficency: 100 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 91.0728 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 70 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 86.7233 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 100 %
+Slush Hydrogen Pathway Conversion Efficency: 86.1892 %
+Slush Hydrogen Pathway Conversion Efficency: 100 %
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 95.3663 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: 70 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 91.0168 %
+Cryocompressed Hydrogen Pathway Conversion Efficency: 100 %
+Slush Hydrogen Pathway Conversion Efficency: 90.4827 %
+Slush Hydrogen Pathway Conversion Efficency: 100 %
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1652/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1654/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1606/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1204/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1675/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1684/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8255/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8239/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Transport Analysis
+Truck Hydrogen Gas Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Gas Transport Amount: 2295021625.5749 kgGH2
+Truck Hydrogen Gas Transport Unit Costs: 0.00081045 $AUD/kgGH2
+Truck Hydrogen Liquified Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Liquified Transport Amount: 6475392000 kgGH2
+Truck Hydrogen Liquified Transport Unit Costs: 0.00028724 $AUD/kgGH2
+Truck Hydrogen Cryocompressed Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Cryocompressed Transport Amount: 7492953600 kgGH2
+Truck Hydrogen Cryocompressed Transport Unit Costs: 0.00024823 $AUD/kgGH2
+Truck Hydrogen Slush Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Slush Transport Amount: 7862976000 kgGH2
+Truck Hydrogen Slush Transport Unit Costs: 0.00023655 $AUD/kgGH2
+Truck Ammonia Transport Total Costs: 1860000 $AUD
+Truck Ammonia Transport Amount: 50457600000 kgGH2
+Truck Ammonia Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Methanol Transport Total Costs: 1860000 $AUD
+Truck Methanol Transport Amount: 50457600000 kgGH2
+Truck Methanol Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck SNG Transport Total Costs: 1860000 $AUD
+Truck SNG Transport Amount: 20980574245.0248 kgGH2
+Truck SNG Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Methylcyclohexane (LOHC) Transport Total Costs: 1860000 $AUD
+Truck Methylcyclohexane (LOHC) Transport Amount: 50457600000 kgGH2
+Truck Methylcyclohexane (LOHC) Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Porous Carbon Transport Total Costs: 1860000 $AUD
+Truck Porous Carbon Transport Amount: 50457600000 kgGH2
+Truck Porous Carbon Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Metal Hydride Transport Total Costs: 1860000 $AUD
+Truck Metal Hydride Transport Amount: 50457600000 kgGH2
+Truck Metal Hydride Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Diesel Transport Total Costs: 1860000 $AUD
+Truck Diesel Transport Amount: 50457600000 kgGH2
+Truck Diesel Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Natural Gas Transport Amount: 20980574245.0248 kgGH2
+Truck Natural Gas Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Liquified Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Liquified Natural Gas Transport Amount: 41627520000 kgGH2
+Truck Liquified Natural Gas Transport Unit Costs: 4.4682e-05 $AUD/kgGH2
+Truck Coal Transport Total Costs: 1860000 $AUD
+Truck Coal Transport Amount: 50457600000 kgGH2
+Truck Coal Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Ship Hydrogen Gas Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Gas Transport Amount: 11735906039871.82 kgGH2
+Ship Hydrogen Gas Transport Unit Costs: 1.9189e-05 $AUD/kgGH2
+Ship Hydrogen Liquified Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Liquified Transport Amount: 39735360000000 kgGH2
+Ship Hydrogen Liquified Transport Unit Costs: 5.6675e-06 $AUD/kgGH2
+Ship Hydrogen Cryocompressed Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Cryocompressed Transport Amount: 45979488000000 kgGH2
+Ship Hydrogen Cryocompressed Transport Unit Costs: 4.8978e-06 $AUD/kgGH2
+Ship Hydrogen Slush Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Slush Transport Amount: 48250080000000 kgGH2
+Ship Hydrogen Slush Transport Unit Costs: 4.6673e-06 $AUD/kgGH2
+Ship Ammonia Transport Total Costs: 225200000 $AUD
+Ship Ammonia Transport Amount: 414383040000000 kgGH2
+Ship Ammonia Transport Unit Costs: 5.4346e-07 $AUD/kgGH2
+Ship Methanol Transport Total Costs: 225200000 $AUD
+Ship Methanol Transport Amount: 449577216000000 kgGH2
+Ship Methanol Transport Unit Costs: 5.0092e-07 $AUD/kgGH2
+Ship SNG Transport Total Costs: 225200000 $AUD
+Ship SNG Transport Amount: 107287027389331.3 kgGH2
+Ship SNG Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Methylcyclohexane (LOHC) Transport Total Costs: 225200000 $AUD
+Ship Methylcyclohexane (LOHC) Transport Amount: 437088960000000 kgGH2
+Ship Methylcyclohexane (LOHC) Transport Unit Costs: 5.1523e-07 $AUD/kgGH2
+Ship Porous Carbon Transport Total Costs: 225200000 $AUD
+Ship Porous Carbon Transport Amount: 491961600000000 kgGH2
+Ship Porous Carbon Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Metal Hydride Transport Total Costs: 225200000 $AUD
+Ship Metal Hydride Transport Amount: 491961600000000 kgGH2
+Ship Metal Hydride Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Diesel Transport Total Costs: 225200000 $AUD
+Ship Diesel Transport Amount: 482500800000000 kgGH2
+Ship Diesel Transport Unit Costs: 4.6673e-07 $AUD/kgGH2
+Ship Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Natural Gas Transport Amount: 107287027389331.3 kgGH2
+Ship Natural Gas Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Liquified Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Liquified Natural Gas Transport Amount: 255441600000000 kgGH2
+Ship Liquified Natural Gas Transport Unit Costs: 8.8161e-07 $AUD/kgGH2
+Ship Coal Transport Total Costs: 225200000 $AUD
+Ship Coal Transport Amount: 491961600000000 kgGH2
+Ship Coal Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Train Hydrogen Gas Transport Total Costs: 97600000 $AUD
+Train Hydrogen Gas Transport Amount: 260797911997.1515 kgGH2
+Train Hydrogen Gas Transport Unit Costs: 0.00037424 $AUD/kgGH2
+Train Hydrogen Liquified Transport Total Costs: 97600000 $AUD
+Train Hydrogen Liquified Transport Amount: 883008000000 kgGH2
+Train Hydrogen Liquified Transport Unit Costs: 0.00011053 $AUD/kgGH2
+Train Hydrogen Cryocompressed Transport Total Costs: 97600000 $AUD
+Train Hydrogen Cryocompressed Transport Amount: 1021766400000 kgGH2
+Train Hydrogen Cryocompressed Transport Unit Costs: 9.5521e-05 $AUD/kgGH2
+Train Hydrogen Slush Transport Total Costs: 97600000 $AUD
+Train Hydrogen Slush Transport Amount: 1072224000000 kgGH2
+Train Hydrogen Slush Transport Unit Costs: 9.1026e-05 $AUD/kgGH2
+Train Ammonia Transport Total Costs: 97600000 $AUD
+Train Ammonia Transport Amount: 9208512000000 kgGH2
+Train Ammonia Transport Unit Costs: 1.0599e-05 $AUD/kgGH2
+Train Methanol Transport Total Costs: 97600000 $AUD
+Train Methanol Transport Amount: 9990604800000 kgGH2
+Train Methanol Transport Unit Costs: 9.7692e-06 $AUD/kgGH2
+Train SNG Transport Total Costs: 97600000 $AUD
+Train SNG Transport Amount: 2384156164207.363 kgGH2
+Train SNG Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Methylcyclohexane (LOHC) Transport Total Costs: 97600000 $AUD
+Train Methylcyclohexane (LOHC) Transport Amount: 9713088000000 kgGH2
+Train Methylcyclohexane (LOHC) Transport Unit Costs: 1.0048e-05 $AUD/kgGH2
+Train Porous Carbon Transport Total Costs: 97600000 $AUD
+Train Porous Carbon Transport Amount: 18501120000000 kgGH2
+Train Porous Carbon Transport Unit Costs: 5.2754e-06 $AUD/kgGH2
+Train Metal Hydride Transport Total Costs: 97600000 $AUD
+Train Metal Hydride Transport Amount: 15641856000000 kgGH2
+Train Metal Hydride Transport Unit Costs: 6.2397e-06 $AUD/kgGH2
+Train Diesel Transport Total Costs: 97600000 $AUD
+Train Diesel Transport Amount: 10722240000000 kgGH2
+Train Diesel Transport Unit Costs: 9.1026e-06 $AUD/kgGH2
+Train Natural Gas Transport Total Costs: 97600000 $AUD
+Train Natural Gas Transport Amount: 2384156164207.363 kgGH2
+Train Natural Gas Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Liquified Natural Gas Transport Total Costs: 97600000 $AUD
+Train Liquified Natural Gas Transport Amount: 5676480000000 kgGH2
+Train Liquified Natural Gas Transport Unit Costs: 1.7194e-05 $AUD/kgGH2
+Train Coal Transport Total Costs: 97600000 $AUD
+Train Coal Transport Amount: 11352960000000 kgGH2
+Train Coal Transport Unit Costs: 8.5969e-06 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.00074336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 0.0037168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2 * km
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/(kgGH2*km)
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1645/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1647/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1603/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1206/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1666/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1699/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1686/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8254/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Transport Analysis
+
+Transport Analysis
+Truck Hydrogen Gas Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Gas Transport Amount: 2295021625.5749 kgGH2
+Truck Hydrogen Gas Transport Unit Costs: 0.00081045 $AUD/kgGH2
+Truck Hydrogen Liquified Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Liquified Transport Amount: 6475392000 kgGH2
+Truck Hydrogen Liquified Transport Unit Costs: 0.00028724 $AUD/kgGH2
+Truck Hydrogen Cryocompressed Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Cryocompressed Transport Amount: 7492953600 kgGH2
+Truck Hydrogen Cryocompressed Transport Unit Costs: 0.00024823 $AUD/kgGH2
+Truck Hydrogen Slush Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Slush Transport Amount: 7862976000 kgGH2
+Truck Hydrogen Slush Transport Unit Costs: 0.00023655 $AUD/kgGH2
+Truck Ammonia Transport Total Costs: 1860000 $AUD
+Truck Ammonia Transport Amount: 50457600000 kgGH2
+Truck Ammonia Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Methanol Transport Total Costs: 1860000 $AUD
+Truck Methanol Transport Amount: 50457600000 kgGH2
+Truck Methanol Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck SNG Transport Total Costs: 1860000 $AUD
+Truck SNG Transport Amount: 20980574245.0248 kgGH2
+Truck SNG Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Methylcyclohexane (LOHC) Transport Total Costs: 1860000 $AUD
+Truck Methylcyclohexane (LOHC) Transport Amount: 50457600000 kgGH2
+Truck Methylcyclohexane (LOHC) Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Porous Carbon Transport Total Costs: 1860000 $AUD
+Truck Porous Carbon Transport Amount: 50457600000 kgGH2
+Truck Porous Carbon Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Metal Hydride Transport Total Costs: 1860000 $AUD
+Truck Metal Hydride Transport Amount: 50457600000 kgGH2
+Truck Metal Hydride Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Diesel Transport Total Costs: 1860000 $AUD
+Truck Diesel Transport Amount: 50457600000 kgGH2
+Truck Diesel Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Natural Gas Transport Amount: 20980574245.0248 kgGH2
+Truck Natural Gas Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Liquified Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Liquified Natural Gas Transport Amount: 41627520000 kgGH2
+Truck Liquified Natural Gas Transport Unit Costs: 4.4682e-05 $AUD/kgGH2
+Truck Coal Transport Total Costs: 1860000 $AUD
+Truck Coal Transport Amount: 50457600000 kgGH2
+Truck Coal Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Ship Hydrogen Gas Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Gas Transport Amount: 11735906039871.82 kgGH2
+Ship Hydrogen Gas Transport Unit Costs: 1.9189e-05 $AUD/kgGH2
+Ship Hydrogen Liquified Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Liquified Transport Amount: 39735360000000 kgGH2
+Ship Hydrogen Liquified Transport Unit Costs: 5.6675e-06 $AUD/kgGH2
+Ship Hydrogen Cryocompressed Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Cryocompressed Transport Amount: 45979488000000 kgGH2
+Ship Hydrogen Cryocompressed Transport Unit Costs: 4.8978e-06 $AUD/kgGH2
+Ship Hydrogen Slush Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Slush Transport Amount: 48250080000000 kgGH2
+Ship Hydrogen Slush Transport Unit Costs: 4.6673e-06 $AUD/kgGH2
+Ship Ammonia Transport Total Costs: 225200000 $AUD
+Ship Ammonia Transport Amount: 414383040000000 kgGH2
+Ship Ammonia Transport Unit Costs: 5.4346e-07 $AUD/kgGH2
+Ship Methanol Transport Total Costs: 225200000 $AUD
+Ship Methanol Transport Amount: 449577216000000 kgGH2
+Ship Methanol Transport Unit Costs: 5.0092e-07 $AUD/kgGH2
+Ship SNG Transport Total Costs: 225200000 $AUD
+Ship SNG Transport Amount: 107287027389331.3 kgGH2
+Ship SNG Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Methylcyclohexane (LOHC) Transport Total Costs: 225200000 $AUD
+Ship Methylcyclohexane (LOHC) Transport Amount: 437088960000000 kgGH2
+Ship Methylcyclohexane (LOHC) Transport Unit Costs: 5.1523e-07 $AUD/kgGH2
+Ship Porous Carbon Transport Total Costs: 225200000 $AUD
+Ship Porous Carbon Transport Amount: 491961600000000 kgGH2
+Ship Porous Carbon Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Metal Hydride Transport Total Costs: 225200000 $AUD
+Ship Metal Hydride Transport Amount: 491961600000000 kgGH2
+Ship Metal Hydride Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Diesel Transport Total Costs: 225200000 $AUD
+Ship Diesel Transport Amount: 482500800000000 kgGH2
+Ship Diesel Transport Unit Costs: 4.6673e-07 $AUD/kgGH2
+Ship Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Natural Gas Transport Amount: 107287027389331.3 kgGH2
+Ship Natural Gas Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Liquified Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Liquified Natural Gas Transport Amount: 255441600000000 kgGH2
+Ship Liquified Natural Gas Transport Unit Costs: 8.8161e-07 $AUD/kgGH2
+Ship Coal Transport Total Costs: 225200000 $AUD
+Ship Coal Transport Amount: 491961600000000 kgGH2
+Ship Coal Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Train Hydrogen Gas Transport Total Costs: 97600000 $AUD
+Train Hydrogen Gas Transport Amount: 260797911997.1515 kgGH2
+Train Hydrogen Gas Transport Unit Costs: 0.00037424 $AUD/kgGH2
+Train Hydrogen Liquified Transport Total Costs: 97600000 $AUD
+Train Hydrogen Liquified Transport Amount: 883008000000 kgGH2
+Train Hydrogen Liquified Transport Unit Costs: 0.00011053 $AUD/kgGH2
+Train Hydrogen Cryocompressed Transport Total Costs: 97600000 $AUD
+Train Hydrogen Cryocompressed Transport Amount: 1021766400000 kgGH2
+Train Hydrogen Cryocompressed Transport Unit Costs: 9.5521e-05 $AUD/kgGH2
+Train Hydrogen Slush Transport Total Costs: 97600000 $AUD
+Train Hydrogen Slush Transport Amount: 1072224000000 kgGH2
+Train Hydrogen Slush Transport Unit Costs: 9.1026e-05 $AUD/kgGH2
+Train Ammonia Transport Total Costs: 97600000 $AUD
+Train Ammonia Transport Amount: 9208512000000 kgGH2
+Train Ammonia Transport Unit Costs: 1.0599e-05 $AUD/kgGH2
+Train Methanol Transport Total Costs: 97600000 $AUD
+Train Methanol Transport Amount: 9990604800000 kgGH2
+Train Methanol Transport Unit Costs: 9.7692e-06 $AUD/kgGH2
+Train SNG Transport Total Costs: 97600000 $AUD
+Train SNG Transport Amount: 2384156164207.363 kgGH2
+Train SNG Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Methylcyclohexane (LOHC) Transport Total Costs: 97600000 $AUD
+Train Methylcyclohexane (LOHC) Transport Amount: 9713088000000 kgGH2
+Train Methylcyclohexane (LOHC) Transport Unit Costs: 1.0048e-05 $AUD/kgGH2
+Train Porous Carbon Transport Total Costs: 97600000 $AUD
+Train Porous Carbon Transport Amount: 18501120000000 kgGH2
+Train Porous Carbon Transport Unit Costs: 5.2754e-06 $AUD/kgGH2
+Train Metal Hydride Transport Total Costs: 97600000 $AUD
+Train Metal Hydride Transport Amount: 15641856000000 kgGH2
+Train Metal Hydride Transport Unit Costs: 6.2397e-06 $AUD/kgGH2
+Train Diesel Transport Total Costs: 97600000 $AUD
+Train Diesel Transport Amount: 10722240000000 kgGH2
+Train Diesel Transport Unit Costs: 9.1026e-06 $AUD/kgGH2
+Train Natural Gas Transport Total Costs: 97600000 $AUD
+Train Natural Gas Transport Amount: 2384156164207.363 kgGH2
+Train Natural Gas Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Liquified Natural Gas Transport Total Costs: 97600000 $AUD
+Train Liquified Natural Gas Transport Amount: 5676480000000 kgGH2
+Train Liquified Natural Gas Transport Unit Costs: 1.7194e-05 $AUD/kgGH2
+Train Coal Transport Total Costs: 97600000 $AUD
+Train Coal Transport Amount: 11352960000000 kgGH2
+Train Coal Transport Unit Costs: 8.5969e-06 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.00074336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 0.0037168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2 * km
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/(kgGH2*km)
+
+Transport Analysis
+Truck Hydrogen Gas Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Gas Transport Amount: 2295021625.5749 kgGH2
+Truck Hydrogen Gas Transport Unit Costs: 0.00081045 $AUD/kgGH2
+Truck Hydrogen Liquified Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Liquified Transport Amount: 6475392000 kgGH2
+Truck Hydrogen Liquified Transport Unit Costs: 0.00028724 $AUD/kgGH2
+Truck Hydrogen Cryocompressed Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Cryocompressed Transport Amount: 7492953600 kgGH2
+Truck Hydrogen Cryocompressed Transport Unit Costs: 0.00024823 $AUD/kgGH2
+Truck Hydrogen Slush Transport Total Costs: 1860000 $AUD
+Truck Hydrogen Slush Transport Amount: 7862976000 kgGH2
+Truck Hydrogen Slush Transport Unit Costs: 0.00023655 $AUD/kgGH2
+Truck Ammonia Transport Total Costs: 1860000 $AUD
+Truck Ammonia Transport Amount: 50457600000 kgGH2
+Truck Ammonia Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Methanol Transport Total Costs: 1860000 $AUD
+Truck Methanol Transport Amount: 50457600000 kgGH2
+Truck Methanol Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck SNG Transport Total Costs: 1860000 $AUD
+Truck SNG Transport Amount: 20980574245.0248 kgGH2
+Truck SNG Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Methylcyclohexane (LOHC) Transport Total Costs: 1860000 $AUD
+Truck Methylcyclohexane (LOHC) Transport Amount: 50457600000 kgGH2
+Truck Methylcyclohexane (LOHC) Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Porous Carbon Transport Total Costs: 1860000 $AUD
+Truck Porous Carbon Transport Amount: 50457600000 kgGH2
+Truck Porous Carbon Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Metal Hydride Transport Total Costs: 1860000 $AUD
+Truck Metal Hydride Transport Amount: 50457600000 kgGH2
+Truck Metal Hydride Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Diesel Transport Total Costs: 1860000 $AUD
+Truck Diesel Transport Amount: 50457600000 kgGH2
+Truck Diesel Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Truck Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Natural Gas Transport Amount: 20980574245.0248 kgGH2
+Truck Natural Gas Transport Unit Costs: 8.8653e-05 $AUD/kgGH2
+Truck Liquified Natural Gas Transport Total Costs: 1860000 $AUD
+Truck Liquified Natural Gas Transport Amount: 41627520000 kgGH2
+Truck Liquified Natural Gas Transport Unit Costs: 4.4682e-05 $AUD/kgGH2
+Truck Coal Transport Total Costs: 1860000 $AUD
+Truck Coal Transport Amount: 50457600000 kgGH2
+Truck Coal Transport Unit Costs: 3.6863e-05 $AUD/kgGH2
+Ship Hydrogen Gas Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Gas Transport Amount: 11735906039871.82 kgGH2
+Ship Hydrogen Gas Transport Unit Costs: 1.9189e-05 $AUD/kgGH2
+Ship Hydrogen Liquified Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Liquified Transport Amount: 39735360000000 kgGH2
+Ship Hydrogen Liquified Transport Unit Costs: 5.6675e-06 $AUD/kgGH2
+Ship Hydrogen Cryocompressed Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Cryocompressed Transport Amount: 45979488000000 kgGH2
+Ship Hydrogen Cryocompressed Transport Unit Costs: 4.8978e-06 $AUD/kgGH2
+Ship Hydrogen Slush Transport Total Costs: 225200000 $AUD
+Ship Hydrogen Slush Transport Amount: 48250080000000 kgGH2
+Ship Hydrogen Slush Transport Unit Costs: 4.6673e-06 $AUD/kgGH2
+Ship Ammonia Transport Total Costs: 225200000 $AUD
+Ship Ammonia Transport Amount: 414383040000000 kgGH2
+Ship Ammonia Transport Unit Costs: 5.4346e-07 $AUD/kgGH2
+Ship Methanol Transport Total Costs: 225200000 $AUD
+Ship Methanol Transport Amount: 449577216000000 kgGH2
+Ship Methanol Transport Unit Costs: 5.0092e-07 $AUD/kgGH2
+Ship SNG Transport Total Costs: 225200000 $AUD
+Ship SNG Transport Amount: 107287027389331.3 kgGH2
+Ship SNG Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Methylcyclohexane (LOHC) Transport Total Costs: 225200000 $AUD
+Ship Methylcyclohexane (LOHC) Transport Amount: 437088960000000 kgGH2
+Ship Methylcyclohexane (LOHC) Transport Unit Costs: 5.1523e-07 $AUD/kgGH2
+Ship Porous Carbon Transport Total Costs: 225200000 $AUD
+Ship Porous Carbon Transport Amount: 491961600000000 kgGH2
+Ship Porous Carbon Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Metal Hydride Transport Total Costs: 225200000 $AUD
+Ship Metal Hydride Transport Amount: 491961600000000 kgGH2
+Ship Metal Hydride Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Ship Diesel Transport Total Costs: 225200000 $AUD
+Ship Diesel Transport Amount: 482500800000000 kgGH2
+Ship Diesel Transport Unit Costs: 4.6673e-07 $AUD/kgGH2
+Ship Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Natural Gas Transport Amount: 107287027389331.3 kgGH2
+Ship Natural Gas Transport Unit Costs: 2.099e-06 $AUD/kgGH2
+Ship Liquified Natural Gas Transport Total Costs: 225200000 $AUD
+Ship Liquified Natural Gas Transport Amount: 255441600000000 kgGH2
+Ship Liquified Natural Gas Transport Unit Costs: 8.8161e-07 $AUD/kgGH2
+Ship Coal Transport Total Costs: 225200000 $AUD
+Ship Coal Transport Amount: 491961600000000 kgGH2
+Ship Coal Transport Unit Costs: 4.5776e-07 $AUD/kgGH2
+Train Hydrogen Gas Transport Total Costs: 97600000 $AUD
+Train Hydrogen Gas Transport Amount: 260797911997.1515 kgGH2
+Train Hydrogen Gas Transport Unit Costs: 0.00037424 $AUD/kgGH2
+Train Hydrogen Liquified Transport Total Costs: 97600000 $AUD
+Train Hydrogen Liquified Transport Amount: 883008000000 kgGH2
+Train Hydrogen Liquified Transport Unit Costs: 0.00011053 $AUD/kgGH2
+Train Hydrogen Cryocompressed Transport Total Costs: 97600000 $AUD
+Train Hydrogen Cryocompressed Transport Amount: 1021766400000 kgGH2
+Train Hydrogen Cryocompressed Transport Unit Costs: 9.5521e-05 $AUD/kgGH2
+Train Hydrogen Slush Transport Total Costs: 97600000 $AUD
+Train Hydrogen Slush Transport Amount: 1072224000000 kgGH2
+Train Hydrogen Slush Transport Unit Costs: 9.1026e-05 $AUD/kgGH2
+Train Ammonia Transport Total Costs: 97600000 $AUD
+Train Ammonia Transport Amount: 9208512000000 kgGH2
+Train Ammonia Transport Unit Costs: 1.0599e-05 $AUD/kgGH2
+Train Methanol Transport Total Costs: 97600000 $AUD
+Train Methanol Transport Amount: 9990604800000 kgGH2
+Train Methanol Transport Unit Costs: 9.7692e-06 $AUD/kgGH2
+Train SNG Transport Total Costs: 97600000 $AUD
+Train SNG Transport Amount: 2384156164207.363 kgGH2
+Train SNG Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Methylcyclohexane (LOHC) Transport Total Costs: 97600000 $AUD
+Train Methylcyclohexane (LOHC) Transport Amount: 9713088000000 kgGH2
+Train Methylcyclohexane (LOHC) Transport Unit Costs: 1.0048e-05 $AUD/kgGH2
+Train Porous Carbon Transport Total Costs: 97600000 $AUD
+Train Porous Carbon Transport Amount: 18501120000000 kgGH2
+Train Porous Carbon Transport Unit Costs: 5.2754e-06 $AUD/kgGH2
+Train Metal Hydride Transport Total Costs: 97600000 $AUD
+Train Metal Hydride Transport Amount: 15641856000000 kgGH2
+Train Metal Hydride Transport Unit Costs: 6.2397e-06 $AUD/kgGH2
+Train Diesel Transport Total Costs: 97600000 $AUD
+Train Diesel Transport Amount: 10722240000000 kgGH2
+Train Diesel Transport Unit Costs: 9.1026e-06 $AUD/kgGH2
+Train Natural Gas Transport Total Costs: 97600000 $AUD
+Train Natural Gas Transport Amount: 2384156164207.363 kgGH2
+Train Natural Gas Transport Unit Costs: 4.0937e-05 $AUD/kgGH2
+Train Liquified Natural Gas Transport Total Costs: 97600000 $AUD
+Train Liquified Natural Gas Transport Amount: 5676480000000 kgGH2
+Train Liquified Natural Gas Transport Unit Costs: 1.7194e-05 $AUD/kgGH2
+Train Coal Transport Total Costs: 97600000 $AUD
+Train Coal Transport Amount: 11352960000000 kgGH2
+Train Coal Transport Unit Costs: 8.5969e-06 $AUD/kgGH2
+New Pipeline 100% GH2 Transport Total Costs: 3700 $AUD
+New Pipeline 100% GH2 Transport Amount: 4977373.8867 kgGH2
+New Pipeline 100% GH2 Transport Unit Costs: 0.00074336 $AUD/kgGH2
+New Pipeline 20% GH2 80% NG Transport Total Costs: 3700 $AUD
+New Pipeline 20% GH2 80% NG Transport Amount: 995474.7773 kgGH2
+New Pipeline 20% GH2 80% NG Transport Unit Costs: 0.0037168 $AUD/kgGH2
+New Pipeline 100% NG Transport Total Costs: 3700 $AUD
+New Pipeline 100% NG Transport Amount: 0 kgGH2 * km
+New Pipeline 100% NG Transport Unit Costs: Inf $AUD/(kgGH2*km)
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1652/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1654/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1606/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.12/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1676/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1684/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8256/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.824/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8226/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.165/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1653/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1603/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1212/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1673/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1697/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1684/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8258/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8241/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+
+Case Study Analysis
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1646/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1649/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1604/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1206/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1668/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1698/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.169/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8254/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.824/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8226/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1648/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.165/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1605/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1202/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $4.1671/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1699/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $6.1685/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8256/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.824/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8226/kg

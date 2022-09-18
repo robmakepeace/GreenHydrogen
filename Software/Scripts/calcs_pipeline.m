@@ -3,7 +3,7 @@
 %First written 14/08/2022
 %Last updated 14/08/2022
 
-function Output = calcs_pipeline(Medium,Description, Distance)
+function Output = calcs_pipeline(Medium, Description, Distance)
     %Load physical variables
     filename = "constants_physical.mat";
     foldername = pwd + "\Variables\";
@@ -33,9 +33,9 @@ function Output = calcs_pipeline(Medium,Description, Distance)
     Duration_years = Medium.Lifetime * Medium.Utilisation; %Units: years
     Duration_seconds = Duration_years * 365 * 24 * 3600; %Units: seconds
 
-    Output.Total_Cost = Medium.CapitalCost * Distance + Duration_years * Medium.VariableCost * Distance; % Units: $
+    Output.Total_Cost = Medium.CapitalCost * Distance + Duration_years * Medium.VariableCost * Distance; % Units: $/km
     Output.Total_Transport = Throughput * Duration_seconds ; % Units: kg
-    Output.Unit_Cost = Output.Total_Cost / Output.Total_Transport; % Units: $ / (kg)
+    Output.Unit_Cost = Output.Total_Cost / Output.Total_Transport; % Units: $ / (kg*km)
     %Close files
     fclose('all');
 end

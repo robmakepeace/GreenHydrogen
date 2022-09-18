@@ -43,7 +43,7 @@ function Output = calcs_transport(Medium, Payload, Description)
         Output.ActualWeight = m_kg2;
         Output.ActualVolume = V2;
     end
-    Output.EnergyPerLoad = Output.ActualWeight * Payload.WeightDensity;
+    Output.EnergyPerLoad = Output.ActualWeight * Payload.EnergyDensity;
 
     [m_kg1, V1, m_kg2, V2];
     %Calculcate the 
@@ -66,7 +66,7 @@ function Output = calcs_transport(Medium, Payload, Description)
     %visualise_transport(z, strcat(Description,'(per tGH2)'));
 
     %Calcuclate Total Cost of Transport
-    Output.Total_Cost = Medium.CapitalCost + Output.Duration_days * Medium.VariableCost; % Units: $
+    Output.Total_Cost = Medium.CapitalCost + 2 * Output.Duration_days * Medium.VariableCost; % Units: $ (Factor of 2 is to account for return of empty vehicle)
     Output.Total_Transport = Output.ActualWeight * Output.Duration_hrs * Medium.Speed; % Units: kg*km
     Output.Unit_Cost = Output.Total_Cost / Output.Total_Transport; % Units: $ / (kg*km)
     Output.UnitFuel_Cost(1) = Output.Diesel.FuelCost_km / Output.ActualWeight; % Units: $ / (kg*km)

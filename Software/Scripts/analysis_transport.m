@@ -33,7 +33,7 @@ end
 Pipeline = Transport.Pipeline;
 Pipeline.NaturalGasBlendProp = 1.0;
 Pipeline_desc = 'New Pipeline 100%% GH2';
-Distance = 1000;
+Distance = 1;
 TransportCosts.Pipe(1) = calcs_pipeline(Pipeline,Pipeline_desc,Distance);
 main_print(strcat(Pipeline_desc," Transport Total Costs: ",string(TransportCosts.Pipe(1).Total_Cost)," $AUD"),'a');
 main_print(strcat(Pipeline_desc," Transport Amount: ",string(TransportCosts.Pipe(1).Total_Transport)," kgGH2"),'a');
@@ -43,7 +43,7 @@ main_print(strcat(Pipeline_desc," Transport Unit Costs: ",string(TransportCosts.
 Pipeline = Transport.Pipeline;
 Pipeline.NaturalGasBlendProp = Transport.Pipeline.NaturalGasBlendProp;
 Pipeline_desc = 'New Pipeline 20%% GH2 80%% NG';
-Distance = 1000;
+Distance = 1;
 TransportCosts.Pipe(2) = calcs_pipeline(Pipeline,Pipeline_desc,Distance);
 main_print(strcat(Pipeline_desc," Transport Total Costs: ",string(TransportCosts.Pipe(2).Total_Cost)," $AUD"),'a');
 main_print(strcat(Pipeline_desc," Transport Amount: ",string(TransportCosts.Pipe(2).Total_Transport)," kgGH2"),'a');
@@ -53,11 +53,11 @@ main_print(strcat(Pipeline_desc," Transport Unit Costs: ",string(TransportCosts.
 Pipeline = Transport.Pipeline;
 Pipeline.NaturalGasBlendProp = 0.0;
 Pipeline_desc = 'New Pipeline 100%% NG';
-Distance = 1000;
+Distance = 1;
 TransportCosts.Pipe(3) = calcs_pipeline(Pipeline,Pipeline_desc,Distance);
 main_print(strcat(Pipeline_desc," Transport Total Costs: ",string(TransportCosts.Pipe(3).Total_Cost)," $AUD"),'a');
-main_print(strcat(Pipeline_desc," Transport Amount: ",string(TransportCosts.Pipe(3).Total_Transport)," kgGH2"),'a');
-main_print(strcat(Pipeline_desc," Transport Unit Costs: ",string(TransportCosts.Pipe(3).Unit_Cost)," $AUD/kgGH2"),'a');
+main_print(strcat(Pipeline_desc," Transport Amount: ",string(TransportCosts.Pipe(3).Total_Transport)," kgGH2 * km"),'a');
+main_print(strcat(Pipeline_desc," Transport Unit Costs: ",string(TransportCosts.Pipe(3).Unit_Cost)," $AUD/(kgGH2*km)"),'a');
 
 TruckEnergyPerLoad = zeros(1,Transport.NumberOfPayloads);
 ShipEnergyPerLoad = zeros(1,Transport.NumberOfPayloads);
