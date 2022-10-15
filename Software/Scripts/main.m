@@ -37,6 +37,7 @@ analysis_transport();
 analysis_conversion();
 analysis_casestudies();
 analysis_regions();
+analysis_CO2();
 
 %Execute Visualisation scripts
 %visualise_australia_plot();

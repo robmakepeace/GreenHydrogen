@@ -135,7 +135,7 @@ function Total = calcs_regions(parameters)
     %Solve linear programming problem
     problem = prob2struct(prob);
     problem.options = optimoptions('linprog','Display','none');
-    [sol,fval,exitflag,output] = linprog(problem);
+    [sol,fval,exitflag,output] = linprog(problem)
     prob.Variables;
     prob.Objective;
     prob.Constraints;

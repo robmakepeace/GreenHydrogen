@@ -45,14 +45,16 @@ y(2,5) = TransportCosts.Batch(t,2).Diesel.CO2_km * Distance / TransportCosts.Bat
 
 x = 1:5;
 x_cats = {'Diesel','NG','LNG','Coal','H2'};
-y_cats = {'Primary Fuel','Transport Fuel'};
-desc = "CO2 Emissions";
+y_cats = {'Fuel Emissions','Transport Emissions'};
+desc = " CO2 Emissions";
 xlabel_desc = "kg CO2/MJ delivered";
 visualise_breakdown(x, y, x_cats, y_cats,desc,xlabel_desc);
 
-desc = "CO2 Carbon Cost (100AUD per kgCO2)";
+desc = " CO2 Carbon Cost ($AUD per kgCO2)";
 C02.Volume = y(1,:) + y(2,:);
-z = C02.Volume .* 100
+y_cats = 'Emissions';
+CarbonPrice = 100;
+z = C02.Volume .* CarbonPrice;
 xlabel_desc = "$AUD/MJ delivered";
 visualise_breakdown(x, z, x_cats, y_cats,desc,xlabel_desc);
 
