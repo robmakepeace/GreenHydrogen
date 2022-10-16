@@ -54,14 +54,16 @@ end
 Regions.dist;
 
 %Linear Programming Constraints (placeholder values to be updated)
-Regions.LocalMax = 40;
-Regions.TransportMax = 40;
+Regions.LocalMax = 100;
+Regions.TransportMax = 50;
 
 %Region Demand Constraints
-Regions.Demand = [50 50 50 50 50 50];
+Regions.Demand(1,:) = [1.3 7.8 19.8 25.2 29.4 4.4];%2030
+Regions.Demand(2,:) = [4.4 25.4 64.5 82.3 95.9 14.5];%2050
 
 %Region Supply Constraints
-Regions.Supply = [100 100 100 100 100 100];
+Regions.Supply(1,:) = [26.7 155.7 39.6 50.5 58.8 88.9];%2030
+Regions.Supply(2,:) = [87.1 507.7 129.0 164.7 191.8 290.0];%2050
 
 %Region Production green hydrogen ($/tonne) 
 RegionProduction(1) = LCOE.Oceania;

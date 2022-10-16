@@ -1,0 +1,197 @@
+Green Hydrogen Exportation Results
+Executed: 15-Oct-2022 20:32:16
+
+Country Factors
+Australia:1
+Japan:3.8239
+Korea:2.5707
+USA:0.85462
+China:1.3375
+Brazil:0.97502
+Belgium:2.1758
+SaudiaArabia:0.91855
+Morocco:1.4819
+Namibia:1.4819
+
+Region Factors
+Oceania:1
+Europe:2.1758
+NorthAmerica:0.85462
+SouthAmerica:0.97502
+Asia:2.5707
+Africa:1.4819
+
+Case Study Route Constants
+Australia - Japan: 6456.5305 km
+Australia - South Korea: 6679.1694 km
+Australia - Singapore: 2671.6678 km
+Chile - United States: 7903.6838 km
+Australia - Germany: 8460.2813 km
+Morocco - Germany: 2337.7093 km
+Namibia - Germany: 8348.9618 km
+Saudi Arabia - Germany: 3450.9042 km
+Saudi Arabia - China: 2003.7508 km
+Saudi Arabia - India: 779.2364 km
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Conversion Analysis
+Compressed Hydrogen Pathway Conversion Efficency: 95.3663 %
+Compressed Hydrogen Pathway Reconversion Efficency: 100 %
+Liquefied Hydrogen Pathway Conversion Efficency: -8 %
+Liquefied Hydrogen Pathway Reconversion Efficency: 100 %
+
+Country Factors
+Australia:1
+Japan:3.8239
+Korea:2.5707
+USA:0.85462
+China:1.3375
+Brazil:0.97502
+Belgium:2.1758
+SaudiaArabia:0.91855
+Morocco:1.4819
+Namibia:1.4819
+
+Region Factors
+Oceania:1
+Europe:2.1758
+NorthAmerica:0.85462
+SouthAmerica:0.97502
+Asia:2.5707
+Africa:1.4819
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8222/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8225/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8175/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.6395/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8247/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8362/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8054/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.464/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4624/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.461/kg
+
+Country Factors
+Australia:1
+Japan:3.8239
+Korea:2.5707
+USA:0.85462
+China:1.3375
+Brazil:0.97502
+Belgium:2.1758
+SaudiaArabia:0.91855
+Morocco:1.4819
+Namibia:1.4819
+
+Region Factors
+Oceania:1
+Europe:2.1758
+NorthAmerica:0.85462
+SouthAmerica:0.97502
+Asia:2.5707
+Africa:1.4819
+
+Case Study Route Constants
+Australia - Japan: 6456.5305 km
+Australia - South Korea: 6679.1694 km
+Australia - Singapore: 2671.6678 km
+Chile - United States: 7903.6838 km
+Australia - Germany: 8460.2813 km
+Morocco - Germany: 2337.7093 km
+Namibia - Germany: 8348.9618 km
+Saudi Arabia - Germany: 3450.9042 km
+Saudi Arabia - China: 2003.7508 km
+Saudi Arabia - India: 779.2364 km
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8215/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8217/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8172/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.6387/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8361/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8051/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4639/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4624/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.461/kg
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Regions Analysis
+Optimal Solution 2022
+	OCE	AFR	EUR	ASA	NAM	SAM	
+OCE	000	002	019	025	017	000	
+AFR	000	000	000	007	000	000	
+EUR	000	000	000	000	000	000	
+ASA	000	000	000	000	000	000	
+NAM	003	019	024	025	058	011	
+SAM	001	005	021	025	020	003	
+
+Region Route Constants
+Oceania - Africa: 11553.0634 km
+Oceania - Europe: 14315.0292 km
+Oceania - Asia: 7827.4246 km
+Oceania - North America: 14762.8652 km
+Oceania - South America: 15747.79 km
+Africa - Europe: 5721.2536 km
+Africa - Asia: 8865.8048 km
+Africa - North America: 13249.4863 km
+Africa - South America: 9586.7234 km
+Europe - Asia: 6890.8367 km
+Europe - North America: 8156.6088 km
+Europe - South America: 9662.1388 km
+Asia - North America: 10805.3845 km
+Asia - South America: 16470.567 km
+North America - South America: 7259.3163 km
+
+Regions Analysis
+Optimal Solution 2022
+	OCE	AFR	EUR	ASA	NAM	SAM	
+OCE	002	007	006	023	004	000	
+AFR	000	000	000	000	000	000	
+EUR	000	000	000	000	000	000	
+ASA	000	000	000	000	000	000	
+NAM	001	003	038	036	081	003	
+SAM	002	015	020	022	012	011	
+
+Regions Analysis
+Optimal Solution 2022
+	OCE	AFR	EUR	ASA	NAM	SAM	
+OCE	003	007	007	023	004	000	
+AFR	000	001	000	000	000	000	
+EUR	000	000	001	000	000	000	
+ASA	000	000	000	001	000	000	
+NAM	001	003	037	036	081	004	
+SAM	001	014	020	022	011	011	

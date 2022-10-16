@@ -51,12 +51,12 @@ function Total = calcs_regions(parameters)
     %x65 Region 6 local production transported to Region 5
     
     %Define variables and ranges
-    x11 = optimvar('x11','LowerBound',0,'UpperBound',parameters.LocalMax);
-    x22 = optimvar('x22','LowerBound',0,'UpperBound',parameters.LocalMax);
-    x33 = optimvar('x33','LowerBound',0,'UpperBound',parameters.LocalMax);
-    x44 = optimvar('x44','LowerBound',0,'UpperBound',parameters.LocalMax);
-    x55 = optimvar('x55','LowerBound',0,'UpperBound',parameters.LocalMax);
-    x66 = optimvar('x66','LowerBound',0,'UpperBound',parameters.LocalMax);
+    x11 = optimvar('x11','LowerBound',1,'UpperBound',parameters.LocalMax);
+    x22 = optimvar('x22','LowerBound',1,'UpperBound',parameters.LocalMax);
+    x33 = optimvar('x33','LowerBound',1,'UpperBound',parameters.LocalMax);
+    x44 = optimvar('x44','LowerBound',1,'UpperBound',parameters.LocalMax);
+    x55 = optimvar('x55','LowerBound',1,'UpperBound',parameters.LocalMax);
+    x66 = optimvar('x66','LowerBound',1,'UpperBound',parameters.LocalMax);
     
     x12 = optimvar('x12','LowerBound',0,'UpperBound',parameters.TransportMax);
     x13 = optimvar('x13','LowerBound',0,'UpperBound',parameters.TransportMax);
@@ -135,7 +135,7 @@ function Total = calcs_regions(parameters)
     %Solve linear programming problem
     problem = prob2struct(prob);
     problem.options = optimoptions('linprog','Display','none');
-    [sol,fval,exitflag,output] = linprog(problem)
+    [sol,fval,exitflag,output] = linprog(problem);
     prob.Variables;
     prob.Objective;
     prob.Constraints;

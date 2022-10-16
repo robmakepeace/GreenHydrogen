@@ -29,29 +29,31 @@ Regions_TransportMax.init(future);
 Regions_TransportMax.montecarlo_samples();
 %Regions_TransportMax.plot_montecarlo();
 
-%Generate Monte Carlo variables
-for x=1:Regions.NumberOfRegions
-    var = Regions.Supply(x);
-    Regions_Supply(x) = variable(var,0.1,0.0,'Mt','Amount (Mt)',strcat('Supply Region', string(x),' Production Constraint'));
-    future = zeros(Regions_Supply(x).Future_size,1) + var;
-    Regions_Supply(x).init(future);
-    Regions_Supply(x).montecarlo_samples();
-    %Regions_Supply(x).plot_montecarlo();
-end
-
-%Generate Monte Carlo variables
-for x=1:Regions.NumberOfRegions
-    var = Regions.Demand(x);
-    Regions_Demand(x) = variable(var,0.1,0.0,'Mt','Amount (Mt)',strcat('Demand Region', string(x),' Production Constraint'));
-    future = zeros(Regions_Demand(x).Future_size,1) + var;
-    Regions_Demand(x).init(future);
-    Regions_Demand(x).montecarlo_samples();
-    %Regions_Demand(x).plot_montecarlo();
-end
 
 %Generate Monte Carlo variables
 Total = zeros(Regions_LocalMax.Future_size,Regions_LocalMax.mc_N,Regions.NumberOfRegions,Regions.NumberOfRegions);
-for year = 1:1%Regions_LocalMax.Future_size
+for year = [9,29]
+
+    %Generate Monte Carlo variables
+    for x=1:Regions.NumberOfRegions
+        var = Regions.Supply((year-9)/20+1,x);
+        Regions_Supply(x) = variable(var,0.1,0.0,'Mt','Amount (Mt)',strcat('Supply Region', string(x),' Production Constraint'));
+        future = zeros(Regions_Supply(x).Future_size,1) + var;
+        Regions_Supply(x).init(future);
+        Regions_Supply(x).montecarlo_samples();
+        %Regions_Supply(x).plot_montecarlo();
+    end
+    
+    %Generate Monte Carlo variables
+    for x=1:Regions.NumberOfRegions
+        var = Regions.Demand((year-9)/20+1,x);
+        Regions_Demand(x) = variable(var,0.1,0.0,'Mt','Amount (Mt)',strcat('Demand Region', string(x),' Production Constraint'));
+        future = zeros(Regions_Demand(x).Future_size,1) + var;
+        Regions_Demand(x).init(future);
+        Regions_Demand(x).montecarlo_samples();
+        %Regions_Demand(x).plot_montecarlo();
+    end
+
     for sample = 1:Regions_LocalMax.mc_N
         parameters.LocalMax = Regions_LocalMax.mc_r((year-1)*Regions_LocalMax.mc_N+sample);
         parameters.TransportMax = Regions_TransportMax.mc_r((year-1)*Regions_LocalMax.mc_N+sample);
@@ -74,10 +76,10 @@ for year = 1:1%Regions_LocalMax.Future_size
     end
     Optimal;
     main_print(strcat("Optimal Solution",{' '},string(year+Regions_LocalMax.Year-1)),'a')
-    
+    main_print(strcat("Total Cost",{' '},string(Total(year,sample,:,:)),'a')
     main_print(string(strcat('\t',Regions.locs(1),'\t',Regions.locs(2),'\t',Regions.locs(3),'\t',Regions.locs(4),'\t',Regions.locs(5),'\t',Regions.locs(6),'\t')),'a');
     for x=1:6
-        main_print(strcat(string(Regions.locs(x)),'\t',num2str(Optimal(x,1),'%03.f'),"\t",num2str(Optimal(x,2),'%03.f'),"\t",num2str(Optimal(x,3),'%03.f'),"\t",num2str(Optimal(x,4),'%03.f'),"\t",num2str(Optimal(x,5),'%03.f'),"\t",num2str(Optimal(x,6),'%03.f'),"\t"),'a')
+        main_print(strcat(string(Regions.locs(x)),'\t',num2str(Optimal(x,1),'%03.1f'),"\t",num2str(Optimal(x,2),'%03.1f'),"\t",num2str(Optimal(x,3),'%03.1f'),"\t",num2str(Optimal(x,4),'%03.1f'),"\t",num2str(Optimal(x,5),'%03.1f'),"\t",num2str(Optimal(x,6),'%03.1f'),"\t"),'a')
     end
     
     %Visualisation
