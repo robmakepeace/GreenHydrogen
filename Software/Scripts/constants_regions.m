@@ -54,16 +54,17 @@ end
 Regions.dist;
 
 %Linear Programming Constraints (placeholder values to be updated)
-Regions.LocalMax = 100;
-Regions.TransportMax = 50;
+Regions.LocalMin = 5;
+Regions.LocalMax = 120;
+Regions.TransportMax = 80;
 
 %Region Demand Constraints
 Regions.Demand(1,:) = [1.3 7.8 19.8 25.2 29.4 4.4];%2030
 Regions.Demand(2,:) = [4.4 25.4 64.5 82.3 95.9 14.5];%2050
 
 %Region Supply Constraints
-Regions.Supply(1,:) = [26.7 155.7 39.6 50.5 58.8 88.9];%2030
-Regions.Supply(2,:) = [87.1 507.7 129.0 164.7 191.8 290.0];%2050
+Regions.Supply(1,:) = [100 100 50 50 50 100];%2030
+Regions.Supply(2,:) = [200 200 100 100 100 200];%2050
 
 %Region Production green hydrogen ($/tonne) 
 RegionProduction(1) = LCOE.Oceania;
@@ -75,7 +76,7 @@ RegionProduction(6) = LCOE.SouthAmerica;
 
 %Using the cheapest transportation mode
 index_transport = 2;%Ship
-index_medium = 8;%Porous carbon
+index_medium = 5;%Porous carbon
 index_fuel = 1;%Diesel
 vehicleCosts = TransportCosts.Batch(index_transport,index_medium).Unit_Cost;
 fuelCosts = TransportCosts.Batch(index_transport,index_medium).UnitFuel_Cost(index_fuel);

@@ -52,11 +52,11 @@ function Total = calcs_regions(parameters)
     
     %Define variables and ranges
     x11 = optimvar('x11','LowerBound',1,'UpperBound',parameters.LocalMax);
-    x22 = optimvar('x22','LowerBound',1,'UpperBound',parameters.LocalMax);
-    x33 = optimvar('x33','LowerBound',1,'UpperBound',parameters.LocalMax);
-    x44 = optimvar('x44','LowerBound',1,'UpperBound',parameters.LocalMax);
-    x55 = optimvar('x55','LowerBound',1,'UpperBound',parameters.LocalMax);
-    x66 = optimvar('x66','LowerBound',1,'UpperBound',parameters.LocalMax);
+    x22 = optimvar('x22','LowerBound',parameters.LocalMin,'UpperBound',parameters.LocalMax);
+    x33 = optimvar('x33','LowerBound',parameters.LocalMin,'UpperBound',parameters.LocalMax);
+    x44 = optimvar('x44','LowerBound',parameters.LocalMin,'UpperBound',parameters.LocalMax);
+    x55 = optimvar('x55','LowerBound',parameters.LocalMin,'UpperBound',parameters.LocalMax);
+    x66 = optimvar('x66','LowerBound',3,'UpperBound',parameters.LocalMax);
     
     x12 = optimvar('x12','LowerBound',0,'UpperBound',parameters.TransportMax);
     x13 = optimvar('x13','LowerBound',0,'UpperBound',parameters.TransportMax);

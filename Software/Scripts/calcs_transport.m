@@ -66,9 +66,15 @@ function Output = calcs_transport(Medium, Payload, Description)
     %visualise_transport(z, strcat(Description,'(per tGH2)'));
 
     %Calcuclate Total Cost of Transport
-    Output.Total_Cost = Medium.CapitalCost + 2 * Output.Duration_days * Medium.VariableCost; % Units: $ (Factor of 2 is to account for return of empty vehicle)
+    Output.Vehicle_Cost = Medium.CapitalCost + 2 * Output.Duration_days * Medium.VariableCost; % Units: $ (Factor of 2 is to account for return of empty vehicle)
+    Output.Terminal_Cost = (Medium.TermCAPEX + Medium.Lifetime * Medium.TermOPEX)/10; % Units: $ (Factor of 10 is to account for multiple vehicles sharing the terminal);
+    Output.Total_Cost = Output.Vehicle_Cost + Output.Terminal_Cost; % Units: $ 
     Output.Total_Transport = Output.ActualWeight * Output.Duration_hrs * Medium.Speed; % Units: kg*km
-    Output.Unit_Cost = Output.Total_Cost / Output.Total_Transport; % Units: $ / (kg*km)
+    if (Payload.H2Prop == 0)
+        Output.Unit_Cost = Output.Total_Cost / (Output.Total_Transport); % Units: $ / (kg*km)
+    else
+        Output.Unit_Cost = Output.Total_Cost / (Output.Total_Transport * Payload.H2Prop); % Units: $ / (kg*km)      
+    end
     Output.UnitFuel_Cost(1) = Output.Diesel.FuelCost_km / Output.ActualWeight; % Units: $ / (kg*km)
     Output.UnitFuel_Cost(2) = Output.H2.FuelCost_km / Output.ActualWeight; % Units: $ / (kg*km)
     Output.UnitFuel_Cost(3) = Output.NH3.FuelCost_km / Output.ActualWeight; % Units: $ / (kg*km)

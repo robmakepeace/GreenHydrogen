@@ -20,6 +20,7 @@ for m = 1:Transport.NumberOfMediums
         Payload.VolumeEnergyDensity = Payloads.VolumeEnergyDensity(p);
         Payload.Type = Payloads.Type(p);
         Payload.MM = Payloads.MM(p);
+        Payload.H2Prop = Payloads.H2Prop(p);
         %Calculcate transport costs
         TransportCosts.Batch(m,p)= calcs_transport(Medium.Medium(m), Payload, Medium.Description(m));
         %Print Results

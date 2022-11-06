@@ -10,6 +10,7 @@ function visualise_breakdown(x, y, x_cats, y_cats,desc,xlabel_desc)
         fig = figure;
         barh(x,y,'stacked')
         yticklabels(x_cats)
+        yticks(x);
         legend(y_cats,'Location','bestoutside')
         xlabel(xlabel_desc)
         ylabel('Transport Medium')

@@ -20,6 +20,18 @@ filename = "constants.mat";
 foldername = pwd + "\Variables\";
 load(fullfile(foldername, filename));
 
+filename = "constants_transport.mat";
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename));
+
+filename = "results_conversions.mat";
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename));
+
+filename = "constants_transport.mat";
+foldername = pwd + "\Variables\";
+load(fullfile(foldername, filename));
+
 main_print("\nCase Study Analysis",'a');
 
 %Display Case Study Constants
@@ -96,58 +108,64 @@ for x = 1:CaseStudies.NumberOfRoutes
     end
 end
 for x = 1:CaseStudies.NumberOfRoutes
-    [M, I] = min(casestudymin(x,:));
-    main_print(strcat(CaseStudies.locations(CaseStudies.Routes(x,1))," - ",CaseStudies.locations(CaseStudies.Routes(x,2)),"; Distance: ",string(CaseStudies.dist(x)),"km;",VariableCost(I).Name,": $",string(CaseStudy_Cost(x).Cost(I).CurrentValue),"/kg"),'a');
+    limit = [ 1:30 40:69 79:108];
+    [M, I] = min(casestudymin(x,limit));
+    %main_print(strcat(CaseStudies.locations(CaseStudies.Routes(x,1))," - ",CaseStudies.locations(CaseStudies.Routes(x,2)),"; Distance: ",string(CaseStudies.dist(x)),"km;",VariableCost(I).Name,": $",string(CaseStudy_Cost(x).Cost(I).CurrentValue),"/kg"),'a');
 end
 
 
 %Visualisation
-for r = 1:CaseStudies.NumberOfRoutes
-    x = 1:Transport.NumberOfPayloads-2;
-    y = zeros(5,Transport.NumberOfPayloads-2);
+for r = 1:1%CaseStudies.NumberOfRoutes
+    x = 1:Transport.NumberOfPayloads+2%-2;
+    y = zeros(5,Transport.NumberOfPayloads+2);%-2);
     y(1,:) = Production(CaseStudies.Routes(r,1)).CurrentValue;
-    for i=1:Transport.NumberOfPayloads-4
+    for i=1:Transport.NumberOfPayloads%-4
         vehicleCosts = TransportCosts.Batch(1,i).Unit_Cost;
         fuelCosts = TransportCosts.Batch(1,i).UnitFuel_Cost(1);
         y(3,i) = CaseStudies.dist(r)*(vehicleCosts + fuelCosts);
-        y(2,i) = 0.2;
-        y(4,i) = 0.2;
+        if (i<= 10)
+            y(2,i) = ConversionCosts.ConvUnitCost(i);
+            y(4,i) = ConversionCosts.ReConvUnitCost(i);
+        else
+            y(2,i) = 0;
+            y(4,i) = 0;
+        end
         y(5,i) = (TransportCosts.Batch(1,i).Diesel.CO2_km / TransportCosts.Batch(1,i ).EnergyPerLoad) *  Hydrogen.Economic.Carbon_Price.value_at_year(2035);
     end
-    y(1,Transport.NumberOfPayloads-3) = Production(CaseStudies.Routes(r,1)).CurrentValue;
-    y(2,Transport.NumberOfPayloads-3) = 0;
-    y(3,Transport.NumberOfPayloads-3) = CaseStudies.dist(r)*TransportCosts.Pipe(1).Unit_Cost;
-    y(4,Transport.NumberOfPayloads-3) = 0;
-    y(5,Transport.NumberOfPayloads-3) = 0;    
-    y(1,Transport.NumberOfPayloads-2) = Production(CaseStudies.Routes(r,2)).CurrentValue;
-    y(2,Transport.NumberOfPayloads-2) = 0;
-    y(3,Transport.NumberOfPayloads-2) = 0;
-    y(4,Transport.NumberOfPayloads-2) = 0;
-    y(5,Transport.NumberOfPayloads-2) = 0;
-    y(2,1) = 0.1;
-    y(4,1) = 0;
-    y(2,2) = 1.0;
-    y(4,2) = 0.3;
-    y(2,3) = 1.5;
-    y(4,3) = 1.2;
-    y(2,4) = 1.5;
-    y(4,4) = 1.2;
-    y(2,5) = 0.4;
-    y(4,5) = 0.6;
-    y(2,6) = 0.7;
-    y(4,6) = 0.6;
-    y(2,7) = 1.2;
-    y(4,7) = 0.9;
-    y(2,8) = 0.5;
-    y(4,8) = 0.4;
-    y(2,9) = 1.1;
-    y(4,9) = 0.6;
-    y(2,10) = 1.3;
-    y(4,10) = 1.0;
-    x_cats = Payloads.Description(1:Transport.NumberOfPayloads-4);
-    x_cats(size(Payloads.Description,2)-4+1) = {'Pipeline'};
-    x_cats(size(Payloads.Description,2)-4+2) = {'Destination Local Production'};
-    y_cats = {'Proudction', 'Conversion', 'Transport', 'Reconverison', 'CO2'};
+%     y(1,Transport.NumberOfPayloads-3) = Production(CaseStudies.Routes(r,1)).CurrentValue;
+%     y(2,Transport.NumberOfPayloads-3) = 0;
+%     y(3,Transport.NumberOfPayloads-3) = CaseStudies.dist(r)*TransportCosts.Pipe(1).Unit_Cost;
+%     y(4,Transport.NumberOfPayloads-3) = 0;
+%     y(5,Transport.NumberOfPayloads-3) = 0;    
+%     y(1,Transport.NumberOfPayloads-2) = Production(CaseStudies.Routes(r,2)).CurrentValue;
+%     y(2,Transport.NumberOfPayloads-2) = 0;
+%     y(3,Transport.NumberOfPayloads-2) = 0;
+%     y(4,Transport.NumberOfPayloads-2) = 0;
+%     y(5,Transport.NumberOfPayloads-2) = 0;
+    y(5,14) = CO2.carbon(1)/2c;
+    y(5,11) = CO2.carbon(2)/2;
+    y(5,13) = CO2.carbon(3)/2;
+    y(5,12) = CO2.carbon(4)/2;
+    y(1,11) = 6.73;
+    y(1,12) = 3.06;
+    y(1,13) = 4.60;  
+    y(1,14) = 2.66;    
+    y(1,Transport.NumberOfPayloads+1) = Production(CaseStudies.Routes(r,1)).CurrentValue;
+    y(2,Transport.NumberOfPayloads+1) = 0;
+    y(3,Transport.NumberOfPayloads+1) = CaseStudies.dist(r)*TransportCosts.Pipe(1).Unit_Cost;
+    y(4,Transport.NumberOfPayloads+1) = 0;
+    y(5,Transport.NumberOfPayloads+1) = 0;    
+    y(1,Transport.NumberOfPayloads+2) = Production(CaseStudies.Routes(r,2)).CurrentValue;
+    y(2,Transport.NumberOfPayloads+2) = 0;
+    y(3,Transport.NumberOfPayloads+2) = 0;
+    y(4,Transport.NumberOfPayloads+2) = 0;
+    y(5,Transport.NumberOfPayloads+2) = 0;
+    x_cats = Payloads.Description(1:Transport.NumberOfPayloads);%-4);
+    x_cats(size(Payloads.Description,2)+1) = {'Pipeline'};
+    x_cats(size(Payloads.Description,2)+2) = {'Destination Local Production'};
+    %x_cats(size(Payloads.Description,2)-4+1) = {'Pipeline'};
+    %x_cats(size(Payloads.Description,2)-4+2) = {'Destination Local Production'};
+    y_cats = {'Proudction', 'Conversion', 'Transport', 'Reconverison', 'CO2 Price ($100/kgCO2)'};
     desc = strcat("CaseStudy - ",CaseStudies.locations(CaseStudies.Routes(r,1))," - ",CaseStudies.locations(CaseStudies.Routes(r,2)));
     xlabel_desc = 'Levelised Cost of Hydrogen (LCOH) ($AUD/kgGH2)';
     visualise_breakdown(x, y, x_cats, y_cats,desc,xlabel_desc)

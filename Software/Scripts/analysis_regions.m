@@ -22,6 +22,14 @@ Regions_LocalMax.montecarlo_samples();
 %Regions_LocalMax.plot_montecarlo();
 
 %Generate Monte Carlo variables
+var = Regions.LocalMin;
+Regions_LocalMin = variable(var,0.1,0.0,'Mt','Amount (Mt)','Local Production Constraint');
+future = zeros(Regions_LocalMin.Future_size,1) + var;
+Regions_LocalMin.init(future);
+Regions_LocalMin.montecarlo_samples();
+%Regions_LocalMax.plot_montecarlo();
+
+%Generate Monte Carlo variables
 var = Regions.TransportMax;
 Regions_TransportMax = variable(var,0.1,0.0,'Mt','Amount (Mt)','Transport Production Constraint');
 future = zeros(Regions_TransportMax.Future_size,1) + var;
@@ -55,6 +63,7 @@ for year = [9,29]
     end
 
     for sample = 1:Regions_LocalMax.mc_N
+        parameters.LocalMin = Regions_LocalMin.mc_r((year-1)*Regions_LocalMin.mc_N+sample);
         parameters.LocalMax = Regions_LocalMax.mc_r((year-1)*Regions_LocalMax.mc_N+sample);
         parameters.TransportMax = Regions_TransportMax.mc_r((year-1)*Regions_LocalMax.mc_N+sample);
         for x = 1:Regions.NumberOfRegions
@@ -76,7 +85,6 @@ for year = [9,29]
     end
     Optimal;
     main_print(strcat("Optimal Solution",{' '},string(year+Regions_LocalMax.Year-1)),'a')
-    main_print(strcat("Total Cost",{' '},string(Total(year,sample,:,:)),'a')
     main_print(string(strcat('\t',Regions.locs(1),'\t',Regions.locs(2),'\t',Regions.locs(3),'\t',Regions.locs(4),'\t',Regions.locs(5),'\t',Regions.locs(6),'\t')),'a');
     for x=1:6
         main_print(strcat(string(Regions.locs(x)),'\t',num2str(Optimal(x,1),'%03.1f'),"\t",num2str(Optimal(x,2),'%03.1f'),"\t",num2str(Optimal(x,3),'%03.1f'),"\t",num2str(Optimal(x,4),'%03.1f'),"\t",num2str(Optimal(x,5),'%03.1f'),"\t",num2str(Optimal(x,6),'%03.1f'),"\t"),'a')

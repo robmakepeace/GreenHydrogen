@@ -1,0 +1,108 @@
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Conversion Analysis
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8218/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8221/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8174/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.6387/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8242/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8363/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8043/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4641/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4624/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.461/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8214/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8217/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8172/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.6388/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8236/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8364/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8052/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4641/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4624/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.461/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8212/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8214/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8172/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.6393/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8234/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8363/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8054/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4639/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4623/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.461/kg
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8214/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8217/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8171/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.6384/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8236/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8363/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8053/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.464/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4624/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.461/kg
+
+Conversion Analysis
+
+Case Study Analysis
+Australia - Japan; Distance: 6456.5305km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8215/kg
+Australia - South Korea; Distance: 6679.1694km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8218/kg
+Australia - Singapore; Distance: 2671.6678km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8172/kg
+Chile - United States; Distance: 7903.6838km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.6392/kg
+Australia - Germany; Distance: 8460.2813km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.8238/kg
+Morocco - Germany; Distance: 2337.7093km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8364/kg
+Namibia - Germany; Distance: 8348.9618km;Vehicle:Ship; Payload:Diesel; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $5.8054/kg
+Saudi Arabia - Germany; Distance: 3450.9042km;Vehicle:Ship; Payload:Metal Hydride; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4637/kg
+Saudi Arabia - China; Distance: 2003.7508km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4622/kg
+Saudi Arabia - India; Distance: 779.2364km;Vehicle:Ship; Payload:Porous Carbon; Vehicle Fuel:Diesel; Transport Unit Costs ($/(kg*km): $3.4609/kg

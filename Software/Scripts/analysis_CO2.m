@@ -61,6 +61,38 @@ visualise_breakdown(x, z, x_cats, y_cats,desc,xlabel_desc);
 CO2.List = x_cats
 CO2.Cost = z;
 
+%Cost per MJ
+fuel = [41.5 24.9 16.6 17.4 44.0 30.0 20.0];
+emissions = [0 0 0 0.104 0.069 0.075 0.05];
+c = 0:1:500;
+for i = 1:size(c,2)
+    for f = 1:7
+        cost(i,f) = fuel(f) + c(i) *  emissions(f);
+    end
+end
+i = 100
+for f = 4:7
+    CO2.carbon(f-3) = c(i) *  emissions(f);
+end
+
+fig = figure
+fig.Position = [100 100 800 600];
+plot(cost,'LineWidth',2)
+title('Alternate Fuel Breakeven Carbon Price')
+x_cats = {'Green Hydrogen (2025)','Green Hydrogen (2030)', 'Green Hydrogen (2050)','Coal','Diesel','LNG','NG'};
+legend(x_cats,'Location','bestoutside')
+xlabel('Carbon Price ($/kgCO2)')
+ylabel('Delivered Energy Price ($/GJ)')
+title('Alternate Fuels Breakeven Carbon Price')
+xlim([0 500])
+ylim([0 80])
+
+%Save Figure
+filename = "alternatefuelco2.png";
+foldername = pwd + "\Graphs\";
+saveas(fig,fullfile(foldername, filename));
+
+
 %Save variables
 filename = "constants_transport.mat";
 foldername = pwd + "\Variables\";

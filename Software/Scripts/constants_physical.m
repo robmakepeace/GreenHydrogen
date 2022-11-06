@@ -38,18 +38,22 @@ Physical.H2_EnergyDensity = 120;%Units: MJ/kg
 Physical.H2Gas_WeightDensity = 0.08988;%Units: kg/m3 (at STP)
 Physical.H2Gas300_WeightDensity = 24.61;%Units: kg/m3 (at 300bar)
 Physical.H2Gas_VolumeEnergyDensity = Physical.H2_EnergyDensity * Physical.H2Gas_WeightDensity;
+Physical.H2Gas_H2_Prop = 1;
 
 %Hydrogen Liquid
 Physical.H2Liquid_WeightDensity = 70.0;%Units: g/L or kg/m3 (at ST)
 Physical.H2Liquid_VolumeEnergyDensity = Physical.H2_EnergyDensity * Physical.H2Liquid_WeightDensity;
+Physical.H2Liquid_H2_Prop = 1;
 
 %Hydrogen Cryocompressed
 Physical.H2Cryocompressed_WeightDensity = 81.0;%Units: g/L or kg/m3
 Physical.H2Cryocompressed_VolumeEnergyDensity = Physical.H2_EnergyDensity * Physical.H2Cryocompressed_WeightDensity;
+Physical.H2Cryocompressed_H2_Prop = 1;
 
 %Hydrogen Slush
 Physical.H2Slush_WeightDensity = 85.0;%Units: g/L or kg/m3
 Physical.H2Slush_VolumeEnergyDensity = Physical.H2_EnergyDensity * Physical.H2Slush_WeightDensity;
+Physical.H2Slush_H2_Prop = 1;
 
 %Ammonia
 Physical.NH3_EnergyDensity = 22.5;%Units: MJ/kg
@@ -77,7 +81,7 @@ Physical.Metal_VolumeEnergyDensity = Physical.Metal_EnergyDensity * Physical.Met
 
 %Poruous Carbon
 Physical.Carbon_WeightDensity = 2270; %Units: kg/m3
-Physical.Carbon_H2_Prop = 0.03;
+Physical.Carbon_H2_Prop = 0.055;
 Physical.Carbon_EnergyDensity = Physical.Carbon_H2_Prop * Physical.H2_EnergyDensity;%Units: MJ/kg
 Physical.Carbon_VolumeEnergyDensity = Physical.Carbon_EnergyDensity * Physical.Carbon_WeightDensity;
 
@@ -90,6 +94,7 @@ Physical.Diesel_VolumeEnergyDensity = Physical.Diesel_EnergyDensity * Physical.D
 Physical.NaturalGas_EnergyDensity = 50.0;%Units: MJ/kg
 Physical.NaturalGas_WeightDensity = 0.717; %Units: kg/m3
 Physical.NaturalGas_VolumeEnergyDensity = Physical.NaturalGas_EnergyDensity * Physical.NaturalGas_WeightDensity;
+Physical.NaturalGas_H2_Prop = (Physical.CH4_prop * 4 + Physical.C2H6_prop * 6 + Physical.C3H8_prop * 8 + Physical.C4H10_prop * 10) / Physical.NG_MM ;
 
 %Liquified NaturalGas
 Physical.LNG_EnergyDensity = 50.0;%Units: MJ/kg
